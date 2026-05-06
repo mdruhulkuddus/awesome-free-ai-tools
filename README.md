@@ -273,6 +273,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object/watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in-browser with AI plugins. | Free: ad-supported | Best for: layered editing without installing Photoshop | Catch: AI plugins slower than Firefly.
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhance. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
+- **[TinyTools BG Remover](https://tinytools-smoky.vercel.app/)** — Browser-based background remover that runs the model entirely on your device. | Free: unlimited, no upload, no signup | Best for: privacy-first cutouts of sensitive images | Catch: first run downloads the model (~40MB); slower on low-end hardware.
 
 ---
 
@@ -437,6 +438,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[OpenCode](https://opencode.ai)** — Open-source provider-agnostic terminal coding assistant. | Free: tool is free; pair with Gemini/Groq/Cerebras free | Best for: fully free Claude-Code-style workflow | Catch: younger community.
 - **[Goose (Block)](https://block.github.io/goose/)** — Open-source local AI agent framework. | Free: BYOK, works with Ollama | Best for: extensible agent workflows | Catch: more framework than polished product.
 - **[Google Antigravity](https://antigravity.google)** — Google's agentic dev platform. | Free: via Google account | Best for: Gemini-native workflows | Catch: new, immature ecosystem.
+- **[TinyTools](https://tinytools-smoky.vercel.app/)** — Free single-purpose web utilities, including an **AI cost calculator** (compare token pricing across Claude/GPT/Gemini), **AI robots.txt generator** (granular crawler controls for GPTBot, ClaudeBot, PerplexityBot, etc.) and an **AI content disclosure generator** (EU AI Act compliant). | Free: unlimited, no signup, all client-side | Best for: indie devs shipping AI features who need quick compliance/utility tooling | Catch: no team accounts or saved presets; bring-your-own deployment for the disclosure widget.
 
 ---
 
