@@ -468,6 +468,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 - **[Kickresume](https://www.kickresume.com)** — GPT-powered with 1,500+ examples. | Free: basic builder + limited AI | Best for: early-career, design-conscious | Catch: premium templates/downloads paywalled.
 - **[Enhancv](https://enhancv.com)** — Visually rich templates with AI content. | Free: build but limited downloads | Best for: creative roles | Catch: free export is restrictive.
 - **[FlowCV](https://flowcv.com)** — Genuinely free ATS-friendly builder. | Free: unlimited resumes + PDFs, no watermark | Best for: budget-conscious users | Catch: lighter AI than Teal/Rezi.
+- **[JobSprout](https://jobsprout.ai)** — AI CV and cover letter builder with Typst templates. | Free: 2 free documents, AI tailoring | Best for: job seekers wanting polished, ATS-friendly PDFs | Catch: unlimited documents require paid plan.
 
 ---
 
