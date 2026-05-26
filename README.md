@@ -258,6 +258,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Ideogram 3.0](https://ideogram.ai)** — Best-in-class legible text inside images. | Free: ~10 generations/day | Best for: posters, logos, memes | Catch: strict cap; photorealism trails Flux.
 - **[Perchance AI](https://perchance.org/ai-text-to-image-generator)** — Truly unlimited, no account, no watermark. | Free: unlimited | Best for: casual use, fast drafts | Catch: older model quality.
 - **[Krea](https://www.krea.ai)** — Aggregates Flux, Nano Banana Pro, GPT Image, Qwen, Seedream with a real-time canvas. | Free: daily compute units | Best for: comparing top models side-by-side | Catch: free outputs are non-commercial.
+- **[LandscapioAI](https://www.landscapioai.com)** — AI landscape design generator that turns yard photos into outdoor makeover concepts. | Free: no-card free yard visualizations | Best for: homeowners planning landscape ideas | Catch: specialized for outdoor/yard design; paid plans add detailed design plans.
 - **[Flux.1 / Flux.2 (open weights)](https://blackforestlabs.ai)** — Open-source rival to Midjourney. | Free: unlimited self-hosted (12 GB+ VRAM) | Best for: photographers, developers | Catch: needs a GPU.
 - **[NightCafe](https://creator.nightcafe.studio)** — Community platform with SD, Flux, earned credits. | Free: daily + earnable credits | Best for: hobbyists | Catch: best models paywalled.
 
