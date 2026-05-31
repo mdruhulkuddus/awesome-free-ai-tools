@@ -272,6 +272,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Krea Edit](https://www.krea.ai/edit)** — Inpaint, outpaint, style transfer with Flux Kontext / Nano Banana. | Free: daily compute units | Best for: multi-model comparison | Catch: free outputs non-commercial.
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object/watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in-browser with AI plugins. | Free: ad-supported | Best for: layered editing without installing Photoshop | Catch: AI plugins slower than Firefly.
+- **[TinyTools BG Remover](https://tinytools-smoky.vercel.app/)** — Browser-native background remover running a local ML model (no server upload, fully private). | Free: unlimited, no account | Best for: privacy-first users who need BG removal without cloud upload | Catch: part of a multi-tool suite; quality below remove.bg on complex edges.
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhance. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
 
 ---
