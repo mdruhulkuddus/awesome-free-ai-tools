@@ -273,6 +273,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object/watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in-browser with AI plugins. | Free: ad-supported | Best for: layered editing without installing Photoshop | Catch: AI plugins slower than Firefly.
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhance. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
+- **[TinyTools BG Remover](https://tinytools-smoky.vercel.app/)** — AI background remover that runs entirely in your browser (no server upload). | Free: unlimited, no account needed, open source | Best for: privacy-conscious users who don't want to upload images | Catch: processing is slower than server-side tools on low-end hardware.
 
 ---
 
