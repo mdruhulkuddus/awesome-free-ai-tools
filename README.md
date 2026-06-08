@@ -286,6 +286,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Runway Gen-4 / 4.5](https://runwayml.com)** — Best camera controls. | Free: one-time starter credits (no refresh) | Best for: professional camera moves | Catch: credits don't refresh — essentially a trial.
 - **[Vidu Q3](https://www.vidu.studio)** — Multi-shot 16-second clips with built-in audio sync. | Free: signup credits | Best for: narrative shorts | Catch: limited allocation.
 - **[Wan 2.2 / LTX-2 (open source)](https://github.com/Wan-Video)** — Open-weight video models. | Free: unlimited self-hosted | Best for: privacy, commercial use | Catch: GPU + Python required.
+- **[cv.cm/v](https://cv.cm/v)** — Queue-free Seedance 2.0 text-to-video & image-to-video. | Free: 100 credits for new users, no card | Best for: fast AI video/image from text or a photo | Catch: free credits are one-time; heavier use is pay-as-you-go.
 
 ---
 
