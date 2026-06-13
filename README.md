@@ -363,7 +363,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Create.xyz](https://create.xyz)** — Natural-language full-stack builder. | Free: limited daily builds | Best for: quick internal tools | Catch: often rate-limits.
 - **[Google AI Studio](https://aistudio.google.com)** — Build + deploy Gemini-powered apps in browser. | Free: interface is free; pairs with Gemini API free tier | Best for: prototyping multimodal apps | Catch: backend quotas tightened April 2026.
 - **[Dyad](https://dyad.sh)** — Local, open-source app builder (BYOK). | Free: app is free; pair with Gemini free / Ollama for $0 | Best for: private code, no lock-in | Catch: you manage keys.
-- **[OpenThorn](https://www.openthorn.app)** — Browser-based BYOK builder; generates full code + 1-click Netlify deploy. v0 / Lovable / Bolt alternative. | Free: platform free with unlimited gens; pair with Gemini / Groq free tier or Ollama for $0 | Best for: BYOK in the browser, code ownership | Catch: paid models bill to your own provider key.
+- **[OpenThorn](https://www.openthorn.app)** — Browser-based BYOK builder; generates full code + 1-click Netlify deploy. v0 / Lovable / Bolt alternative. | Free: platform free with unlimited generations; pair with Gemini / Groq free tier or Ollama for $0 | Best for: BYOK in the browser, code ownership | Catch: paid models are billed to your provider account via your own API key.
 
 ---
 
