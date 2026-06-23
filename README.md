@@ -521,6 +521,7 @@ Listed neutrally — real categories with real user bases.
 - **[Replika](https://replika.com)** — Single persistent AI companion. | Free: basic chat + avatar | Best for: reflective/emotional-support use cases | Catch: voice calls and romantic modes gated to Pro (~$19.99/mo).
 - **[Janitor AI](https://janitorai.com)** — User-made characters with BYO-LLM option. | Free: built-in model included; fewer filters than Character.AI | Best for: creative freedom | Catch: best quality needs external API; stability varies.
 - **[SillyTavern](https://github.com/SillyTavern/SillyTavern)** — Self-hosted open-source frontend. | Free: open-source | Best for: power users wanting full control + privacy | Catch: needs technical setup + your own LLM backend.
+- **[Auferet](https://auferet.com)** — AI game master for solo text adventures and tabletop RPGs, with persistent memory and your own uploaded lore. | Free: 10 actions/day on Gemini 3.1 Flash Lite, full features, no card | Best for: solo RPG and interactive fiction | Catch: 10 actions/day on the free tier; unlimited from $10/mo.
 
 ---
 
