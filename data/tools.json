@@ -1,8 +1,8 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 233,
     "totalCategories": 36,
-    "lastUpdated": "2026-04-24",
+    "lastUpdated": "2026-06-26",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
   },
   "featured": {
@@ -236,6 +236,7 @@
         {"name": "Erase.bg", "url": "https://www.erase.bg", "description": "Free full-res BG removal.", "free": "HD downloads available", "bestFor": "E-commerce, bulk product shots", "catch": "Inconsistent on fine hair."},
         {"name": "Adobe Firefly Generative Fill", "url": "https://firefly.adobe.com", "description": "Best free inpaint/outpaint with commercial-safe output.", "free": "~25 credits/month", "bestFor": "Object removal, background swap", "catch": "Low cap."},
         {"name": "Krea Edit", "url": "https://www.krea.ai/edit", "description": "Inpaint, outpaint, style transfer with Flux Kontext / Nano Banana.", "free": "Daily compute units", "bestFor": "Multi-model comparison", "catch": "Free outputs non-commercial."},
+        {"name": "ClearCrowds", "url": "https://www.clearcrowds.com", "description": "AI photo cleanup for removing crowds, objects, clutter, glasses, shadows, and product-photo distractions.", "free": "$0 web trial, no card to start", "bestFor": "Focused cleanup presets and batch photo review", "catch": "Premium exports and heavier use may require upgrade."},
         {"name": "Cleanup.pictures", "url": "https://cleanup.pictures", "description": "One-click object/watermark removal.", "free": "720p web version", "bestFor": "Quick fixes", "catch": "HD paywalled."},
         {"name": "Photopea", "url": "https://www.photopea.com", "description": "Free Photoshop clone in-browser with AI plugins.", "free": "Ad-supported", "bestFor": "Layered editing without installing Photoshop", "catch": "AI plugins slower than Firefly."},
         {"name": "Upscale.media", "url": "https://www.upscale.media", "description": "Quick 4× upscaler with face enhance.", "free": "Limited daily", "bestFor": "Mobile upscales", "catch": "Watermark on some exports."}

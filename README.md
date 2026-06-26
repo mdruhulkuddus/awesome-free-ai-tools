@@ -270,6 +270,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Erase.bg](https://www.erase.bg)** — Free full-res BG removal. | Free: HD downloads available | Best for: e-commerce, bulk product shots | Catch: inconsistent on fine hair.
 - **[Adobe Firefly Generative Fill](https://firefly.adobe.com)** — Best free inpaint/outpaint with commercial-safe output. | Free: ~25 credits/month | Best for: object removal, background swap | Catch: low cap.
 - **[Krea Edit](https://www.krea.ai/edit)** — Inpaint, outpaint, style transfer with Flux Kontext / Nano Banana. | Free: daily compute units | Best for: multi-model comparison | Catch: free outputs non-commercial.
+- **[ClearCrowds](https://www.clearcrowds.com)** — AI photo cleanup for removing crowds, objects, clutter, glasses, shadows, and product-photo distractions. | Free: $0 web trial, no card to start | Best for: focused cleanup presets and batch photo review | Catch: premium exports and heavier use may require upgrade.
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object/watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in-browser with AI plugins. | Free: ad-supported | Best for: layered editing without installing Photoshop | Catch: AI plugins slower than Firefly.
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhance. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
