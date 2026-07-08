@@ -29,7 +29,7 @@
 
 A curated, opinionated list of the best **genuinely free** AI tools available right now — real free tiers, open-source projects, and freemium plans where the free tier is actually usable for real work. No "free means 3 generations then paywall." No trial-bait.
 
-**Last updated:** April 24, 2026
+**Last updated:** July 8, 2026
 
 ---
 
@@ -435,6 +435,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[Aider](https://aider.chat)** — Open-source git-aware terminal pair-programmer. | Free: tool is free; BYOK any LLM | Best for: transparent multi-file edits via diffs | Catch: you pay API costs.
 - **[Claude Code (free routes)](https://claude.com)** — Anthropic's terminal agent. | Free paths: ~$5 API credits at signup; **OSS maintainers get 6 months of Max 20x free** ($1,200 value, Feb 2026 program); community `claude-code-router` pipes CC to free OpenRouter/Gemini models | Best for: highest SWE-bench (80.8%) | Catch: no official free tier — needs $20/mo minimum.
 - **[OpenCode](https://opencode.ai)** — Open-source provider-agnostic terminal coding assistant. | Free: tool is free; pair with Gemini/Groq/Cerebras free | Best for: fully free Claude-Code-style workflow | Catch: younger community.
+- **[Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory)** — Rust CLI/TUI for local-first AI-agent memory lifecycle: SQLite/FTS recall, evidence, audit, forgetting, and consolidation. | Free: MIT open-source, local SQLite storage, no hosted service required | Best for: developers adding persistent memory to local agent workflows | Catch: early-stage and CLI-first; not a standalone chatbot.
 - **[Goose (Block)](https://block.github.io/goose/)** — Open-source local AI agent framework. | Free: BYOK, works with Ollama | Best for: extensible agent workflows | Catch: more framework than polished product.
 - **[Google Antigravity](https://antigravity.google)** — Google's agentic dev platform. | Free: via Google account | Best for: Gemini-native workflows | Catch: new, immature ecosystem.
 
