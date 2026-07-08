@@ -2,7 +2,7 @@
   "meta": {
     "totalTools": 232,
     "totalCategories": 36,
-    "lastUpdated": "2026-04-24",
+    "lastUpdated": "2026-07-08",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
   },
   "featured": {
@@ -418,6 +418,7 @@
         {"name": "Aider", "url": "https://aider.chat", "description": "Open-source git-aware terminal pair-programmer.", "free": "Tool is free; BYOK any LLM", "bestFor": "Transparent multi-file edits via diffs", "catch": "You pay API costs."},
         {"name": "Claude Code (free routes)", "url": "https://claude.com", "description": "Anthropic's terminal agent. Free paths: ~$5 API signup credits; OSS maintainers get 6 months of Max 20x free (Feb 2026 program); community claude-code-router routes to free OpenRouter/Gemini models.", "free": "~$5 API credits; OSS 6-mo Max 20x program; claude-code-router workaround", "bestFor": "Highest SWE-bench (80.8%)", "catch": "No official free tier — needs $20/mo minimum."},
         {"name": "OpenCode", "url": "https://opencode.ai", "description": "Open-source provider-agnostic terminal coding assistant.", "free": "Tool is free; pair with Gemini/Groq/Cerebras free", "bestFor": "Fully free Claude-Code-style workflow", "catch": "Younger community."},
+        {"name": "Tree Ring Memory", "url": "https://github.com/TerminallyLazy/Tree-Ring-Memory", "description": "Rust CLI/TUI for local-first AI-agent memory lifecycle: SQLite/FTS recall, evidence, audit, forgetting, and consolidation.", "free": "MIT open-source, local SQLite storage, no hosted service required", "bestFor": "Developers adding persistent memory to local agent workflows", "catch": "Early-stage and CLI-first; not a standalone chatbot."},
         {"name": "Goose (Block)", "url": "https://block.github.io/goose/", "description": "Open-source local AI agent framework.", "free": "BYOK, works with Ollama", "bestFor": "Extensible agent workflows", "catch": "More framework than polished product."},
         {"name": "Google Antigravity", "url": "https://antigravity.google", "description": "Google's agentic dev platform.", "free": "Via Google account", "bestFor": "Gemini-native workflows", "catch": "New, immature ecosystem."}
       ]
