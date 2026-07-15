@@ -468,6 +468,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 - **[Kickresume](https://www.kickresume.com)** — GPT-powered with 1,500+ examples. | Free: basic builder + limited AI | Best for: early-career, design-conscious | Catch: premium templates/downloads paywalled.
 - **[Enhancv](https://enhancv.com)** — Visually rich templates with AI content. | Free: build but limited downloads | Best for: creative roles | Catch: free export is restrictive.
 - **[FlowCV](https://flowcv.com)** — Genuinely free ATS-friendly builder. | Free: unlimited resumes + PDFs, no watermark | Best for: budget-conscious users | Catch: lighter AI than Teal/Rezi.
+- **[Aural](https://github.com/1146345502/aural-oss)** — Open-source AI interview platform for voice, chat, and video. | Free: 3 templates, 100 AI tokens, and 30 session minutes/month; no credit card | Best for: interview practice and small hiring teams | Catch: free plan is limited to 1 seat.
 
 ---
 
