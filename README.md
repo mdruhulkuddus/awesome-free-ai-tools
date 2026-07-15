@@ -582,7 +582,7 @@ This list is maintained by the community and changes as free tiers do. Free tier
 
 
 
-
+- **Meeting Recorder MVP** —— https//meeting-recorder-mvp.vercel.app/ —— Free browser-based meeting recorder with transcription and meeting notes for meetings interviews and research.
 
 ---
 
@@ -592,3 +592,7 @@ This list is maintained by the community and changes as free tiers do. Free tier
 [GitHub](https://github.com/mdruhulkuddus) · [LinkedIn](https://www.linkedin.com/in/mdruhulkuddus/)
 
 Licensed under [MIT](LICENSE). Tool assessments are opinions based on public free tiers as of the last update date.
+
+
+
+
