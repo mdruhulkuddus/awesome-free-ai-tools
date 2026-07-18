@@ -170,6 +170,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 
 ## Writing, editing & paraphrasing
 
+- **[iTextwise](https://itextwise.com):** Free AI writing tools to rewrite, rephrase, formalize emails, fix grammar, explain, and summarize text in 9 tones and 13+ languages. No account, no word limits, runs privately in your browser.
 - **[Grammarly Free](https://www.grammarly.com)** — Grammar, spelling, and punctuation across every surface (browser, desktop, keyboard). | Free: unlimited corrections + 100 AI prompts/month | Best for: daily writing across apps | Catch: clarity, tone rewrites, and plagiarism require Premium.
 - **[QuillBot](https://quillbot.com)** — Best free paraphraser plus grammar, summarizer, citation tools. | Free: 125-word paraphrase cap per query, Standard + Fluency modes, up to 5,000-char translation | Best for: rewriting, citations | Catch: tone modes and longer chunks gated.
 - **[Rytr](https://rytr.me)** — 40+ templates, 30+ languages. | Free: ~10,000 characters/month | Best for: short-form copy | Catch: low monthly cap.
