@@ -29,7 +29,7 @@
 
 A curated, opinionated list of the best **genuinely free** AI tools available right now — real free tiers, open-source projects, and freemium plans where the free tier is actually usable for real work. No "free means 3 generations then paywall." No trial-bait.
 
-**Last updated:** April 24, 2026
+**Last updated:** July 27, 2026
 
 ---
 
