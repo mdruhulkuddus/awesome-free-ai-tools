@@ -29,7 +29,7 @@
 
 A curated, opinionated list of the best **genuinely free** AI tools available right now — real free tiers, open-source projects, and freemium plans where the free tier is actually usable for real work. No "free means 3 generations then paywall." No trial-bait.
 
-**Last updated:** April 24, 2026
+**Last updated:** July 27, 2026
 
 ---
 
@@ -437,6 +437,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[OpenCode](https://opencode.ai)** — Open-source provider-agnostic terminal coding assistant. | Free: tool is free; pair with Gemini/Groq/Cerebras free | Best for: fully free Claude-Code-style workflow | Catch: younger community.
 - **[Goose (Block)](https://block.github.io/goose/)** — Open-source local AI agent framework. | Free: BYOK, works with Ollama | Best for: extensible agent workflows | Catch: more framework than polished product.
 - **[Google Antigravity](https://antigravity.google)** — Google's agentic dev platform. | Free: via Google account | Best for: Gemini-native workflows | Catch: new, immature ecosystem.
+- **[DevProjex](https://github.com/Avazbek22/DevProjex)** — Builds structured, token-counted codebase context through a cross-platform GUI and CLI. | Free: fully open source | Best for: preparing selected project files for AI chats and code review | Catch: it prepares context but does not run an AI model itself.
 
 ---
 
