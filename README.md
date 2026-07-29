@@ -260,6 +260,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Krea](https://www.krea.ai)** — Aggregates Flux, Nano Banana Pro, GPT Image, Qwen, Seedream with a real-time canvas. | Free: daily compute units | Best for: comparing top models side-by-side | Catch: free outputs are non-commercial.
 - **[Flux.1 / Flux.2 (open weights)](https://blackforestlabs.ai)** — Open-source rival to Midjourney. | Free: unlimited self-hosted (12 GB+ VRAM) | Best for: photographers, developers | Catch: needs a GPU.
 - **[NightCafe](https://creator.nightcafe.studio)** — Community platform with SD, Flux, earned credits. | Free: daily + earnable credits | Best for: hobbyists | Catch: best models paywalled.
+- **[Gracestack Fashion AI](https://tools.gracestack.se/fashion-api.html)** — Text-to-fashion-design: describe any garment idea and get AI-generated clothing concepts in seconds. | Free: unlimited generations | Best for: fashion designers, print-on-demand creators, style inspiration | Catch: download/purchase requires payment (49 SEK); Sweden-first market.
 
 ---
 
