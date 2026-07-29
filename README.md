@@ -143,6 +143,7 @@ Two chatbots that don't quite match the Top 3 overall but are **best-in-class at
 
 Every one of these has a meaningful free experience — several are frontier-class.
 
+- **[GPTGeminiGrok.AI](https://trygrokai.asia/)** — Multi-model AI chat for everyday writing, research, and productivity. | Free: 10 requests/day | Best for: trying GPT, Claude, and Grok chat options in one web app | Catch: account required; shared nodes can hit capacity.
 - **[Microsoft Copilot](https://copilot.microsoft.com)** — GPT-4o/5-class chat with DALL-E image generation, native to Windows/Edge. | Free: generous daily use, image gen included | Best for: Windows users, Office integrations | Catch: priority speed and deeper Office embedding require Copilot Pro.
 - **[Meta AI](https://www.meta.ai)** — Llama 4-powered; native inside WhatsApp, Instagram, and Messenger. | Free: no practical cap | Best for: casual use inside Meta apps | Catch: conversations can be used for ad personalization.
 - **[Mistral Le Chat](https://chat.mistral.ai)** — EU/GDPR-compliant, Cerebras-accelerated (very fast), includes web search and image gen on free tier. | Free: generous; phone verification only | Best for: EU data-residency, speed | Catch: reasoning lags frontier models.
