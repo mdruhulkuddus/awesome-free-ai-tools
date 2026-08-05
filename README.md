@@ -548,6 +548,7 @@ The free AI-finance space is thin — most quality tools are freemium trials.
 - **[Glass AI](https://glass.health/ai)** — Clinical reasoning / DDx generator. | Free: limited clinician tier | Best for: differential diagnosis practice | Catch: for clinicians/trainees.
 - **[Ada Health](https://ada.com)** — Consumer symptom assessment. | Free: full symptom triage | Best for: patients triaging symptoms | Catch: informational, not diagnostic.
 - **[Heidi Health](https://www.heidihealth.com)** — AI medical scribe. | Free: "Free Forever" tier with usage limits | Best for: junior doctors, clinical students | Catch: monthly transcript cap.
+- **[Cortexa](https://cortexanote.com/en/scribe/)** — AI medical scribe with an optional clip-on recorder. | Free: unlimited transcription with basic templates | Best for: clinicians seeking a low-friction documentation workflow | Catch: free plan is limited to basic templates.
 - **[iatroX](https://www.iatrox.com)** — UK guideline-focused clinical AI. | Free: 100% free, no verification | Best for: NHS clinicians | Catch: UK-centric.
 
 ---
