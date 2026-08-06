@@ -151,6 +151,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[HuggingChat](https://huggingface.co/chat)** — Open-source frontend routing to Llama, Mistral, Qwen, Command R+. | Free: fully free, no login required | Best for: privacy-curious users, model swapping | Catch: model lineup rotates.
 - **[Pi by Inflection](https://pi.ai)** — Empathetic conversational AI with excellent voice. | Free: unlimited chat and voice | Best for: reflective conversations, language practice | Catch: not for coding or heavy task work.
 - **[Poe](https://poe.com)** — Unified access to Claude, GPT, Gemini, Llama via a points system. | Free: daily points | Best for: trying many models without multiple accounts | Catch: premium models drain points fast.
+- **[Zicisi AI](https://zicisi.fun)** — All-in-one AI toolkit: multi-model chat (DeepSeek/GPT/Claude/Doubao/Gemini), image generation (Seedream/DALL·E), writing assistant (article/rewrite/translate/SEO), data analysis (CSV/Excel), and video generation (Volcano Engine). | Free: 50 credits on signup (~50 chat msgs or 6 images), then $1 trial for 50 more | Best for: users who want multiple AI tools in one tab without subscriptions | Catch: full access requires credit purchase after free credits run out.
 
 ---
 
