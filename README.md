@@ -456,6 +456,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[ZeroGPT](https://www.zerogpt.com)** — Unlimited scans with DeepAnalyse. | Free: unlimited, ~15K chars/scan | Best for: quick bulk checks | Catch: independent 2026 testing found 73.8% accuracy and a 20.5% false-positive rate.
 - **[QuillBot AI Detector](https://quillbot.com/ai-content-detector)** — Detector integrated with the QuillBot suite. | Free: unlimited scans, 80-word minimum | Best for: writers already on QuillBot | Catch: upsells to Premium.
 - **[Copyleaks](https://copyleaks.com)** — Enterprise-grade detection. | Free: limited trial scans | Best for: institutions evaluating | Catch: real free tier is thin.
+- **[Mydentify AI Watermark and Claude Checker](https://mydentify.com/tools/ai-watermark-detector)** — Browser-based checker for hidden Unicode characters and observable writing signals in pasted text. | Free: no signup, runs in your browser | Best for: inspecting Claude and other AI-tool text | Catch: it cannot confirm a private statistical watermark, prove authorship, or identify the source model.
 
 Detection tools are imperfect — treat results as signal, not proof.
 
