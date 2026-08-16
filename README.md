@@ -437,6 +437,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[OpenCode](https://opencode.ai)** — Open-source provider-agnostic terminal coding assistant. | Free: tool is free; pair with Gemini/Groq/Cerebras free | Best for: fully free Claude-Code-style workflow | Catch: younger community.
 - **[Goose (Block)](https://block.github.io/goose/)** — Open-source local AI agent framework. | Free: BYOK, works with Ollama | Best for: extensible agent workflows | Catch: more framework than polished product.
 - **[Google Antigravity](https://antigravity.google)** — Google's agentic dev platform. | Free: via Google account | Best for: Gemini-native workflows | Catch: new, immature ecosystem.
+- **[Agent QA](https://github.com/vostride/agent-qa)** — Source-available application QA harness for natural-language web and mobile tests with execution memory and self-healing flows. | Free: package is free to install; provider usage is separate | Best for: teams maintaining browser or mobile QA flows as applications change | Catch: model, browser, or device providers may charge; the current FSL release is not OSI open source.
 
 ---
 
