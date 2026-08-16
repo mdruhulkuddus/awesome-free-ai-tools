@@ -445,6 +445,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[Manus](https://manus.im)** — Autonomous general agent with browser, files, and desktop "My Computer." | Free: limited daily credits (acquired by Meta Dec 2025) | Best for: research, multi-step tasks | Catch: primarily paid; free tier is constrained.
 - **[OpenHands](https://github.com/OpenHands/OpenHands)** — Open-source autonomous coding agent (formerly OpenDevin). | Free: MIT, self-host; free cloud trial via GitHub login | Best for: Devin-style dev agent | Catch: self-host needs an LLM API key.
 - **[OpenManus](https://github.com/FoundationAgents/OpenManus)** — Open-source Manus clone from MetaGPT team. | Free: fully open-source, no invite | Best for: agent workflow experimentation | Catch: BYOK.
+- **[Orkas](https://github.com/Orkas-AI/Orkas)** — Open-source, local-first desktop AI workforce coordinated through one chat. | Free: open-source local edition | Best for: coordinating specialist agents on complex work | Catch: model calls use your chosen provider keys or compatible local endpoints.
 - **[browser-use](https://github.com/browser-use/browser-use)** — Python library letting an LLM control a browser. | Free: open-source | Best for: web automation scripts | Catch: requires LLM key + coding.
 - **[AutoGPT / AgentGPT](https://github.com/Significant-Gravitas/AutoGPT)** — The OG autonomous agents. | Free: open-source | Best for: learning how agent loops work | Catch: still fragile on long tasks.
 
