@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 233,
     "totalCategories": 36,
     "lastUpdated": "2026-04-24",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -306,6 +306,7 @@
       "description": "Text/image-to-3D with free credits and open-source Hunyuan/TripoSR.",
       "tools": [
         {"name": "Meshy", "url": "https://www.meshy.ai", "description": "Text/image-to-3D with textures, animation, and Blender/Unity/Unreal plugins.", "free": "200 credits/month (~20 models)", "bestFor": "Game devs, 3D printing", "catch": "Free outputs non-commercial."},
+        {"name": "Luphra", "url": "https://www.luphra.com/", "description": "Prompt-to-matter: turn prompts or sketches into editable 3D and manufactured physical products (starting with 3D printables).", "free": "Try in the browser", "bestFor": "Designers who want a printable/physical part", "catch": "Early product; manufacturing beyond printables is limited."},
         {"name": "Tripo AI", "url": "https://www.tripo3d.ai", "description": "Fast text/image-to-3D with clean quad topology.", "free": "2,000 signup credits + daily refills", "bestFor": "Game characters", "catch": "No Blender plugin yet."},
         {"name": "Rodin (Hyper3D)", "url": "https://hyper3d.ai", "description": "Highest photorealistic quality, 4K PBR.", "free": "~10 credits", "bestFor": "Hero/marketing assets", "catch": "Tiny free allocation."},
         {"name": "Hunyuan3D (Tencent, open source)", "url": "https://github.com/Tencent/Hunyuan3D-2", "description": "Sub-60s generation with 8K PBR.", "free": "Unlimited self-hosted", "bestFor": "No-cap production", "catch": "GPU required."},
