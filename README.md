@@ -331,6 +331,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 ## 3D model generation
 
 - **[Meshy](https://www.meshy.ai)** — Text/image-to-3D with textures, animation, and Blender/Unity/Unreal plugins. | Free: 200 credits/month (~20 models) | Best for: game devs, 3D printing | Catch: free outputs non-commercial.
+- **[Luphra](https://www.luphra.com/)** — Prompt-to-matter: turn prompts or sketches into editable 3D and manufactured physical products (starting with 3D printables). | Free: try in the browser | Best for: designers who want a printable/physical part | Catch: early product; manufacturing beyond printables is limited.
 - **[Tripo AI](https://www.tripo3d.ai)** — Fast text/image-to-3D with clean quad topology. | Free: 2,000 signup credits + daily refills | Best for: game characters | Catch: no Blender plugin yet.
 - **[Rodin (Hyper3D)](https://hyper3d.ai)** — Highest photorealistic quality, 4K PBR. | Free: ~10 credits | Best for: hero/marketing assets | Catch: tiny free allocation.
 - **[Hunyuan3D (Tencent, open source)](https://github.com/Tencent/Hunyuan3D-2)** — Sub-60s generation with 8K PBR. | Free: unlimited self-hosted | Best for: no-cap production | Catch: GPU required.
