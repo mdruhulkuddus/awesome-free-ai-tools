@@ -477,6 +477,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 - **[NotebookLM](https://notebooklm.google.com)** — Effectively the best free "study from your materials" tool (see research section).
 - **[Google Socratic](https://socratic.org)** — Homework helper by photo (mobile). | Free: fully free | Best for: high-schoolers | Catch: Google barely updates it.
 - **[Quizlet](https://quizlet.com)** — Flashcards + Q-Chat AI tutor. | Free: flashcards + millions of community sets | Best for: memorization | Catch: Magic Notes / full AI tutor in Plus ($35.99/yr).
+- **[StudyArena](https://studyarena.com)**: Blind AI answer comparisons for study questions | Free: 20 daily 3-model comparisons with voting, reveals, and saved history | Best for: students checking AI answers | Catch: model choice and 6-model comparisons require Supporter.
 - **[StudyFetch](https://www.studyfetch.com)** — Converts lectures/PDFs to flashcards, quizzes, and a Spark.E AI tutor. | Free: limited uploads | Best for: college students | Catch: meaningful use needs Pro.
 - **[Anki](https://apps.ankiweb.net)** — Gold-standard spaced repetition (AI-adjacent scheduling). | Free: desktop + Android, open-source | Best for: med/law students | Catch: iOS app $24.99 one-time.
 
