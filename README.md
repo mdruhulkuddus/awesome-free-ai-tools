@@ -456,6 +456,7 @@ The open-source frontier is no longer just Llama. As of April 2026, Chinese labs
 - **[ZeroGPT](https://www.zerogpt.com)** — Unlimited scans with DeepAnalyse. | Free: unlimited, ~15K chars/scan | Best for: quick bulk checks | Catch: independent 2026 testing found 73.8% accuracy and a 20.5% false-positive rate.
 - **[QuillBot AI Detector](https://quillbot.com/ai-content-detector)** — Detector integrated with the QuillBot suite. | Free: unlimited scans, 80-word minimum | Best for: writers already on QuillBot | Catch: upsells to Premium.
 - **[Copyleaks](https://copyleaks.com)** — Enterprise-grade detection. | Free: limited trial scans | Best for: institutions evaluating | Catch: real free tier is thin.
+- **[isthisaigenerated.app](https://isthisaigenerated.app/site/check/)** — Warning-only checker for text, PDF/DOCX, images, and sampled video. | Free: no account or daily/weekly scan quota; abuse and capacity controls apply | Best for: reviewing multiple content types with human follow-up | Catch: probabilistic signals are not proof of authorship or origin.
 
 Detection tools are imperfect — treat results as signal, not proof.
 
