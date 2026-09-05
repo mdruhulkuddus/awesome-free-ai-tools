@@ -518,6 +518,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 Listed neutrally — real categories with real user bases.
 
 - **[Character.AI](https://character.ai)** — Largest character chat library (10M+ characters). | Free: unlimited chat (with in-convo ads) | Best for: creative roleplay, language practice | Catch: content filters tightened in 2026; c.ai+ ($9.99/mo) loosens some limits.
+- **[WSUP AI](https://wsupai.app/)** — Free AI character chat in the browser — talk to AI characters with no sign up. | Free: no sign up | Best for: quick SFW character chat | Catch: SFW only.
 - **[Replika](https://replika.com)** — Single persistent AI companion. | Free: basic chat + avatar | Best for: reflective/emotional-support use cases | Catch: voice calls and romantic modes gated to Pro (~$19.99/mo).
 - **[Janitor AI](https://janitorai.com)** — User-made characters with BYO-LLM option. | Free: built-in model included; fewer filters than Character.AI | Best for: creative freedom | Catch: best quality needs external API; stability varies.
 - **[SillyTavern](https://github.com/SillyTavern/SillyTavern)** — Self-hosted open-source frontend. | Free: open-source | Best for: power users wanting full control + privacy | Catch: needs technical setup + your own LLM backend.
