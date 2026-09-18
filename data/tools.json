@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 233,
     "totalCategories": 36,
     "lastUpdated": "2026-04-24",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -155,7 +155,8 @@
         {"name": "Anytype", "url": "https://anytype.io", "description": "E2E-encrypted, local-first Notion alternative.", "free": "Fully free", "bestFor": "Privacy + relational notes", "catch": "Younger product."},
         {"name": "Notion Free", "url": "https://www.notion.so", "description": "Docs/wikis/databases with 100 AI actions bundled into the free plan (2026 update).", "free": "Unlimited blocks for individuals", "bestFor": "Personal wikis, project hubs", "catch": "Heavy Notion AI use needs the paid add-on."},
         {"name": "Capacities", "url": "https://capacities.io", "description": "Object-based notes (people, projects, ideas as first-class types).", "free": "Generous free tier", "bestFor": "Relational knowledge work", "catch": "Mobile app is newer."},
-        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Doubles as a free PKM tool for source-grounded work.", "free": "100 notebooks, 50 sources each", "bestFor": "Source-grounded PKM", "catch": "Not a general note tool — built around uploaded sources."}
+        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Doubles as a free PKM tool for source-grounded work.", "free": "100 notebooks, 50 sources each", "bestFor": "Source-grounded PKM", "catch": "Not a general note tool — built around uploaded sources."},
+        {"name": "Screenpipe", "url": "https://screenpipe.com/", "description": "Captures screen text and audio locally for searchable computer history on macOS, Windows, and Linux.", "free": "Limited searchable history and scheduled workflows; 10 AI credits refreshed monthly", "bestFor": "Recalling recent work across apps and meetings", "catch": "Full history requires paid; optional cloud features send selected data off-device; source-available under a commercial license, not open source."}
       ]
     },
     {

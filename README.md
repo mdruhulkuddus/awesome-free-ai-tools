@@ -201,6 +201,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Notion Free](https://www.notion.so)** — Docs/wikis/databases with 100 AI actions bundled into the free plan (2026 update). | Free: unlimited blocks for individuals | Best for: personal wikis, project hubs | Catch: heavy Notion AI use needs the paid add-on.
 - **[Capacities](https://capacities.io)** — Object-based notes (people, projects, ideas as first-class types). | Free: generous free tier | Best for: relational knowledge work | Catch: mobile app is newer.
 - **[NotebookLM](https://notebooklm.google.com)** — Doubles as a free PKM tool for source-grounded work.
+- **[Screenpipe](https://screenpipe.com/)** - Captures screen text and audio locally for searchable computer history on macOS, Windows, and Linux. | Free: limited searchable history and scheduled workflows, 10 AI credits refreshed monthly | Best for: recalling recent work across apps and meetings | Catch: full history requires paid; optional cloud features send selected data off-device; source-available under a commercial license, not open source.
 
 ---
 
