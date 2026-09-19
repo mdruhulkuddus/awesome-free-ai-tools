@@ -299,6 +299,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Kapwing](https://www.kapwing.com)** — Collaborative browser editor with smart cut. | Free: 4-min/video, 720p, watermark | Best for: team social clips | Catch: watermark.
 - **[OpusClip](https://www.opus.pro)** — Long-to-short AI repurposing. | Free: 60 min processing/month | Best for: YouTubers → Shorts | Catch: watermark on free.
 - **[Canva Video](https://www.canva.com/video-editor)** — Template-driven, Magic Edit, BG remover. | Free: core features, standard exports | Best for: marketers, presentations | Catch: best AI needs Canva Pro.
+- **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — Local-first CLI/MCP video editing from plan.json timelines. | Free: MIT; key-free compose, edit and transcription | Best for: coding-agent workflows | Catch: source install; optional generation needs provider keys and may cost money.
 
 ---
 
