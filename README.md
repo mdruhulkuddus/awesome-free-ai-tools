@@ -253,6 +253,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 ## Image generation
 
 - **[Microsoft Designer / Bing Image Creator](https://designer.microsoft.com)** — DALL-E 3 + MAI-Image-1; best free text-in-image. | Free: unlimited (15 fast "boosts"/day, then slower) | Best for: everyday creators | Catch: strict safety filters; Microsoft account required.
+- **[Raphael](https://raphael.app)** — Free unlimited AI image generator with multi-model routing. | Free: unlimited generations | Best for: rapid creative drafts | Catch: none significant on free tier.
 - **[Adobe Firefly](https://firefly.adobe.com)** — Trained on licensed content with Content Credentials. | Free: ~25 generative credits/month | Best for: commercial/client work | Catch: stingy free limits; quality trails top models.
 - **[Leonardo.AI](https://leonardo.ai)** — Multi-model hub (Flux, SDXL fine-tunes) with canvas editor. | Free: 150 daily tokens, commercial rights included | Best for: anime, concept art, iteration | Catch: credits burn fast on newer models.
 - **[Ideogram 3.0](https://ideogram.ai)** — Best-in-class legible text inside images. | Free: ~10 generations/day | Best for: posters, logos, memes | Catch: strict cap; photorealism trails Flux.
