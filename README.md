@@ -165,6 +165,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[SciSpace](https://typeset.io)** — Chat-with-PDF optimized for research papers; access to ~50–280M papers. | Free: limited daily queries | Best for: reading dense papers | Catch: heavy use needs Premium.
 - **[Exa](https://exa.ai)** — Neural/embedding-based web search with API. | Free: free web UI + small monthly API credits | Best for: developers building semantic search | Catch: production use needs paid.
 - **[Phind](https://www.phind.com)** — Developer-focused AI search. | Free: generous daily limit on Phind-405B | Best for: programming questions with sources | Catch: paid tier for priority and GPT-5.
+- **[GetAskAI](https://getaskai.com)** - Free AI assistant that answers with numbered web sources and reads PDFs and photos, in 14 languages. | Free: fully free, no login required | Best for: quick answers you can check against sources | Catch: ad-supported; long or highly technical tasks are weaker than paid tools.
 
 ---
 
