@@ -1,8 +1,8 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 234,
     "totalCategories": 36,
-    "lastUpdated": "2026-04-24",
+    "lastUpdated": "2026-10-12",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
   },
   "featured": {
@@ -128,7 +128,8 @@
         {"name": "Wordtune", "url": "https://www.wordtune.com", "description": "Rewrites for tone and length.", "free": "10 daily rewrites", "bestFor": "Quick tonal adjustments", "catch": "Tight daily cap."},
         {"name": "Hemingway Editor", "url": "https://hemingwayapp.com", "description": "Readability and clarity grader (rules-based + AI suggestions).", "free": "Full web editor", "bestFor": "Tightening prose", "catch": "AI rewrite is a paid add-on."},
         {"name": "DeepL Write", "url": "https://www.deepl.com/write", "description": "Monolingual text improvement in English and German.", "free": "Web access, character caps", "bestFor": "Non-native English polishing", "catch": "Availability has been inconsistent."},
-        {"name": "TextCortex", "url": "https://textcortex.com", "description": "20 daily creations (not monthly) with custom personas.", "free": "Daily refresh", "bestFor": "Steady low-volume writing", "catch": "Credits don't stockpile."}
+        {"name": "TextCortex", "url": "https://textcortex.com", "description": "20 daily creations (not monthly) with custom personas.", "free": "Daily refresh", "bestFor": "Steady low-volume writing", "catch": "Credits don't stockpile."},
+        {"name": "WarmQuant", "url": "https://warmquant.com/", "description": "AI-assisted English drafts from notes, with writing angles and author/reader personas.", "free": "10 generations/day, saved drafts, copy and download", "bestFor": "Creators revising their own English notes", "catch": "English output only; AI creation/refinement uses one generation, and free drafts include an editable invitation signature."}
       ]
     },
     {
@@ -155,7 +156,8 @@
         {"name": "Anytype", "url": "https://anytype.io", "description": "E2E-encrypted, local-first Notion alternative.", "free": "Fully free", "bestFor": "Privacy + relational notes", "catch": "Younger product."},
         {"name": "Notion Free", "url": "https://www.notion.so", "description": "Docs/wikis/databases with 100 AI actions bundled into the free plan (2026 update).", "free": "Unlimited blocks for individuals", "bestFor": "Personal wikis, project hubs", "catch": "Heavy Notion AI use needs the paid add-on."},
         {"name": "Capacities", "url": "https://capacities.io", "description": "Object-based notes (people, projects, ideas as first-class types).", "free": "Generous free tier", "bestFor": "Relational knowledge work", "catch": "Mobile app is newer."},
-        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Doubles as a free PKM tool for source-grounded work.", "free": "100 notebooks, 50 sources each", "bestFor": "Source-grounded PKM", "catch": "Not a general note tool — built around uploaded sources."}
+        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Doubles as a free PKM tool for source-grounded work.", "free": "100 notebooks, 50 sources each", "bestFor": "Source-grounded PKM", "catch": "Not a general note tool — built around uploaded sources."},
+        {"name": "WeWorkBuddy", "url": "https://weworkbuddy.com/", "description": "Source-linked topic-research workspace for AI creators with saved candidates, tasks and exports.", "free": "Explorer supports 5 saved topics, 20 research tasks and 3 assessments/calendar month", "bestFor": "Organizing a small creator research backlog", "catch": "No AI writing engine, keyword search volumes or automated forecasts; scoring weights are not backtested."}
       ]
     },
     {

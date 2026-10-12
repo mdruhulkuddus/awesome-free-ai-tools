@@ -178,6 +178,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Hemingway Editor](https://hemingwayapp.com)** — Readability and clarity grader (rules-based + AI suggestions). | Free: full web editor | Best for: tightening prose | Catch: AI rewrite is a paid add-on.
 - **[DeepL Write](https://www.deepl.com/write)** — Monolingual text improvement in English and German. | Free: web access, character caps | Best for: non-native English polishing | Catch: availability has been inconsistent.
 - **[TextCortex](https://textcortex.com)** — 20 *daily* creations (not monthly) with custom personas. | Free: daily refresh | Best for: steady low-volume writing | Catch: credits don't stockpile.
+- **[WarmQuant](https://warmquant.com/)** — AI-assisted English drafts from notes, with writing angles and author/reader personas. | Free: 10 generations/day, saved drafts, copy and download | Best for: creators revising their own English notes | Catch: English output only; AI creation/refinement uses one generation, and free drafts include an editable invitation signature.
 
 ---
 
@@ -200,6 +201,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Anytype](https://anytype.io)** — E2E-encrypted, local-first Notion alternative. | Free: fully free | Best for: privacy + relational notes | Catch: younger product.
 - **[Notion Free](https://www.notion.so)** — Docs/wikis/databases with 100 AI actions bundled into the free plan (2026 update). | Free: unlimited blocks for individuals | Best for: personal wikis, project hubs | Catch: heavy Notion AI use needs the paid add-on.
 - **[Capacities](https://capacities.io)** — Object-based notes (people, projects, ideas as first-class types). | Free: generous free tier | Best for: relational knowledge work | Catch: mobile app is newer.
+- **[WeWorkBuddy](https://weworkbuddy.com/)** — Source-linked topic-research workspace for AI creators with saved candidates, tasks and exports. | Free: Explorer supports 5 saved topics, 20 research tasks and 3 assessments/calendar month | Best for: organizing a small creator research backlog | Catch: no AI writing engine, keyword search volumes or automated forecasts; scoring weights are not backtested.
 - **[NotebookLM](https://notebooklm.google.com)** — Doubles as a free PKM tool for source-grounded work.
 
 ---
