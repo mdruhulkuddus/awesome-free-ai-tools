@@ -283,7 +283,8 @@
         {"name": "Stable Audio", "url": "https://stableaudio.com", "description": "Best for loops, SFX, ambient — not vocal songs.", "free": "~20 generations/month", "bestFor": "Game devs, sound designers", "catch": "Instrumental only."},
         {"name": "Meta MusicGen / AudioCraft (open source)", "url": "https://github.com/facebookresearch/audiocraft", "description": "Open-weight instrumental model.", "free": "Unlimited self-hosted", "bestFor": "Developers", "catch": "Needs GPU."},
         {"name": "Chatterbox (Resemble AI)", "url": "https://github.com/resemble-ai/chatterbox", "description": "Open-source TTS that beat ElevenLabs in 63.8% of blind tests.", "free": "MIT license, self-host", "bestFor": "Commercial-safe offline voice", "catch": "Technical setup."},
-        {"name": "Boomy", "url": "https://boomy.com", "description": "Three-click songs, one-click Spotify distribution.", "free": "Limited daily songs", "bestFor": "Beginners, micro-royalties", "catch": "Boomy takes royalty cut."}
+        {"name": "Boomy", "url": "https://boomy.com", "description": "Three-click songs, one-click Spotify distribution.", "free": "Limited daily songs", "bestFor": "Beginners, micro-royalties", "catch": "Boomy takes royalty cut."},
+        {"name": "QuietTake Noise Remover", "url": "https://noiseremover.site/", "description": "RNNoise/WASM speech noise reduction in the browser with original/cleaned playback and 48 kHz 16-bit WAV export.", "free": "Core processing and WAV export; each file must be 50 MB or smaller and five minutes or shorter; no account required", "bestFor": "Voice notes, short podcast clips and interview excerpts", "catch": "Input decoding depends on browser codecs; speech-focused processing; website source private"}
       ]
     },
     {
