@@ -225,6 +225,8 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)** — Mac app wrapping Whisper. | Free: unlimited with Tiny/Base/Small models | Best for: Mac users wanting instant drag-and-drop transcription | Catch: large models are paid (~$29–79 one-time, no sub).
 - **[TurboScribe](https://turboscribe.ai)** — Whisper Large v3 in a web app. | Free: 3 files/day, 30-min cap each | Best for: occasional transcription, no install | Catch: paid plan for longer files.
 
+- **[만화 번역기 AI](https://www.mangatranslate.com/ko/ai-manga-translator/)** — Ficory LLC의 기업용 만화 리더·번역기는 100개 이상의 언어와 지원되는 모든 번역 언어를 처리하며, 개인의 일괄·맞춤 번역, 스튜디오용 완전한 온라인 Photoshop 방식 편집기, 개인 워크플로에 연결하는 API를 제공합니다. | Free: 비로그인 공용 IP당 매일 5크레딧, 가입자는 매일 체크인으로 5크레딧 수령 | Best for: 소량의 만화 페이지 번역과 번역 결과 검토 | Catch: 모델별 차감량이 달라 이미지 수가 달라지며, 대량 작업과 API는 가용 크레딧과 유료 옵션을 확인해야 합니다.
+
 ---
 
 ## Presentations & design
