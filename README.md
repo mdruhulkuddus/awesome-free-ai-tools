@@ -468,6 +468,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 - **[Kickresume](https://www.kickresume.com)** — GPT-powered with 1,500+ examples. | Free: basic builder + limited AI | Best for: early-career, design-conscious | Catch: premium templates/downloads paywalled.
 - **[Enhancv](https://enhancv.com)** — Visually rich templates with AI content. | Free: build but limited downloads | Best for: creative roles | Catch: free export is restrictive.
 - **[FlowCV](https://flowcv.com)** — Genuinely free ATS-friendly builder. | Free: unlimited resumes + PDFs, no watermark | Best for: budget-conscious users | Catch: lighter AI than Teal/Rezi.
+- **[CheckATS](https://checkats.app)** — Free ATS score check: upload a resume, paste the job description, get a keyword match score plus the missing keywords and format issues. | Free: unlimited checks, no sign-up | Best for: checking a tailored resume against a specific posting before applying | Catch: scores one posting at a time; no resume editing or templates.
 
 ---
 
