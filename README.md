@@ -265,6 +265,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 
 ## Image editing & enhancement
 
+- **[ProRemover](https://proremover.io)** — Browser AI object/people/text/watermark remover. | Free: preview in browser | Best for: quick photo cleanup | Catch: HD export uses credits.
 - **[Upscayl](https://upscayl.org)** — Open-source desktop upscaler (Real-ESRGAN), up to 16× locally. | Free: unlimited, AGPL-3.0 | Best for: privacy-conscious users, batch work | Catch: needs Vulkan-compatible GPU.
 - **[remove.bg](https://www.remove.bg)** — Industry-standard background remover with excellent hair edges. | Free: unlimited previews + ~1 HD/month | Best for: quick one-off cutouts | Catch: HD downloads are credit-gated.
 - **[Erase.bg](https://www.erase.bg)** — Free full-res BG removal. | Free: HD downloads available | Best for: e-commerce, bulk product shots | Catch: inconsistent on fine hair.
@@ -284,6 +285,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Pika](https://pika.art)** — Stylized effects (Pikaffects, Pikaswaps), lip sync. | Free: daily credits | Best for: social/animated content | Catch: 480p cap on free; watermarks.
 - **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** — Ray2/Ray3; sub-15-second generations with great environmental motion. | Free: limited daily | Best for: previz, atmospheric shots | Catch: 4K HDR is paid only.
 - **[Runway Gen-4 / 4.5](https://runwayml.com)** — Best camera controls. | Free: one-time starter credits (no refresh) | Best for: professional camera moves | Catch: credits don't refresh — essentially a trial.
+- **[Text to Brainrot](https://texttobrainrot.org)** — Turns text, PDFs, notes, and URLs into short captioned videos. | Free: preview without signup | Best for: study notes and short-form drafts | Catch: downloads use paid credits.
 - **[Vidu Q3](https://www.vidu.studio)** — Multi-shot 16-second clips with built-in audio sync. | Free: signup credits | Best for: narrative shorts | Catch: limited allocation.
 - **[Wan 2.2 / LTX-2 (open source)](https://github.com/Wan-Video)** — Open-weight video models. | Free: unlimited self-hosted | Best for: privacy, commercial use | Catch: GPU + Python required.
 
