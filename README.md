@@ -312,6 +312,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Meta MusicGen / AudioCraft (open source)](https://github.com/facebookresearch/audiocraft)** — Open-weight instrumental model. | Free: unlimited self-hosted | Best for: developers | Catch: needs GPU.
 - **[Chatterbox (Resemble AI)](https://github.com/resemble-ai/chatterbox)** — Open-source TTS that beat ElevenLabs in 63.8% of blind tests. | Free: MIT license, self-host | Best for: commercial-safe offline voice | Catch: technical setup.
 - **[Boomy](https://boomy.com)** — Three-click songs, one-click Spotify distribution. | Free: limited daily songs | Best for: beginners, micro-royalties | Catch: Boomy takes royalty cut.
+- **[VocalSeparator](https://vocalseparator.com/)** — Browser-based vocal and stem separation with WAV downloads, loops, tempo and pitch controls. | Free: 5 jobs per browser per UTC day, up to 10 min/100 MB each | Best for: singers and musicians practicing with their own recordings | Catch: shared free capacity, temporary results; optional processing credits are paid.
 
 ---
 
