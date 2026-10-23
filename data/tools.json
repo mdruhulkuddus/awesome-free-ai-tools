@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 233,
     "totalCategories": 36,
     "lastUpdated": "2026-04-24",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -182,7 +182,8 @@
         {"name": "Google Translate", "url": "https://translate.google.com", "description": "Widest language coverage with offline packs.", "free": "Essentially unlimited", "bestFor": "Mobile, less-common languages", "catch": "Quality trails DeepL for European languages."},
         {"name": "Whisper (OpenAI, open source)", "url": "https://github.com/openai/whisper", "description": "Best free STT model ever released; Large-v3/Turbo are near production-grade.", "free": "Self-host unlimited", "bestFor": "Developers, batch transcription", "catch": "Needs a GPU for fast processing."},
         {"name": "MacWhisper", "url": "https://goodsnooze.gumroad.com/l/macwhisper", "description": "Mac app wrapping Whisper.", "free": "Unlimited with Tiny/Base/Small models", "bestFor": "Mac users wanting instant drag-and-drop transcription", "catch": "Large models are paid (~$29–79 one-time, no sub)."},
-        {"name": "TurboScribe", "url": "https://turboscribe.ai", "description": "Whisper Large v3 in a web app.", "free": "3 files/day, 30-min cap each", "bestFor": "Occasional transcription, no install", "catch": "Paid plan for longer files."}
+        {"name": "TurboScribe", "url": "https://turboscribe.ai", "description": "Whisper Large v3 in a web app.", "free": "3 files/day, 30-min cap each", "bestFor": "Occasional transcription, no install", "catch": "Paid plan for longer files."},
+        {"name": "FindChineseName", "url": "https://findchinesename.com", "description": "Turns an English name into a native-sounding Chinese name (not a phonetic transliteration), with pinyin and character meanings.", "free": "Core name generator is free with no account: one Chinese name with pinyin, meaning and a transliteration comparison", "bestFor": "Learners, expats and professionals who need a usable Chinese name", "catch": "Comparing three options, surname fit and deeper reasoning is a one-time $4.99 Premium Blueprint."}
       ]
     },
     {
