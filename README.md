@@ -224,6 +224,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Whisper (OpenAI, open source)](https://github.com/openai/whisper)** — Best free STT model ever released; Large-v3/Turbo are near production-grade. | Free: self-host unlimited | Best for: developers, batch transcription | Catch: needs a GPU for fast processing.
 - **[MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)** — Mac app wrapping Whisper. | Free: unlimited with Tiny/Base/Small models | Best for: Mac users wanting instant drag-and-drop transcription | Catch: large models are paid (~$29–79 one-time, no sub).
 - **[TurboScribe](https://turboscribe.ai)** — Whisper Large v3 in a web app. | Free: 3 files/day, 30-min cap each | Best for: occasional transcription, no install | Catch: paid plan for longer files.
+- **[FindChineseName](https://findchinesename.com)** — Turns an English name into a native-sounding Chinese name (not a phonetic transliteration), with pinyin and character meanings. | Free: core name generator is free with no account (one Chinese name with pinyin, meaning and a transliteration comparison) | Best for: learners, expats and professionals who need a usable Chinese name | Catch: comparing three options, surname fit and deeper reasoning is a one-time $4.99 Premium Blueprint.
 
 ---
 
