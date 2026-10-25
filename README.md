@@ -463,6 +463,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 
 ## Resume & career AI
 
+- **[JobEmerge](https://www.jobemerge.work)** — AI career copilot with job-fit analysis, 19-language resume translation, and Markdown resume editing. | Free: job-fit match check and in-browser translation preview | Best for: multilingual resume tailoring and application tracking | Catch: full Job Fit reports and full prose translation require Pro.
 - **[Teal](https://www.tealhq.com)** — AI resume builder + job tracker with Chrome extension. | Free: unlimited resumes, 11 templates, full job tracking | Best for: active job seekers applying at scale | Catch: AI tailoring + Match Score gated to Teal+ ($29/mo).
 - **[Rezi](https://www.rezi.ai)** — ATS-optimized with a 23-metric Rezi Score. | Free: 1 resume, 3 PDF downloads, unlimited DOCX, AI keyword targeting | Best for: ATS-focused applicants | Catch: 1-resume cap.
 - **[Kickresume](https://www.kickresume.com)** — GPT-powered with 1,500+ examples. | Free: basic builder + limited AI | Best for: early-career, design-conscious | Catch: premium templates/downloads paywalled.
