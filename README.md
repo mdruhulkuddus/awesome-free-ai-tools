@@ -479,6 +479,7 @@ Detection tools are imperfect — treat results as signal, not proof.
 - **[Quizlet](https://quizlet.com)** — Flashcards + Q-Chat AI tutor. | Free: flashcards + millions of community sets | Best for: memorization | Catch: Magic Notes / full AI tutor in Plus ($35.99/yr).
 - **[StudyFetch](https://www.studyfetch.com)** — Converts lectures/PDFs to flashcards, quizzes, and a Spark.E AI tutor. | Free: limited uploads | Best for: college students | Catch: meaningful use needs Pro.
 - **[Anki](https://apps.ankiweb.net)** — Gold-standard spaced repetition (AI-adjacent scheduling). | Free: desktop + Android, open-source | Best for: med/law students | Catch: iOS app $24.99 one-time.
+- **[桃李AI](https://taoliapp.com/)** — AI end-of-term student comment generator for Chinese K-12 teachers (Excel roster + trait tags). | Free/freemium | Best for: Chinese teachers batch-writing personalized comments | Catch: Chinese UI.
 
 ---
 
