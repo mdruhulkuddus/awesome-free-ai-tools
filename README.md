@@ -236,6 +236,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Adobe Express Free](https://www.adobe.com/express)** — Firefly-powered, commercially safe AI. | Free: ~25 generative credits/month | Best for: client/marketing work where copyright matters | Catch: tight credit cap.
 - **[Prezi AI](https://prezi.com)** — Zoomable AI-generated presentations. | Free: ~500 AI credits | Best for: nonlinear presentations | Catch: exports branded on free.
 - ⚠️ **Tome** — discontinued its AI Slides product in April 2025. Do not include in new workflows.
+- **[TeslaWraps](https://teslawraps.design)** — Browser Tesla wrap designer; core editing + PNG export free without account; optional AI credits. | Free: core edit + PNG export, no account | Best for: Model 3/Y wrap mockups | Catch: AI features need optional credits
 
 ---
 
@@ -260,6 +261,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Krea](https://www.krea.ai)** — Aggregates Flux, Nano Banana Pro, GPT Image, Qwen, Seedream with a real-time canvas. | Free: daily compute units | Best for: comparing top models side-by-side | Catch: free outputs are non-commercial.
 - **[Flux.1 / Flux.2 (open weights)](https://blackforestlabs.ai)** — Open-source rival to Midjourney. | Free: unlimited self-hosted (12 GB+ VRAM) | Best for: photographers, developers | Catch: needs a GPU.
 - **[NightCafe](https://creator.nightcafe.studio)** — Community platform with SD, Flux, earned credits. | Free: daily + earnable credits | Best for: hobbyists | Catch: best models paywalled.
+- **[PromptImage](https://promptimage.cloud)** — Free AI image gallery + image/video generator. | Free: core gallery + generation freemium | Best for: browsing prompts + generating images/videos | Catch: paid credits for heavier AI use
 
 ---
 
@@ -286,6 +288,13 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Runway Gen-4 / 4.5](https://runwayml.com)** — Best camera controls. | Free: one-time starter credits (no refresh) | Best for: professional camera moves | Catch: credits don't refresh — essentially a trial.
 - **[Vidu Q3](https://www.vidu.studio)** — Multi-shot 16-second clips with built-in audio sync. | Free: signup credits | Best for: narrative shorts | Catch: limited allocation.
 - **[Wan 2.2 / LTX-2 (open source)](https://github.com/Wan-Video)** — Open-weight video models. | Free: unlimited self-hosted | Best for: privacy, commercial use | Catch: GPU + Python required.
+- **[GrokVideo Studio](https://grokvideogenerator.dev)** — Independent text/image-to-video via xAI Grok Imagine API (not official xAI/X). | Free: 20 trial credits | Best for: quick Grok-powered clips | Catch: trial credits then paid
+- **[Alors On Danse Video Maker](https://alorsondansevideo.com)** — Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok).
+- **[Bad Times AI](https://badtimesai.dev)** — Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99).
+- **[I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com)** — Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99).
+- **[KDA Firestarter AI Dance](https://kdafirestarterai.dev)** — Independent unofficial AI dance effect: one photo → 13s widescreen solo dance video (Paid from $7.99; not affiliated with Riot/KDA).
+- **[A2O LITE NEON AI Dance](https://a2oliteai.org)** — Independent unofficial AI dance: two photos → neon dual dance video (Paid from $7.99).
+- **[dime dime baby ai](https://dimedimebabyai.dev)** — Independent unofficial AI dance effect: one photo → short dance video (Paid from $7.99).
 
 ---
 
