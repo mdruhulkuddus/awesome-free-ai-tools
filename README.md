@@ -265,6 +265,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 
 ## Image editing & enhancement
 
+- **[HelpMyIMG](https://helpmyimg.com)** — Free in-browser AI background remover, image compressor & smart resize running 100% locally on-device. | Free: unlimited, no account required | Best for: privacy-sensitive photos & high-speed batch processing without cloud upload | Catch: client GPU/WASM used for local inference.
 - **[Upscayl](https://upscayl.org)** — Open-source desktop upscaler (Real-ESRGAN), up to 16× locally. | Free: unlimited, AGPL-3.0 | Best for: privacy-conscious users, batch work | Catch: needs Vulkan-compatible GPU.
 - **[remove.bg](https://www.remove.bg)** — Industry-standard background remover with excellent hair edges. | Free: unlimited previews + ~1 HD/month | Best for: quick one-off cutouts | Catch: HD downloads are credit-gated.
 - **[Erase.bg](https://www.erase.bg)** — Free full-res BG removal. | Free: HD downloads available | Best for: e-commerce, bulk product shots | Catch: inconsistent on fine hair.
