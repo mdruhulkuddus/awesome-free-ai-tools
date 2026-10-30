@@ -299,6 +299,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Kapwing](https://www.kapwing.com)** — Collaborative browser editor with smart cut. | Free: 4-min/video, 720p, watermark | Best for: team social clips | Catch: watermark.
 - **[OpusClip](https://www.opus.pro)** — Long-to-short AI repurposing. | Free: 60 min processing/month | Best for: YouTubers → Shorts | Catch: watermark on free.
 - **[Canva Video](https://www.canva.com/video-editor)** — Template-driven, Magic Edit, BG remover. | Free: core features, standard exports | Best for: marketers, presentations | Catch: best AI needs Canva Pro.
+- **[Karaoke Captions](https://karaokecaptions.com/)** — On-device word-by-word video captions with transcript and timing editing. | Free: unlimited watermark-free Classic/Lyrics MP4, SRT and VTT exports, no account | Best for: TikTok, Reels and Shorts captions | Catch: Pro trial styles export with a small watermark; desktop Chrome/Edge recommended for MP4.
 
 ---
 
