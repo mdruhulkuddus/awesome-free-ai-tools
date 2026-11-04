@@ -259,6 +259,9 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Perchance AI](https://perchance.org/ai-text-to-image-generator)** — Truly unlimited, no account, no watermark. | Free: unlimited | Best for: casual use, fast drafts | Catch: older model quality.
 - **[Krea](https://www.krea.ai)** — Aggregates Flux, Nano Banana Pro, GPT Image, Qwen, Seedream with a real-time canvas. | Free: daily compute units | Best for: comparing top models side-by-side | Catch: free outputs are non-commercial.
 - **[Flux.1 / Flux.2 (open weights)](https://blackforestlabs.ai)** — Open-source rival to Midjourney. | Free: unlimited self-hosted (12 GB+ VRAM) | Best for: photographers, developers | Catch: needs a GPU.
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 - **[NightCafe](https://creator.nightcafe.studio)** — Community platform with SD, Flux, earned credits. | Free: daily + earnable credits | Best for: hobbyists | Catch: best models paywalled.
 
 ---
