@@ -223,6 +223,7 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[Google Translate](https://translate.google.com)** — Widest language coverage with offline packs. | Free: essentially unlimited | Best for: mobile, less-common languages | Catch: quality trails DeepL for European languages.
 - **[Whisper (OpenAI, open source)](https://github.com/openai/whisper)** — Best free STT model ever released; Large-v3/Turbo are near production-grade. | Free: self-host unlimited | Best for: developers, batch transcription | Catch: needs a GPU for fast processing.
 - **[MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)** — Mac app wrapping Whisper. | Free: unlimited with Tiny/Base/Small models | Best for: Mac users wanting instant drag-and-drop transcription | Catch: large models are paid (~$29–79 one-time, no sub).
+- **[Transcribe Video: To The Text](https://video2text.ttt.so)** — iOS app that turns videos, YouTube/Vimeo links, and live voice into searchable text with speaker split view, Summarize, and TXT/DOCX export. | Free: ~5 min total transcription + 5 MB file cap (no credit card) | Best for: iPhone users converting lectures, interviews, or shared videos to notes | Catch: Pro IAP for more usage; server-side transcription; App Store listing includes advertising.
 - **[TurboScribe](https://turboscribe.ai)** — Whisper Large v3 in a web app. | Free: 3 files/day, 30-min cap each | Best for: occasional transcription, no install | Catch: paid plan for longer files.
 
 ---
