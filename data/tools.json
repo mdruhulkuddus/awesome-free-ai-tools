@@ -1,8 +1,8 @@
 {
   "meta": {
-    "totalTools": 232,
-    "totalCategories": 36,
-    "lastUpdated": "2026-04-24",
+    "totalTools": 290,
+    "totalCategories": 46,
+    "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
   },
   "featured": {
@@ -11,93 +11,526 @@
         "name": "Claude",
         "provider": "Anthropic",
         "url": "https://claude.ai",
-        "bestAt": "Careful reasoning, long-form writing, coding, nuanced analytical work. Generally considered the strongest prose writer and the most honest about what it doesn't know.",
+        "bestAt": "Long-form writing, careful reasoning, coding, document work. The most natural writer of the three.",
         "bullets": [
-          "Defaults to Claude Sonnet 4.6 with ~15–40 messages per rolling 5-hour window",
-          "~200K-token effective context, file uploads (~20 files, 30 MB each)",
-          "Artifacts, Projects, Memory, web search, vision — all on the free tier"
+          "Claude Sonnet 5.5 + Haiku 5.5.",
+          "Web search, memory across conversations, file creation with code execution, Artifacts, Projects (up to 5), Skills, connectors, and Claude Design / Slides / Docs.",
+          "Rolling 5-hour usage window — Anthropic publishes no message count (community estimates ~15–40).",
+          "Paid unlocks: No Opus or Fable models, no Claude Code, no Claude Cowork, no Research mode, no Claude in Chrome. Pro $17/mo annual or $20/mo monthly; Max $100 (5×) or $200 (20×).",
+          "No ads. Anthropic has pledged to keep Claude ad-free."
         ],
-        "uniqueFeature": "Artifacts + Projects — a side-panel that renders React components, SVGs, interactive docs, and mini web apps live, plus persistent project workspaces.",
-        "signup": "Email, Google SSO, or Apple SSO. No credit card."
+        "uniqueFeature": "Artifacts + Design/Slides/Docs on free — generate real documents, decks and interactive apps without paying."
       },
       {
         "name": "ChatGPT",
         "provider": "OpenAI",
         "url": "https://chatgpt.com",
-        "bestAt": "All-around generalist work, mature tooling, the widest third-party app/connector ecosystem, voice UX. Strongest for structured business tasks and custom workflows via GPTs.",
+        "bestAt": "All-round assistant with the widest tool set and biggest ecosystem.",
         "bullets": [
-          "GPT-5.3 Instant (~10 msgs / 5-hour window) + GPT-5.4 mini added Mar 17, 2026",
-          "Voice mode, image analysis, ~3 file uploads/day, memory, web browsing",
-          "Use (but not create) Custom GPTs — tens of thousands available free"
+          "Unlimited everyday text chats on GPT-6 Luna (default since Oct 8, 2026) with \"Intelligent UI\" responses — charts, buttons, small interactive tools.",
+          "A Think button gives extra reasoning per message.",
+          "Paid unlocks: GPT-6 Sol (Plus) and GPT-6 Astra (Pro), the thinking-time slider, higher tool limits, Codex allowances, expanded memory. Plus $20/mo; Pro $100 or $200/mo.",
+          "Catch: \"Unlimited\" is text only — image generation (GPT Image 2.5), file uploads, voice, data analysis and deep research all have separate, tighter caps. US free users see ads (since Feb 9, 2026)."
         ],
-        "uniqueFeature": "The GPT Store / Custom GPTs ecosystem plus the most mature voice conversation UX.",
-        "signup": "Email, Google, Microsoft, or Apple SSO. Phone verification sometimes required."
+        "uniqueFeature": "The only top chatbot with uncapped free text chat."
       },
       {
         "name": "Gemini",
         "provider": "Google",
         "url": "https://gemini.google.com",
-        "bestAt": "Multimodal work and Google ecosystem integration — images, video inputs, music, audio overviews, and Deep Research in one interface.",
+        "bestAt": "Google ecosystem integration (Gmail, Docs, Drive, YouTube) and multimodal input.",
         "bullets": [
-          "Gemini 2.5 Pro free (3.1 Pro is paid). ~30 prompts/day + per-feature caps",
-          "5 Deep Research reports/month, 20 image gens/day, Gemini Live voice",
-          "32K-token free context — the sharpest free-vs-paid divide of the Top 3"
+          "Reduced Oct 9, 2026 — free accounts now run Gemini 3.5 Flash-Lite with Auto routing; free users cannot pick Flash or Pro.",
+          "Compute-based limits refreshing every 5 hours up to a weekly cap, with no published numeric quota.",
+          "Context window is 32K tokens.",
+          "Includes Nano Banana image generation, Gemini Live voice, 5 Deep Research reports/month, 5 screen-automation requests/day, 15 GB storage.",
+          "Paid unlocks: AI Plus ($4.99) = Flash + 2× limits + 128K context + video generation; AI Pro ($19.99) = Gemini 4 Argon + 4× limits + 1M context + Deep Think; AI Ultra $99.99 or $199.99.",
+          "Catch: The 32K context is by far the sharpest free-vs-paid divide of the three."
         ],
-        "uniqueFeature": "Deep Research + native Google Workspace/Search integration — pulls from Gmail, Drive, Docs with live-cited research reports.",
-        "signup": "Google account required."
+        "uniqueFeature": "Native Gmail/Drive/Docs/YouTube hooks plus Gemini Notebook syncing."
       }
     ],
     "alternatives": [
       {
         "name": "DeepSeek",
+        "provider": "",
         "url": "https://chat.deepseek.com",
-        "bestAt": "Frontier reasoning at zero cost. ~90% of GPT-5.4-class quality on math, code, and logic benchmarks — and the free web chat is essentially unlimited.",
-        "free": "No practical message cap; web search included; DeepThink extended reasoning.",
-        "catch": "Chinese-lab origin — some employers, schools, or regulated industries restrict use. UI less polished than Top 3.",
-        "uniqueFeature": "Genuinely unlimited frontier reasoning for free, plus open weights for self-hosting."
+        "bestAt": "Frontier-class reasoning and coding at zero cost; the same weights are downloadable.",
+        "free": "Free web and app chat on the DeepSeek V4 generation (V4 Pro: 1.6T total / 49B active, 1M context). Web search and file uploads included. No published message cap.",
+        "catch": "China-hosted under Chinese law. Fine for low-stakes personal use; not for client code, business data or anything confidential.",
+        "uniqueFeature": "MIT-licensed frontier weights — use the hosted chat free, or self-host the same intelligence."
       },
       {
         "name": "Grok",
         "provider": "xAI",
         "url": "https://grok.com",
-        "bestAt": "Real-time information and social/news monitoring — the only chatbot that plugs directly into live X (Twitter) data.",
-        "free": "Grok 4 + Grok 4.1 Fast (2M-token context). ~10 prompts / 2-hour window.",
-        "catch": "2-hour window cap is tight. Free tier shrinking through 2026. Voice/video iOS-favoring.",
-        "uniqueFeature": "Native real-time X integration — live trends, breaking-news sentiment, specific X threads in real time."
+        "bestAt": "Real-time X (Twitter) and web data; nothing else has native live social search.",
+        "free": "Since Oct 12, 2026 Grok is sold through The X Subscription. The $0 plan gives daily limited access to Grok Chat, Imagine (image generation is back), Voice, Grok Build, capped real-time web/X search, and a starter allowance for Cursor's coding agents. Runs Grok's Fast mode. No published message limit — the old 2-hour caps were retired in June 2026.",
+        "catch": "Free context is ~128K in practice, not the 2M the API specs suggest. Edgy-by-design personality — proofread anything client-facing.",
+        "uniqueFeature": ""
       }
     ],
     "comparisonTable": {
-      "headers": ["Feature", "Claude (Free)", "ChatGPT (Free)", "Gemini (Free)"],
+      "headers": [
+        "Feature",
+        "Claude Free",
+        "ChatGPT Free",
+        "Gemini Free"
+      ],
       "rows": [
-        ["Current free model", "Sonnet 4.6", "GPT-5.3 Instant (+ 5.4 mini since Mar 17)", "Gemini 2.5 Pro (+ Flash)"],
-        ["Message limits", "~15–40 msgs / 5 hr", "~10 GPT-5.3 msgs / 5 hr, then mini", "30 prompts/day + per-feature caps"],
-        ["Context window", "~200K tokens", "Undisclosed (~8–32K effective)", "32K tokens"],
-        ["Image generation", "No", "Yes (limited/day)", "Yes (20/day + 3/day Pro)"],
-        ["File uploads", "Yes (20 files, 30 MB each)", "Yes (~3/day)", "Yes (10 files; 2 GB video)"],
-        ["Web browsing", "Yes", "Yes", "Yes (native Google Search)"],
-        ["Voice mode", "No", "Yes (standard)", "Yes (Gemini Live)"],
-        ["Image / vision analysis", "Yes", "Yes", "Yes"],
-        ["Code execution", "Yes (Artifacts)", "Limited (Canvas gated)", "Yes"],
-        ["Ads on free tier", "No", "Yes (US, since Feb 9, 2026)", "No"],
-        ["Unique feature", "Artifacts + Projects + Memory", "GPT Store / Custom GPTs", "Deep Research + Workspace"],
-        ["Sign-up", "Email / Google / Apple", "Email / Google / MS / Apple", "Google account required"]
+        [
+          "Default model",
+          "Sonnet 5.5 (+ Haiku 5.5)",
+          "GPT-6 Luna",
+          "3.5 Flash-Lite (Auto)"
+        ],
+        [
+          "Text limit",
+          "Rolling 5-hr budget (unpublished)",
+          "Unlimited",
+          "Compute-based (unpublished)"
+        ],
+        [
+          "Context",
+          "200K tokens",
+          "Not published",
+          "32K tokens"
+        ],
+        [
+          "Image generation",
+          "No",
+          "Yes capped (GPT Image 2.5)",
+          "Yes (Nano Banana)"
+        ],
+        [
+          "File uploads",
+          "Yes",
+          "Yes capped",
+          "Yes"
+        ],
+        [
+          "Web browsing",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Voice mode",
+          "No",
+          "Yes capped",
+          "Yes Gemini Live"
+        ],
+        [
+          "Deep research",
+          "No (paid)",
+          "Yes capped",
+          "Yes 5/month"
+        ],
+        [
+          "Code execution",
+          "Yes Artifacts",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Docs / slides / design",
+          "Yes free",
+          "No",
+          "No"
+        ],
+        [
+          "Ads",
+          "No",
+          "Yes (US)",
+          "No"
+        ],
+        [
+          "Cheapest upgrade",
+          "$17/mo",
+          "$20/mo",
+          "$4.99/mo"
+        ]
       ]
     }
   },
+  "trending": {
+    "title": "Trending now",
+    "description": "The free tiers that changed most in the last six months, and the tools people are actually switching to. Everything here is also listed in its own category below.",
+    "note": "Trending the wrong way: Gemini's free tier was cut back on Oct 9 to Flash-Lite with a 32K context. Cerebras killed its free API tier. GitHub Models shut down entirely. See Removed.",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "why": "Free text chat went unlimited (Aug 6), now on GPT-6 Luna",
+        "free": "Unlimited text; tools still capped"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "why": "Design, Slides and Docs landed on the free plan",
+        "free": "Sonnet 5.5 + Haiku 5.5"
+      },
+      {
+        "name": "Perplexity Comet",
+        "url": "https://www.perplexity.ai/comet",
+        "why": "First fully-agentic AI browser, free on all platforms",
+        "free": "Free Win/Mac/iOS/Android"
+      },
+      {
+        "name": "Devin Desktop",
+        "url": "https://devin.ai",
+        "why": "Windsurf rebranded; unlimited free Tab completions",
+        "free": "Unlimited autocomplete"
+      },
+      {
+        "name": "Kimi K3",
+        "url": "https://huggingface.co/moonshotai",
+        "why": "Largest open-weight model ever released (2.8T)",
+        "free": "Free weights"
+      },
+      {
+        "name": "DeepSeek V4",
+        "url": "https://huggingface.co/deepseek-ai",
+        "why": "Frontier-class reasoning under MIT licence",
+        "free": "Free chat + free weights"
+      },
+      {
+        "name": "Gemini Notebook",
+        "url": "https://notebook.google",
+        "why": "NotebookLM renamed, gained code execution",
+        "free": "100 notebooks × 50 sources"
+      },
+      {
+        "name": "Google Antigravity",
+        "url": "https://antigravity.google",
+        "why": "Replaced Gemini CLI as the free agentic dev platform",
+        "free": "Free public beta"
+      },
+      {
+        "name": "Marker",
+        "url": "https://github.com/datalab-to/marker",
+        "why": "The default PDF→Markdown tool for RAG pipelines",
+        "free": "Open source"
+      },
+      {
+        "name": "UI-TARS",
+        "url": "https://github.com/bytedance/UI-TARS",
+        "why": "Self-hosted computer-use agent beating commercial CUAs",
+        "free": "Apache 2.0"
+      },
+      {
+        "name": "Activepieces",
+        "url": "https://www.activepieces.com",
+        "why": "MIT automation with AI agents on every tier",
+        "free": "Free self-host + cloud"
+      },
+      {
+        "name": "GLM-5.2",
+        "url": "https://huggingface.co/zai-org",
+        "why": "NIST called it likely the most capable open-weight model",
+        "free": "Free weights"
+      }
+    ]
+  },
+  "removed": {
+    "title": "Removed since April 2026",
+    "description": "Tools dropped from this list, with the reason. Documenting this is the point of a maintained list.",
+    "items": [
+      {
+        "name": "Phind",
+        "what": "Shut down with ~2 weeks' notice; user data deleted Jan 30",
+        "date": "Jan 16, 2026"
+      },
+      {
+        "name": "GitHub Models",
+        "what": "Closed to new customers June 16, then fully retired",
+        "date": "Jul 30, 2026"
+      },
+      {
+        "name": "OpenAI Sora (standalone)",
+        "what": "App discontinued April 26; API shut down Sept 24",
+        "date": "Apr–Sep 2026"
+      },
+      {
+        "name": "ChatGPT Atlas browser",
+        "what": "Deprecated after ~9 months; folded into the desktop app",
+        "date": "Aug 9, 2026"
+      },
+      {
+        "name": "Gemini Code Assist (free) + Gemini CLI",
+        "what": "Stopped serving free individuals; replaced by Antigravity",
+        "date": "Jun 18, 2026"
+      },
+      {
+        "name": "Cerebras free tier",
+        "what": "Always-free 1M tokens/day replaced by a one-time $5 card-required trial",
+        "date": "Jul 21, 2026"
+      },
+      {
+        "name": "Codeium",
+        "what": "Merged into Windsurf, then rebranded Devin Desktop",
+        "date": "Jun 2, 2026"
+      },
+      {
+        "name": "Tabnine Starter",
+        "what": "Free individual tier removed, then the individual plan eliminated",
+        "date": "2025"
+      },
+      {
+        "name": "Supermaven",
+        "what": "Sunset after the Cursor acquisition; closed to new users",
+        "date": "Nov 2025"
+      },
+      {
+        "name": "Qwen Code free OAuth",
+        "what": "Discontinued after cutting daily requests from 1,000 to 100",
+        "date": "Apr 15, 2026"
+      },
+      {
+        "name": "MiniMax free API",
+        "what": "Ended",
+        "date": "Apr 2026"
+      },
+      {
+        "name": "Together AI free credits",
+        "what": "Trial credits discontinued; $15 prepaid minimum",
+        "date": "2026"
+      },
+      {
+        "name": "Gemini API Pro models",
+        "what": "Pro moved behind billing; 2.0 Flash/Flash-Lite shut down",
+        "date": "May–Jun 2026"
+      },
+      {
+        "name": "Notion Mail",
+        "what": "Shut down across web, desktop and iOS",
+        "date": "Sep 22, 2026"
+      },
+      {
+        "name": "Suno free downloads",
+        "what": "Free tier became stream/share only",
+        "date": "Sep 3, 2026"
+      },
+      {
+        "name": "Udio downloads",
+        "what": "Disabled on every plan since the UMG settlement; still off",
+        "date": "Oct 2025 → ongoing"
+      },
+      {
+        "name": "Google Veo on Gemini Free",
+        "what": "Video generation now starts at AI Plus ($4.99)",
+        "date": "2026"
+      },
+      {
+        "name": "Gemini free model access",
+        "what": "Downgraded to Flash-Lite only, 32K context",
+        "date": "Oct 9, 2026"
+      },
+      {
+        "name": "Tome",
+        "what": "AI presentation product shut down; brand sold to AngelList",
+        "date": "Apr 2025"
+      },
+      {
+        "name": "D-ID / Superhuman Mail",
+        "what": "No ongoing free plan — trials only",
+        "date": "—"
+      },
+      {
+        "name": "Firebase Studio",
+        "what": "Free now, but scheduled to shut down",
+        "date": "Mar 22, 2027"
+      }
+    ]
+  },
   "categories": [
+    {
+      "id": "top-ai-chatbots",
+      "name": "Top AI chatbots",
+      "description": "Three all-round leaders, plus two specialists worth a second tab.",
+      "tools": [
+        {
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "description": "Long-form writing, careful reasoning, coding, document work. The most natural writer of the three.",
+          "free": "Sonnet 5.5, Artifacts, Projects, Design/Slides/Docs",
+          "bestFor": "Writing, coding, long documents",
+          "catch": "Rolling 5-hour cap; no Opus or Claude Code"
+        },
+        {
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "description": "All-round assistant with the widest tool set and biggest ecosystem.",
+          "free": "Unlimited text chat on GPT-6 Luna",
+          "bestFor": "All-round everyday use",
+          "catch": "Images, voice and uploads capped; ads in the US"
+        },
+        {
+          "name": "Gemini",
+          "url": "https://gemini.google.com",
+          "description": "Google ecosystem integration (Gmail, Docs, Drive, YouTube) and multimodal input.",
+          "free": "3.5 Flash-Lite, Nano Banana images, Gemini Live",
+          "bestFor": "Gmail, Docs and Drive users",
+          "catch": "Only 32K context since Oct 9"
+        },
+        {
+          "name": "DeepSeek",
+          "url": "https://chat.deepseek.com",
+          "description": "Frontier-class reasoning and coding at zero cost; the same weights are downloadable.",
+          "free": "Uncapped chat on DeepSeek V4",
+          "bestFor": "Reasoning and coding at $0",
+          "catch": "China-hosted — not for confidential data"
+        },
+        {
+          "name": "Grok",
+          "url": "https://grok.com",
+          "description": "Real-time X (Twitter) and web data; nothing else has native live social search.",
+          "free": "Daily Grok Chat, Imagine, voice, live X search",
+          "bestFor": "Real-time news and X trends",
+          "catch": "~128K context; edgy tone"
+        }
+      ]
+    },
     {
       "id": "other-chatbots",
       "name": "Other chatbots & assistants",
       "description": "Every one of these has a meaningful free experience — several are frontier-class.",
       "tools": [
-        {"name": "Microsoft Copilot", "url": "https://copilot.microsoft.com", "description": "GPT-4o/5-class chat with DALL-E image generation, native to Windows/Edge.", "free": "Generous daily use, image gen included", "bestFor": "Windows users, Office integrations", "catch": "Priority speed and deeper Office embedding require Copilot Pro."},
-        {"name": "Meta AI", "url": "https://www.meta.ai", "description": "Llama 4-powered; native inside WhatsApp, Instagram, and Messenger.", "free": "No practical cap", "bestFor": "Casual use inside Meta apps", "catch": "Conversations can be used for ad personalization."},
-        {"name": "Mistral Le Chat", "url": "https://chat.mistral.ai", "description": "EU/GDPR-compliant, Cerebras-accelerated (very fast), includes web search and image gen on free tier.", "free": "Generous; phone verification only", "bestFor": "EU data-residency, speed", "catch": "Reasoning lags frontier models."},
-        {"name": "Qwen Chat", "url": "https://chat.qwen.ai", "description": "Alibaba's Qwen 3.5 multilingual assistant.", "free": "Unlimited", "bestFor": "Non-English work, coding", "catch": "China-origin compliance note."},
-        {"name": "Kimi K2", "url": "https://kimi.moonshot.cn", "description": "Moonshot's long-context chatbot; K2 Thinking is one of the strongest open-source reasoners.", "free": "Unlimited web chat", "bestFor": "Long-doc analysis, reasoning", "catch": "Chinese UI in places."},
-        {"name": "HuggingChat", "url": "https://huggingface.co/chat", "description": "Open-source frontend routing to Llama, Mistral, Qwen, Command R+.", "free": "Fully free, no login required", "bestFor": "Privacy-curious users, model swapping", "catch": "Model lineup rotates."},
-        {"name": "Pi by Inflection", "url": "https://pi.ai", "description": "Empathetic conversational AI with excellent voice.", "free": "Unlimited chat and voice", "bestFor": "Reflective conversations, language practice", "catch": "Not for coding or heavy task work."},
-        {"name": "Poe", "url": "https://poe.com", "description": "Unified access to Claude, GPT, Gemini, Llama via a points system.", "free": "Daily points", "bestFor": "Trying many models without multiple accounts", "catch": "Premium models drain points fast."}
+        {
+          "name": "Microsoft Copilot",
+          "url": "https://copilot.microsoft.com",
+          "description": "Free consumer assistant with web search, image creation and voice, native to Windows and Edge.",
+          "free": "Free web and app access; limits vary by region",
+          "bestFor": "Windows/Edge users",
+          "catch": "Features and limits shift by region and aren't published."
+        },
+        {
+          "name": "Meta AI",
+          "url": "https://www.meta.ai",
+          "description": "Llama-powered assistant inside WhatsApp, Instagram, Messenger and the web.",
+          "free": "Free chat and image generation",
+          "bestFor": "People already on Meta apps",
+          "catch": "Conversations may be used to personalize ads."
+        },
+        {
+          "name": "Mistral Le Chat",
+          "url": "https://chat.mistral.ai",
+          "description": "EU-based assistant with web search, Canvas and fast flash answers.",
+          "free": "Generous free tier, phone verification only",
+          "bestFor": "EU data residency, speed",
+          "catch": "Reasoning trails frontier models."
+        },
+        {
+          "name": "Qwen Chat",
+          "url": "https://chat.qwen.ai",
+          "description": "Alibaba's assistant on the Qwen3.8 generation, with vision and coding.",
+          "free": "Free access to current Qwen models",
+          "bestFor": "Multilingual and coding work",
+          "catch": "Top Qwen3.8 Max models are proprietary; China-hosted."
+        },
+        {
+          "name": "Kimi",
+          "url": "https://www.kimi.com",
+          "description": "Moonshot AI's assistant on the Kimi K3 generation.",
+          "free": "Free chat with very long context",
+          "bestFor": "Long documents, agentic tasks",
+          "catch": "Newest K3.1 Pro features may be gated."
+        },
+        {
+          "name": "Z.ai Chat",
+          "url": "https://chat.z.ai",
+          "description": "Zhipu's free chat for the GLM-5.x family.",
+          "free": "Free web chat",
+          "bestFor": "Trying a top open-weight family",
+          "catch": "China-based provider."
+        },
+        {
+          "name": "HuggingChat",
+          "url": "https://huggingface.co/chat",
+          "description": "Open-source chat UI routing to rotating open models.",
+          "free": "Free with a Hugging Face account",
+          "bestFor": "Comparing open models",
+          "catch": "Lineup rotates; some models rate-limited."
+        },
+        {
+          "name": "Duck.ai",
+          "url": "https://duck.ai",
+          "description": "DuckDuckGo's anonymized chat across several third-party models.",
+          "free": "Free, no account",
+          "bestFor": "Privacy-first quick questions",
+          "catch": "Smaller models, daily caps."
+        },
+        {
+          "name": "Pi by Inflection",
+          "url": "https://pi.ai",
+          "description": "Conversational, emotionally supportive assistant with excellent voice.",
+          "free": "Free",
+          "bestFor": "Reflective conversation, language practice",
+          "catch": "Weak at technical tasks; little development since 2024."
+        },
+        {
+          "name": "Poe",
+          "url": "https://poe.com",
+          "description": "Multi-model hub (Claude, GPT, Gemini, open models) on a points system.",
+          "free": "Daily compute points",
+          "bestFor": "Sampling many models in one app",
+          "catch": "Premium models drain points fast."
+        }
+      ]
+    },
+    {
+      "id": "ai-browsers",
+      "name": "AI browsers & browser agents",
+      "description": "Browsers with AI built into the chrome itself — a genuinely new 2026 category.",
+      "tools": [
+        {
+          "name": "Perplexity Comet",
+          "url": "https://www.perplexity.ai/comet",
+          "description": "Chromium browser with an AI sidecar that summarizes, chats across tabs and runs tasks.",
+          "free": "Free on Windows, macOS, Android and iOS; includes the sidecar assistant and Search mode",
+          "bestFor": "Research-heavy browsing",
+          "catch": "Prompt-injection risk — don't hand it your inbox; Background Assistants need Max ($200/mo)."
+        },
+        {
+          "name": "Dia",
+          "url": "https://www.diabrowser.com",
+          "description": "The Browser Company's AI-first browser.",
+          "free": "Free",
+          "bestFor": "Chat-with-your-tabs",
+          "catch": "No background agents."
+        },
+        {
+          "name": "Brave Leo",
+          "url": "https://brave.com/leo",
+          "description": "Privacy-first assistant built into Brave, with bring-your-own-model support.",
+          "free": "Free with rate limits, no account needed",
+          "bestFor": "Privacy and local-LLM users",
+          "catch": "Premium models need Leo Premium."
+        },
+        {
+          "name": "Microsoft Edge Copilot Mode",
+          "url": "https://www.microsoft.com/edge",
+          "description": "Agentic Copilot mode inside Edge.",
+          "free": "Free",
+          "bestFor": "Windows users",
+          "catch": "Microsoft account and data sharing required."
+        },
+        {
+          "name": "Opera Aria",
+          "url": "https://www.opera.com",
+          "description": "Context-aware AI built into Opera, with image generation.",
+          "free": "Aria free, up to 100 AI images/day",
+          "bestFor": "A capable free AI browser on any OS",
+          "catch": "The fully-agentic Opera Neon tier is paid."
+        },
+        {
+          "name": "Chrome with Gemini",
+          "url": "https://www.google.com/chrome",
+          "description": "Gemini side panel and agentic browsing in Chrome.",
+          "free": "Basic features free",
+          "bestFor": "Chrome users",
+          "catch": "Agentic features gated by plan and region."
+        }
       ]
     },
     {
@@ -105,15 +538,78 @@
       "name": "AI research & search",
       "description": "Citation-backed search and literature exploration tools.",
       "tools": [
-        {"name": "Perplexity", "url": "https://www.perplexity.ai", "description": "AI search with real-time citations and follow-ups.", "free": "Unlimited basic searches, ~5 Pro searches/day, limited file uploads", "bestFor": "Daily research, cited answers", "catch": "Frontier reasoning models (GPT-5 Thinking, Opus) require Pro; .edu students get 1 free month."},
-        {"name": "Google NotebookLM", "url": "https://notebooklm.google.com", "description": "Source-grounded notebook: upload up to 50 sources per notebook, get chat, summaries, and Audio Overviews.", "free": "100 notebooks, 50 sources/notebook (500K words each), 50 chats/day, 3 Audio Overviews/day, 10 Deep Research/month", "bestFor": "Synthesizing your own documents, podcast-style summaries", "catch": "Sources must be uploaded — it won't crawl the web for you."},
-        {"name": "Consensus", "url": "https://consensus.app", "description": "Evidence-based answers from 200M+ academic papers with a Consensus Meter.", "free": "Monthly credits", "bestFor": "Scientific claims, literature review", "catch": "Deep analysis behind Premium."},
-        {"name": "Elicit", "url": "https://elicit.com", "description": "Systematic literature-review assistant.", "free": "Summarize up to ~4 papers per query, build basic extraction tables", "bestFor": "Grad students, meta-analyses", "catch": "Deeper tables and larger imports paid."},
-        {"name": "Semantic Scholar", "url": "https://www.semanticscholar.org", "description": "200M+ papers with AI-generated TLDRs and citation graphs.", "free": "Fully free", "bestFor": "Academic discovery", "catch": "No conversational interface."},
-        {"name": "Research Rabbit", "url": "https://www.researchrabbit.ai", "description": "Visual citation-network explorer (the Spotify of papers).", "free": "Fully free, no card", "bestFor": "Finding adjacent/seminal work", "catch": "No full-text analysis."},
-        {"name": "SciSpace", "url": "https://typeset.io", "description": "Chat-with-PDF optimized for research papers; access to ~50–280M papers.", "free": "Limited daily queries", "bestFor": "Reading dense papers", "catch": "Heavy use needs Premium."},
-        {"name": "Exa", "url": "https://exa.ai", "description": "Neural/embedding-based web search with API.", "free": "Free web UI + small monthly API credits", "bestFor": "Developers building semantic search", "catch": "Production use needs paid."},
-        {"name": "Phind", "url": "https://www.phind.com", "description": "Developer-focused AI search.", "free": "Generous daily limit on Phind-405B", "bestFor": "Programming questions with sources", "catch": "Paid tier for priority and GPT-5."}
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai",
+          "description": "Answer engine with real-time citations and follow-ups.",
+          "free": "Unlimited basic searches on Sonar + a small daily allowance of Pro searches; Comet browser free",
+          "bestFor": "Daily cited research",
+          "catch": "The student free-year offer expired May 31, 2026 — students now get 50% off Education Pro."
+        },
+        {
+          "name": "Gemini Notebook",
+          "url": "https://notebook.google",
+          "description": "Source-grounded research notebook; renamed from NotebookLM July 16, 2026, now with code execution.",
+          "free": "100 notebooks, 50 sources each (up to 500K words / 200 MB per source); Audio & Video Overviews and chat on compute-based limits refreshing every 5 hours",
+          "bestFor": "Synthesizing your own documents",
+          "catch": "No fixed daily counts anymore; sources must be uploaded — it won't crawl the web."
+        },
+        {
+          "name": "Google AI Mode",
+          "url": "https://www.google.com/search?udm=50",
+          "description": "Conversational AI search inside Google Search.",
+          "free": "Free, no account required",
+          "bestFor": "Everyday cited searches",
+          "catch": "Fewer visible sources than Perplexity."
+        },
+        {
+          "name": "Consensus",
+          "url": "https://consensus.app",
+          "description": "Evidence-based answers from 200M+ academic papers with a Consensus Meter.",
+          "free": "Limited monthly Pro analyses",
+          "bestFor": "Scientific claims",
+          "catch": "Deep analysis behind Premium."
+        },
+        {
+          "name": "Elicit",
+          "url": "https://elicit.com",
+          "description": "Systematic literature-review assistant with data extraction.",
+          "free": "Basic plan, limited extractions",
+          "bestFor": "Grad students, meta-analyses",
+          "catch": "High-volume extraction is paid."
+        },
+        {
+          "name": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org",
+          "description": "200M+ papers with AI TLDRs and citation graphs.",
+          "free": "Fully free",
+          "bestFor": "Academic discovery",
+          "catch": "No conversational interface."
+        },
+        {
+          "name": "Research Rabbit",
+          "url": "https://www.researchrabbit.ai",
+          "description": "Visual citation-network explorer.",
+          "free": "Free core",
+          "bestFor": "Finding adjacent and seminal work",
+          "catch": "Some features moved to paid in a 2025 relaunch."
+        },
+        {
+          "name": "SciSpace",
+          "url": "https://scispace.com",
+          "description": "Chat-with-PDF optimized for research papers.",
+          "free": "Limited daily queries",
+          "bestFor": "Reading dense papers",
+          "catch": "Aggressive upsells."
+        },
+        {
+          "name": "Exa",
+          "url": "https://exa.ai",
+          "description": "Neural/embedding web search with an API.",
+          "free": "Free web UI + small API credits",
+          "bestFor": "Developers building semantic search",
+          "catch": "API credits are one-time."
+        }
       ]
     },
     {
@@ -121,14 +617,70 @@
       "name": "Writing, editing & paraphrasing",
       "description": "Grammar checkers, paraphrasers, and copywriting assistants with usable free tiers.",
       "tools": [
-        {"name": "Grammarly Free", "url": "https://www.grammarly.com", "description": "Grammar, spelling, and punctuation across every surface (browser, desktop, keyboard).", "free": "Unlimited corrections + 100 AI prompts/month", "bestFor": "Daily writing across apps", "catch": "Clarity, tone rewrites, and plagiarism require Premium."},
-        {"name": "QuillBot", "url": "https://quillbot.com", "description": "Best free paraphraser plus grammar, summarizer, citation tools.", "free": "125-word paraphrase cap per query, Standard + Fluency modes, up to 5,000-char translation", "bestFor": "Rewriting, citations", "catch": "Tone modes and longer chunks gated."},
-        {"name": "Rytr", "url": "https://rytr.me", "description": "40+ templates, 30+ languages.", "free": "~10,000 characters/month", "bestFor": "Short-form copy", "catch": "Low monthly cap."},
-        {"name": "Copy.ai Free", "url": "https://www.copy.ai", "description": "Marketing templates and workflows.", "free": "~2,000 chat words/month + 200 one-time workflow credits", "bestFor": "Short marketing copy", "catch": "Long-form needs Pro."},
-        {"name": "Wordtune", "url": "https://www.wordtune.com", "description": "Rewrites for tone and length.", "free": "10 daily rewrites", "bestFor": "Quick tonal adjustments", "catch": "Tight daily cap."},
-        {"name": "Hemingway Editor", "url": "https://hemingwayapp.com", "description": "Readability and clarity grader (rules-based + AI suggestions).", "free": "Full web editor", "bestFor": "Tightening prose", "catch": "AI rewrite is a paid add-on."},
-        {"name": "DeepL Write", "url": "https://www.deepl.com/write", "description": "Monolingual text improvement in English and German.", "free": "Web access, character caps", "bestFor": "Non-native English polishing", "catch": "Availability has been inconsistent."},
-        {"name": "TextCortex", "url": "https://textcortex.com", "description": "20 daily creations (not monthly) with custom personas.", "free": "Daily refresh", "bestFor": "Steady low-volume writing", "catch": "Credits don't stockpile."}
+        {
+          "name": "Grammarly Free",
+          "url": "https://www.grammarly.com",
+          "description": "Grammar, spelling and tone across every surface; now part of Superhuman (parent renamed Oct 2025).",
+          "free": "Unlimited spelling/grammar/tone + 100 AI prompts/month; limited daily Paraphraser suggestions; basic AI Humanizer free",
+          "bestFor": "Daily writing everywhere",
+          "catch": "Full rewrites, plagiarism and AI detection need Pro ($12/mo annual)."
+        },
+        {
+          "name": "QuillBot",
+          "url": "https://quillbot.com",
+          "description": "Paraphraser, grammar checker, summarizer and citation tools.",
+          "free": "Standard + Fluency modes, 125 words per rewrite, no daily cap",
+          "bestFor": "Students rephrasing text",
+          "catch": "Other tone modes and longer inputs are paid."
+        },
+        {
+          "name": "Hemingway Editor",
+          "url": "https://hemingwayapp.com",
+          "description": "Readability and clarity grader.",
+          "free": "Full web editor",
+          "bestFor": "Tightening prose",
+          "catch": "AI rewrite is a paid add-on."
+        },
+        {
+          "name": "DeepL Write",
+          "url": "https://www.deepl.com/write",
+          "description": "Monolingual text improvement in English and German.",
+          "free": "Web access with character caps",
+          "bestFor": "Non-native English polishing",
+          "catch": "Limited styles on free."
+        },
+        {
+          "name": "Wordtune",
+          "url": "https://www.wordtune.com",
+          "description": "Sentence-level rewriting for tone and length.",
+          "free": "10 rewrites/day",
+          "bestFor": "Quick tonal adjustments",
+          "catch": "Tight daily cap."
+        },
+        {
+          "name": "Rytr",
+          "url": "https://rytr.me",
+          "description": "40+ templates across 30+ languages.",
+          "free": "~10,000 characters/month",
+          "bestFor": "Short-form copy",
+          "catch": "Low monthly cap."
+        },
+        {
+          "name": "Copy.ai Free",
+          "url": "https://www.copy.ai",
+          "description": "Marketing templates and GTM workflows.",
+          "free": "~2,000 chat words/month + 200 one-time workflow credits",
+          "bestFor": "Short marketing copy",
+          "catch": "The product is pivoting to enterprise."
+        },
+        {
+          "name": "TextCortex",
+          "url": "https://textcortex.com",
+          "description": "20 daily creations with custom personas.",
+          "free": "Refreshes daily",
+          "bestFor": "Steady low-volume writing",
+          "catch": "Credits don't stockpile."
+        }
       ]
     },
     {
@@ -136,13 +688,133 @@
       "name": "Document & PDF AI",
       "description": "Chat with PDFs, extract, and summarize long documents.",
       "tools": [
-        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "See research section — still the best free PDF-chat experience overall.", "free": "Generous", "bestFor": "Source-grounded analysis of your own documents", "catch": "Per-feature monthly caps."},
-        {"name": "ChatPDF", "url": "https://www.chatpdf.com", "description": "Chat with any PDF in seconds.", "free": "2 PDFs/day, 120 pages, 10 MB each", "bestFor": "Quick paper or manual Q&A", "catch": "Daily cap."},
-        {"name": "AskYourPDF", "url": "https://askyourpdf.com", "description": "PDF chat plus Chrome extension.", "free": "2 docs/day, 50 questions/day", "bestFor": "Web-to-PDF workflows", "catch": "Short docs only."},
-        {"name": "Humata", "url": "https://www.humata.ai", "description": "Team-oriented PDF intelligence.", "free": "Limited pages and questions", "bestFor": "Small teams sharing research", "catch": "Free cap burns fast on long PDFs."},
-        {"name": "Smallpdf Chat PDF", "url": "https://smallpdf.com/chat-pdf", "description": "Chat plus 30+ traditional PDF tools (merge, split, OCR).", "free": "No registration required", "bestFor": "One-off conversions + Q&A", "catch": "Hourly free-use cap."},
-        {"name": "PDF.ai", "url": "https://pdf.ai", "description": "Developer-friendly with embeddable widget/API.", "free": "Trial credits", "bestFor": "Embedding PDF chat in your app", "catch": "Meaningful API use paid."},
-        {"name": "Claude (file upload)", "url": "https://claude.ai", "description": "Still arguably the best long-PDF reasoner in a chat UI — handles ~500-page books.", "free": "Included with Claude free tier", "bestFor": "Long-PDF reasoning in a chat UI", "catch": "Subject to Claude free-tier message limits."}
+        {
+          "name": "Gemini Notebook",
+          "url": "https://notebook.google",
+          "description": "Still the best free multi-document Q&A experience.",
+          "free": "100 notebooks × 50 sources",
+          "bestFor": "Research across many PDFs",
+          "catch": "Compute-based caps."
+        },
+        {
+          "name": "Claude file upload",
+          "url": "https://claude.ai",
+          "description": "Arguably the best long-PDF reasoner in a chat UI, with code execution.",
+          "free": "Included in Claude Free",
+          "bestFor": "Deep reading of long documents",
+          "catch": "Large files burn your 5-hour budget fast."
+        },
+        {
+          "name": "ChatPDF",
+          "url": "https://www.chatpdf.com",
+          "description": "Chat with any PDF in seconds.",
+          "free": "2 PDFs/day, 120 pages, 10 MB each",
+          "bestFor": "Quick paper or manual Q&A",
+          "catch": "Daily cap."
+        },
+        {
+          "name": "AskYourPDF",
+          "url": "https://askyourpdf.com",
+          "description": "PDF chat plus a Chrome extension.",
+          "free": "2 docs/day, 50 questions/day",
+          "bestFor": "Web-to-PDF workflows",
+          "catch": "Short docs only."
+        },
+        {
+          "name": "Humata",
+          "url": "https://www.humata.ai",
+          "description": "Team-oriented PDF intelligence.",
+          "free": "Limited pages and questions",
+          "bestFor": "Small teams sharing research",
+          "catch": "Free cap burns fast on long PDFs."
+        },
+        {
+          "name": "Smallpdf Chat PDF",
+          "url": "https://smallpdf.com/chat-pdf",
+          "description": "PDF chat plus 30+ traditional PDF tools.",
+          "free": "No registration required",
+          "bestFor": "One-off conversions + Q&A",
+          "catch": "Hourly free-use cap."
+        },
+        {
+          "name": "PDF.ai",
+          "url": "https://pdf.ai",
+          "description": "Developer-friendly with an embeddable widget and API.",
+          "free": "Trial credits",
+          "bestFor": "Embedding PDF chat in your app",
+          "catch": "Meaningful API use is paid."
+        }
+      ]
+    },
+    {
+      "id": "ocr-extraction",
+      "name": "OCR & document extraction",
+      "description": "Turning scanned pages, PDFs and images into structured text. Almost entirely open-source, and the fastest-moving category of 2026.",
+      "tools": [
+        {
+          "name": "Marker",
+          "url": "https://github.com/datalab-to/marker",
+          "description": "Converts PDF, DOCX, PPTX, XLSX, HTML and EPUB to clean Markdown or JSON, with schema extraction.",
+          "free": "Open source; ~25 pages/sec on an H100",
+          "bestFor": "The safest all-round default for RAG pipelines",
+          "catch": "LLM mode adds latency and API cost; model weights carry revenue thresholds."
+        },
+        {
+          "name": "Docling",
+          "url": "https://github.com/docling-project/docling",
+          "description": "IBM's document parser with strong layout and table extraction.",
+          "free": "MIT",
+          "bestFor": "Enterprise RAG in the LangChain/LlamaIndex ecosystem",
+          "catch": "Heavier dependency stack."
+        },
+        {
+          "name": "MinerU",
+          "url": "https://github.com/opendatalab/MinerU",
+          "description": "PDF-to-Markdown with best-in-class CJK layout detection.",
+          "free": "Open source",
+          "bestFor": "Chinese, Japanese and Korean academic papers",
+          "catch": "PDF-only; needs a GPU for practical speed."
+        },
+        {
+          "name": "PaddleOCR",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "description": "Mature multilingual OCR engine; PaddleOCR-VL adds vision-language reading.",
+          "free": "Apache 2.0",
+          "bestFor": "The classic default for printed text across many languages",
+          "catch": "Setup is fiddly outside Python."
+        },
+        {
+          "name": "Tesseract",
+          "url": "https://github.com/tesseract-ocr/tesseract",
+          "description": "The long-standing open-source OCR engine, usually paired with OCRmyPDF.",
+          "free": "Apache 2.0",
+          "bestFor": "CPU-only machines, bulk scanned PDFs",
+          "catch": "Weak on messy layouts and handwriting."
+        },
+        {
+          "name": "olmOCR",
+          "url": "https://github.com/allenai/olmocr",
+          "description": "Ai2's VLM-based OCR built for large-scale conversion.",
+          "free": "Apache 2.0",
+          "bestFor": "Mass conversion where cost-per-page matters",
+          "catch": "High compute; validate numeric output."
+        },
+        {
+          "name": "Surya",
+          "url": "https://github.com/datalab-to/surya",
+          "description": "Layout analysis plus OCR in one 650M-param model, 90+ languages.",
+          "free": "GPL-3.0 code; model free for research and startups under $2M revenue",
+          "bestFor": "Layout-aware extraction",
+          "catch": "Commercial use above the revenue threshold needs a licence."
+        },
+        {
+          "name": "EasyOCR",
+          "url": "https://github.com/JaidedAI/EasyOCR",
+          "description": "Simple Python OCR covering 80+ languages.",
+          "free": "Apache 2.0",
+          "bestFor": "Quick prototypes",
+          "catch": "Accuracy trails PaddleOCR on dense pages."
+        }
       ]
     },
     {
@@ -150,12 +822,54 @@
       "name": "Productivity, notes & knowledge management",
       "description": "Note-taking and PKM tools with real free tiers, many open-source.",
       "tools": [
-        {"name": "Obsidian", "url": "https://obsidian.md", "description": "Local-first markdown notes with 1,800+ community plugins including many AI integrations.", "free": "Forever for personal use", "bestFor": "Privacy-first PKM, power users", "catch": "Sync is $4/mo (or self-host free via Git/Syncthing)."},
-        {"name": "Logseq", "url": "https://logseq.com", "description": "Open-source outliner with local-first markdown.", "free": "Fully free, open-source", "bestFor": "Daily journaling, block-linked thinking", "catch": "Smaller plugin ecosystem than Obsidian."},
-        {"name": "Anytype", "url": "https://anytype.io", "description": "E2E-encrypted, local-first Notion alternative.", "free": "Fully free", "bestFor": "Privacy + relational notes", "catch": "Younger product."},
-        {"name": "Notion Free", "url": "https://www.notion.so", "description": "Docs/wikis/databases with 100 AI actions bundled into the free plan (2026 update).", "free": "Unlimited blocks for individuals", "bestFor": "Personal wikis, project hubs", "catch": "Heavy Notion AI use needs the paid add-on."},
-        {"name": "Capacities", "url": "https://capacities.io", "description": "Object-based notes (people, projects, ideas as first-class types).", "free": "Generous free tier", "bestFor": "Relational knowledge work", "catch": "Mobile app is newer."},
-        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Doubles as a free PKM tool for source-grounded work.", "free": "100 notebooks, 50 sources each", "bestFor": "Source-grounded PKM", "catch": "Not a general note tool — built around uploaded sources."}
+        {
+          "name": "Obsidian",
+          "url": "https://obsidian.md",
+          "description": "Local-first Markdown notes with 1,800+ plugins including many AI integrations.",
+          "free": "Free for personal and commercial use",
+          "bestFor": "Privacy-first knowledge bases",
+          "catch": "AI needs plugins plus your own key or a local model; sync is $4/mo."
+        },
+        {
+          "name": "Logseq",
+          "url": "https://logseq.com",
+          "description": "Open-source outliner and knowledge graph.",
+          "free": "Fully free, open source",
+          "bestFor": "Daily journaling, block-linked thinking",
+          "catch": "The DB version transition is still in progress."
+        },
+        {
+          "name": "Anytype",
+          "url": "https://anytype.io",
+          "description": "End-to-end encrypted, local-first Notion alternative.",
+          "free": "Free local use with a sync allowance",
+          "bestFor": "Privacy plus relational notes",
+          "catch": "Limited native AI."
+        },
+        {
+          "name": "Capacities",
+          "url": "https://capacities.io",
+          "description": "Object-based notes where people, projects and ideas are first-class types.",
+          "free": "Generous free plan",
+          "bestFor": "Relational knowledge work",
+          "catch": "The AI assistant needs Pro."
+        },
+        {
+          "name": "Notion Free",
+          "url": "https://www.notion.com",
+          "description": "All-in-one docs, wikis and databases.",
+          "free": "Unlimited blocks for one member, 5 MB uploads, 7-day history, 10 guests, Notion AI trial only",
+          "bestFor": "Solo planning",
+          "catch": "Ongoing Notion AI now requires Business ($20/member/mo); a 1,000-block cap applies once a second member joins."
+        },
+        {
+          "name": "Gemini Notebook",
+          "url": "https://notebook.google",
+          "description": "Doubles as a second brain for source documents.",
+          "free": "See Research",
+          "bestFor": "Synthesizing reading",
+          "catch": "Not a general note app."
+        }
       ]
     },
     {
@@ -163,14 +877,70 @@
       "name": "Meeting notes & transcription",
       "description": "Meeting AIs — from unlimited transcripts to bot-free local capture.",
       "tools": [
-        {"name": "Fathom", "url": "https://fathom.video", "description": "The most generous truly free meeting AI: unlimited recordings and transcription on Zoom/Meet/Teams.", "free": "Unlimited transcripts + 5 AI summaries/month", "bestFor": "Heavy meeting days on a budget", "catch": "More than 5 AI summaries requires Premium ($15–19/mo)."},
-        {"name": "Granola", "url": "https://www.granola.ai", "description": "Bot-free notetaker that captures system audio locally.", "free": "Unlimited meeting summaries + 30-day history", "bestFor": "Users who hate bots in their calls", "catch": "Mac/Windows/iPhone only (Android coming 2026); paid plan for >30-day archive."},
-        {"name": "Otter.ai Free", "url": "https://otter.ai", "description": "Classic meeting AI with mobile recording.", "free": "300 transcription min/month, 30-min cap per session", "bestFor": "In-person meetings and mobile users", "catch": "Short per-meeting cap."},
-        {"name": "tl;dv", "url": "https://tldv.io", "description": "Unlimited recordings and auto-join.", "free": "Unlimited recordings on Zoom/Teams/Meet", "bestFor": "Reviewing sales calls or interviews", "catch": "Google Meet's March 2026 update deprioritized third-party bots — use their bot-free desktop capture."},
-        {"name": "Fireflies", "url": "https://fireflies.ai", "description": "CRM-heavy meeting AI with 100+ language support.", "free": "800 min/month", "bestFor": "Sales teams wanting Salesforce/HubSpot sync", "catch": "Caps on AI summaries."},
-        {"name": "Jamie", "url": "https://www.meetjamie.ai", "description": "Bot-free with device-audio capture for in-person too.", "free": "10 summaries/month", "bestFor": "Founders, consultants in mixed online/offline meetings", "catch": "Low free cap."},
-        {"name": "Tactiq", "url": "https://tactiq.io", "description": "Browser-based live captioning plus summaries.", "free": "Limited monthly transcripts, Chrome extension", "bestFor": "Google Meet power users", "catch": "Paid for AI summaries at scale."},
-        {"name": "Meetily Community", "url": "https://github.com/Zackriya-Solutions/meeting-minutes", "description": "Open-source fully-local meeting notes.", "free": "MIT-licensed, self-hosted", "bestFor": "HIPAA/GDPR or privacy-first teams", "catch": "Setup effort."}
+        {
+          "name": "Fathom",
+          "url": "https://fathom.video",
+          "description": "The most generous free meeting AI: unlimited recordings and transcription on Zoom, Meet and Teams.",
+          "free": "Unlimited transcripts; AI summaries capped (~5/month)",
+          "bestFor": "Heavy meeting days on a budget",
+          "catch": "More summaries need Premium ($15–19/mo)."
+        },
+        {
+          "name": "Granola",
+          "url": "https://www.granola.ai",
+          "description": "Bot-free notetaker that captures system audio locally and enhances your own notes.",
+          "free": "25 meetings",
+          "bestFor": "People who hate bots in their calls",
+          "catch": "25-meeting cap, then from $18/mo."
+        },
+        {
+          "name": "Meetily Community",
+          "url": "https://meetily.ai",
+          "description": "Open-source, fully local meeting notes with local Whisper.",
+          "free": "MIT, self-hosted, bot-free",
+          "bestFor": "HIPAA/GDPR or privacy-first teams",
+          "catch": "You need local compute and setup effort."
+        },
+        {
+          "name": "Otter.ai Free",
+          "url": "https://otter.ai",
+          "description": "Classic meeting AI with mobile recording.",
+          "free": "300 min/month, 30-min cap per session, 3 imports total, 20 AI chat queries",
+          "bestFor": "In-person meetings and mobile",
+          "catch": "Transcription silently stops at 30 minutes."
+        },
+        {
+          "name": "tl;dv",
+          "url": "https://tldv.io",
+          "description": "Unlimited recordings with auto-join.",
+          "free": "Unlimited recordings on Zoom/Teams/Meet, limited AI notes",
+          "bestFor": "Reviewing sales calls or interviews",
+          "catch": "Google Meet deprioritized third-party bots in March 2026 — use their desktop capture."
+        },
+        {
+          "name": "Fireflies",
+          "url": "https://fireflies.ai",
+          "description": "CRM-heavy notetaker with 100+ languages and cross-meeting search.",
+          "free": "Unlimited transcription, ~800 min storage/seat, limited AI summaries",
+          "bestFor": "Sales teams",
+          "catch": "Auto-overwrite and summary caps push upgrades."
+        },
+        {
+          "name": "Jamie",
+          "url": "https://www.meetjamie.ai",
+          "description": "Bot-free, captures device audio so it works for in-person too.",
+          "free": "10 summaries/month",
+          "bestFor": "Founders and consultants in mixed meetings",
+          "catch": "Low free cap."
+        },
+        {
+          "name": "Tactiq",
+          "url": "https://tactiq.io",
+          "description": "Browser-based live captioning plus summaries.",
+          "free": "Limited monthly transcripts via Chrome extension",
+          "bestFor": "Google Meet power users",
+          "catch": "AI summaries capped on free."
+        }
       ]
     },
     {
@@ -178,11 +948,54 @@
       "name": "Translation & speech-to-text",
       "description": "Translators and transcription tools that work on a free tier.",
       "tools": [
-        {"name": "DeepL Free", "url": "https://www.deepl.com/translator", "description": "Best-in-class quality for European languages.", "free": "1,500 characters per translation (web) + 3 files/month; API Free 500K chars/month", "bestFor": "High-quality EU-language translation", "catch": "Free text can be used for DeepL training."},
-        {"name": "Google Translate", "url": "https://translate.google.com", "description": "Widest language coverage with offline packs.", "free": "Essentially unlimited", "bestFor": "Mobile, less-common languages", "catch": "Quality trails DeepL for European languages."},
-        {"name": "Whisper (OpenAI, open source)", "url": "https://github.com/openai/whisper", "description": "Best free STT model ever released; Large-v3/Turbo are near production-grade.", "free": "Self-host unlimited", "bestFor": "Developers, batch transcription", "catch": "Needs a GPU for fast processing."},
-        {"name": "MacWhisper", "url": "https://goodsnooze.gumroad.com/l/macwhisper", "description": "Mac app wrapping Whisper.", "free": "Unlimited with Tiny/Base/Small models", "bestFor": "Mac users wanting instant drag-and-drop transcription", "catch": "Large models are paid (~$29–79 one-time, no sub)."},
-        {"name": "TurboScribe", "url": "https://turboscribe.ai", "description": "Whisper Large v3 in a web app.", "free": "3 files/day, 30-min cap each", "bestFor": "Occasional transcription, no install", "catch": "Paid plan for longer files."}
+        {
+          "name": "DeepL Free",
+          "url": "https://www.deepl.com/translator",
+          "description": "Best-in-class quality for European languages.",
+          "free": "1,500 characters per web translation + 3 files/month; separate API free tier at 500K chars/month",
+          "bestFor": "High-quality EU-language translation",
+          "catch": "Free text may be used for DeepL training."
+        },
+        {
+          "name": "Google Translate",
+          "url": "https://translate.google.com",
+          "description": "200+ languages with offline packs, camera and conversation modes.",
+          "free": "Essentially unlimited",
+          "bestFor": "Breadth and mobile",
+          "catch": "Less nuanced than DeepL on European languages."
+        },
+        {
+          "name": "Whisper",
+          "url": "https://github.com/openai/whisper",
+          "description": "OpenAI's open-source speech recognition; Large-v3/Turbo are near production-grade.",
+          "free": "Self-host unlimited",
+          "bestFor": "Developers, batch transcription",
+          "catch": "Needs a GPU for speed."
+        },
+        {
+          "name": "MacWhisper",
+          "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+          "description": "Native Mac app wrapping Whisper.",
+          "free": "Unlimited with Tiny/Base/Small models",
+          "bestFor": "Drag-and-drop Mac transcription",
+          "catch": "Larger models are a one-time paid upgrade (~$29–79)."
+        },
+        {
+          "name": "Buzz",
+          "url": "https://github.com/chidiwilliams/buzz",
+          "description": "Open-source desktop Whisper for Windows, macOS and Linux.",
+          "free": "Free, fully offline",
+          "bestFor": "Cross-platform local transcription",
+          "catch": "Basic UI."
+        },
+        {
+          "name": "TurboScribe",
+          "url": "https://turboscribe.ai",
+          "description": "Whisper Large v3 in a web app.",
+          "free": "3 files/day, 30-min cap each",
+          "bestFor": "Occasional transcription without installing anything",
+          "catch": "Daily cap."
+        }
       ]
     },
     {
@@ -190,12 +1003,65 @@
       "name": "Presentations & design",
       "description": "Prompt-to-deck tools and AI-assisted design editors.",
       "tools": [
-        {"name": "Gamma", "url": "https://gamma.app", "description": "Prompt-to-deck in seconds.", "free": "400 one-time credits (not recurring)", "bestFor": "Beautiful AI decks fast", "catch": "Free exports carry Gamma branding; credits don't refill."},
-        {"name": "NotebookLM (Slide Decks)", "url": "https://notebooklm.google.com", "description": "Source-grounded AI slide generation from your own docs, exports to PPTX/PDF.", "free": "Generous", "bestFor": "Decks that stay faithful to your source material", "catch": "Monthly caps on Audio/Deep Research."},
-        {"name": "Canva Free", "url": "https://www.canva.com", "description": "Magic Write, Magic Edit, Background Remover, 250K+ templates.", "free": "~10 Magic Write and ~5 Magic Edit uses/month, daily BG-remover caps, 5 GB storage", "bestFor": "Social graphics, quick decks", "catch": "Best AI tools gated to Pro ($13–15/mo)."},
-        {"name": "Microsoft Designer", "url": "https://designer.microsoft.com", "description": "DALL-E and MAI-Image-1 for graphics.", "free": "Unlimited standard gen + 15 daily boosts", "bestFor": "Social posts, posters", "catch": "Microsoft account required; strict safety filters."},
-        {"name": "Adobe Express Free", "url": "https://www.adobe.com/express", "description": "Firefly-powered, commercially safe AI.", "free": "~25 generative credits/month", "bestFor": "Client/marketing work where copyright matters", "catch": "Tight credit cap."},
-        {"name": "Prezi AI", "url": "https://prezi.com", "description": "Zoomable AI-generated presentations.", "free": "~500 AI credits", "bestFor": "Nonlinear presentations", "catch": "Exports branded on free."}
+        {
+          "name": "Claude Design / Slides",
+          "url": "https://claude.ai",
+          "description": "Anthropic's design and slide generator, now on the free plan.",
+          "free": "Included in Claude Free",
+          "bestFor": "Prototypes, decks and marketing visuals from a prompt",
+          "catch": "Shares Claude's rolling free usage budget."
+        },
+        {
+          "name": "Gamma",
+          "url": "https://gamma.app",
+          "description": "Prompt-to-deck, doc or webpage in seconds.",
+          "free": "400 one-time credits (~10 decks), unlimited edits",
+          "bestFor": "Beautiful AI decks fast",
+          "catch": "Credits never refill; exports carry Gamma branding."
+        },
+        {
+          "name": "Gemini Notebook Slide Decks",
+          "url": "https://notebook.google",
+          "description": "Source-grounded slide generation that exports to PPTX/PDF.",
+          "free": "Within Notebook's compute limits",
+          "bestFor": "Decks faithful to your source material",
+          "catch": "Limited design control."
+        },
+        {
+          "name": "Canva Free",
+          "url": "https://www.canva.com",
+          "description": "Magic Write, Magic Edit, Background Remover and 250K+ templates.",
+          "free": "~10 Magic Write and ~5 Magic Edit uses/month, 5 GB storage",
+          "bestFor": "Social graphics and quick decks",
+          "catch": "The best AI tools are gated to Pro ($13–15/mo)."
+        },
+        {
+          "name": "Microsoft Designer",
+          "url": "https://designer.microsoft.com",
+          "description": "DALL-E and MAI-Image-1 powered design.",
+          "free": "Unlimited standard generation + 15 daily boosts",
+          "bestFor": "Social posts and posters",
+          "catch": "Microsoft account required; strict safety filters."
+        },
+        {
+          "name": "Adobe Express Free",
+          "url": "https://www.adobe.com/express",
+          "description": "Firefly-powered, commercially safe generation.",
+          "free": "~25 generative credits/month",
+          "bestFor": "Client work where copyright matters",
+          "catch": "Tight credit cap."
+        },
+        {
+          "name": "Prezi AI",
+          "url": "https://prezi.com",
+          "description": "Zoomable, non-linear AI presentations.",
+          "free": "~500 AI credits",
+          "bestFor": "Storytelling decks",
+          "catch": "Free exports are public and branded."
+        }
+      ],
+      "notes": [
+        "Tome — shut down its AI presentation product in April 2025. Use Gamma or Claude Slides instead."
       ]
     },
     {
@@ -203,27 +1069,141 @@
       "name": "Data & spreadsheets",
       "description": "AI for spreadsheets, CSVs, and data exploration.",
       "tools": [
-        {"name": "Julius AI", "url": "https://julius.ai", "description": "Chat with CSV/Excel/Sheets, auto-visualizations, Python code export.", "free": "15 messages/month", "bestFor": "Non-coders doing ad-hoc analysis", "catch": "Monthly cap is tight — save Pro questions."},
-        {"name": "Rows", "url": "https://rows.com", "description": "AI-native spreadsheet with live data connectors (Stripe, GA, HubSpot).", "free": "Generous individual tier", "bestFor": "Mini dashboards", "catch": "Heavier team use paid."},
-        {"name": "Numerous.ai", "url": "https://numerous.ai", "description": "=INFER() and /ask in Excel and Google Sheets.", "free": "Limited credits/month", "bestFor": "Cell-level AI inside existing spreadsheets", "catch": "Credits burn fast on bulk fills."},
-        {"name": "Gigasheet", "url": "https://gigasheet.com", "description": "Browser spreadsheet for billion-row files with AI summarization.", "free": "100M cells", "bestFor": "Exploring huge CSV dumps", "catch": "Column-level AI limited on free."},
-        {"name": "FormulaBot", "url": "https://formulabot.com", "description": "Text-to-formula for Excel/Sheets.", "free": "5 daily formula generations", "bestFor": "Quick formula help", "catch": "Low daily cap."},
-        {"name": "Google Sheets + Gemini", "url": "https://workspace.google.com", "description": "Smart Fill and basic AI now included for personal Google accounts.", "free": "Bundled", "bestFor": "Light automation", "catch": "Advanced Gemini features require Workspace add-on."}
+        {
+          "name": "Julius AI",
+          "url": "https://julius.ai",
+          "description": "Chat with CSV/Excel/Sheets; auto-visualizations and Python export.",
+          "free": "15 messages/month",
+          "bestFor": "Non-coders doing ad-hoc analysis",
+          "catch": "The monthly cap is very tight."
+        },
+        {
+          "name": "Rows",
+          "url": "https://rows.com",
+          "description": "AI-native spreadsheet with live connectors (Stripe, GA, HubSpot).",
+          "free": "Generous individual tier",
+          "bestFor": "Mini dashboards",
+          "catch": "Heavier team use is paid."
+        },
+        {
+          "name": "Gigasheet",
+          "url": "https://gigasheet.com",
+          "description": "Browser spreadsheet for billion-row files with AI summarization.",
+          "free": "100M cells",
+          "bestFor": "Exploring huge CSV dumps",
+          "catch": "Column-level AI limited on free."
+        },
+        {
+          "name": "Numerous.ai",
+          "url": "https://numerous.ai",
+          "description": "=INFER() and /ask inside Excel and Google Sheets.",
+          "free": "Limited monthly credits",
+          "bestFor": "Cell-level AI in existing spreadsheets",
+          "catch": "Credits burn fast on bulk fills."
+        },
+        {
+          "name": "FormulaBot",
+          "url": "https://formulabot.com",
+          "description": "Text-to-formula for Excel and Sheets.",
+          "free": "5 daily formula generations",
+          "bestFor": "Quick formula help",
+          "catch": "Low daily cap."
+        },
+        {
+          "name": "Google Sheets + Gemini",
+          "url": "https://sheets.google.com",
+          "description": "Smart Fill and the =AI() function.",
+          "free": "Limited Gemini features on personal accounts",
+          "bestFor": "Light automation",
+          "catch": "Full features need AI Plus/Pro or Workspace."
+        }
       ]
     },
     {
       "id": "image-generation",
       "name": "Image generation",
-      "description": "Text-to-image models with real free usage — from DALL-E to open-weight Flux.",
+      "description": "Text-to-image models with real free usage — from Nano Banana to open-weight Flux.",
       "tools": [
-        {"name": "Microsoft Designer / Bing Image Creator", "url": "https://designer.microsoft.com", "description": "DALL-E 3 + MAI-Image-1; best free text-in-image.", "free": "Unlimited (15 fast boosts/day, then slower)", "bestFor": "Everyday creators", "catch": "Strict safety filters; Microsoft account required."},
-        {"name": "Adobe Firefly", "url": "https://firefly.adobe.com", "description": "Trained on licensed content with Content Credentials.", "free": "~25 generative credits/month", "bestFor": "Commercial/client work", "catch": "Stingy free limits; quality trails top models."},
-        {"name": "Leonardo.AI", "url": "https://leonardo.ai", "description": "Multi-model hub (Flux, SDXL fine-tunes) with canvas editor.", "free": "150 daily tokens, commercial rights included", "bestFor": "Anime, concept art, iteration", "catch": "Credits burn fast on newer models."},
-        {"name": "Ideogram 3.0", "url": "https://ideogram.ai", "description": "Best-in-class legible text inside images.", "free": "~10 generations/day", "bestFor": "Posters, logos, memes", "catch": "Strict cap; photorealism trails Flux."},
-        {"name": "Perchance AI", "url": "https://perchance.org/ai-text-to-image-generator", "description": "Truly unlimited, no account, no watermark.", "free": "Unlimited", "bestFor": "Casual use, fast drafts", "catch": "Older model quality."},
-        {"name": "Krea", "url": "https://www.krea.ai", "description": "Aggregates Flux, Nano Banana Pro, GPT Image, Qwen, Seedream with a real-time canvas.", "free": "Daily compute units", "bestFor": "Comparing top models side-by-side", "catch": "Free outputs are non-commercial."},
-        {"name": "Flux.1 / Flux.2 (open weights)", "url": "https://blackforestlabs.ai", "description": "Open-source rival to Midjourney.", "free": "Unlimited self-hosted (12 GB+ VRAM)", "bestFor": "Photographers, developers", "catch": "Needs a GPU."},
-        {"name": "NightCafe", "url": "https://creator.nightcafe.studio", "description": "Community platform with SD, Flux, earned credits.", "free": "Daily + earnable credits", "bestFor": "Hobbyists", "catch": "Best models paywalled."}
+        {
+          "name": "Gemini (Nano Banana)",
+          "url": "https://gemini.google.com",
+          "description": "Google's image generation and editing model, best free photorealism and character consistency.",
+          "free": "Included in Gemini Free",
+          "bestFor": "Most people — best overall free quality",
+          "catch": "SynthID watermark; caps unpublished."
+        },
+        {
+          "name": "ChatGPT Images (GPT Image 2.5)",
+          "url": "https://chatgpt.com",
+          "description": "Conversational generation and editing with the best text-in-image accuracy.",
+          "free": "A few images per day",
+          "bestFor": "Iterative conversational editing",
+          "catch": "Very low daily cap on free."
+        },
+        {
+          "name": "Microsoft Designer / Bing Image Creator",
+          "url": "https://www.bing.com/images/create",
+          "description": "DALL-E 3 + MAI-Image-1.",
+          "free": "Unlimited (15 fast boosts/day, then slower)",
+          "bestFor": "Everyday creators",
+          "catch": "Strict safety filters; Microsoft account required."
+        },
+        {
+          "name": "Ideogram 3.0",
+          "url": "https://ideogram.ai",
+          "description": "Best-in-class legible text inside images.",
+          "free": "~10 generations/day",
+          "bestFor": "Posters, logos, memes",
+          "catch": "Strict cap; photorealism trails Flux."
+        },
+        {
+          "name": "Leonardo.AI",
+          "url": "https://leonardo.ai",
+          "description": "Multi-model hub with a canvas editor and many fine-tunes.",
+          "free": "150 daily tokens, commercial rights included",
+          "bestFor": "Anime, concept art, iteration",
+          "catch": "Credits burn fast on newer models."
+        },
+        {
+          "name": "Krea",
+          "url": "https://www.krea.ai",
+          "description": "Aggregates Flux, Nano Banana, GPT Image, Qwen and Seedream with a real-time canvas.",
+          "free": "Daily compute units",
+          "bestFor": "Comparing top models side-by-side",
+          "catch": "Free outputs are non-commercial."
+        },
+        {
+          "name": "Flux.1 / Flux.2",
+          "url": "https://bfl.ai",
+          "description": "Black Forest Labs' open-weight rivals to Midjourney.",
+          "free": "Open weights, unlimited self-hosted",
+          "bestFor": "Local generation with no caps",
+          "catch": "Needs a 12 GB+ GPU; some variants are non-commercial."
+        },
+        {
+          "name": "Adobe Firefly",
+          "url": "https://firefly.adobe.com",
+          "description": "Trained on licensed content with Content Credentials.",
+          "free": "~25 generative credits/month",
+          "bestFor": "Commercial and client work",
+          "catch": "Stingy free limits."
+        },
+        {
+          "name": "Perchance AI",
+          "url": "https://perchance.org/ai-text-to-image-generator",
+          "description": "Truly unlimited, no account, no watermark.",
+          "free": "Unlimited",
+          "bestFor": "Casual use and fast drafts",
+          "catch": "Older model quality; ad-supported."
+        },
+        {
+          "name": "NightCafe",
+          "url": "https://creator.nightcafe.studio",
+          "description": "Community platform with SD, Flux and earnable credits.",
+          "free": "Daily + earnable credits",
+          "bestFor": "Hobbyists",
+          "catch": "Best models paywalled."
+        }
       ]
     },
     {
@@ -231,14 +1211,70 @@
       "name": "Image editing & enhancement",
       "description": "Upscalers, background removers, and AI-powered editors.",
       "tools": [
-        {"name": "Upscayl", "url": "https://upscayl.org", "description": "Open-source desktop upscaler (Real-ESRGAN), up to 16× locally.", "free": "Unlimited, AGPL-3.0", "bestFor": "Privacy-conscious users, batch work", "catch": "Needs Vulkan-compatible GPU."},
-        {"name": "remove.bg", "url": "https://www.remove.bg", "description": "Industry-standard background remover with excellent hair edges.", "free": "Unlimited previews + ~1 HD/month", "bestFor": "Quick one-off cutouts", "catch": "HD downloads are credit-gated."},
-        {"name": "Erase.bg", "url": "https://www.erase.bg", "description": "Free full-res BG removal.", "free": "HD downloads available", "bestFor": "E-commerce, bulk product shots", "catch": "Inconsistent on fine hair."},
-        {"name": "Adobe Firefly Generative Fill", "url": "https://firefly.adobe.com", "description": "Best free inpaint/outpaint with commercial-safe output.", "free": "~25 credits/month", "bestFor": "Object removal, background swap", "catch": "Low cap."},
-        {"name": "Krea Edit", "url": "https://www.krea.ai/edit", "description": "Inpaint, outpaint, style transfer with Flux Kontext / Nano Banana.", "free": "Daily compute units", "bestFor": "Multi-model comparison", "catch": "Free outputs non-commercial."},
-        {"name": "Cleanup.pictures", "url": "https://cleanup.pictures", "description": "One-click object/watermark removal.", "free": "720p web version", "bestFor": "Quick fixes", "catch": "HD paywalled."},
-        {"name": "Photopea", "url": "https://www.photopea.com", "description": "Free Photoshop clone in-browser with AI plugins.", "free": "Ad-supported", "bestFor": "Layered editing without installing Photoshop", "catch": "AI plugins slower than Firefly."},
-        {"name": "Upscale.media", "url": "https://www.upscale.media", "description": "Quick 4× upscaler with face enhance.", "free": "Limited daily", "bestFor": "Mobile upscales", "catch": "Watermark on some exports."}
+        {
+          "name": "Upscayl",
+          "url": "https://upscayl.org",
+          "description": "Open-source desktop upscaler (Real-ESRGAN) up to 16×.",
+          "free": "Unlimited, AGPL-3.0",
+          "bestFor": "Privacy-conscious batch upscaling",
+          "catch": "Needs a Vulkan-compatible GPU."
+        },
+        {
+          "name": "Photopea",
+          "url": "https://www.photopea.com",
+          "description": "Free Photoshop clone in the browser with AI plugins and PSD support.",
+          "free": "Ad-supported",
+          "bestFor": "Layered editing without Adobe",
+          "catch": "AI plugins are slower than Firefly."
+        },
+        {
+          "name": "remove.bg",
+          "url": "https://www.remove.bg",
+          "description": "Industry-standard background remover with excellent hair edges.",
+          "free": "Unlimited low-res previews + ~1 HD/month",
+          "bestFor": "Quick one-off cutouts",
+          "catch": "HD downloads are credit-gated."
+        },
+        {
+          "name": "Erase.bg",
+          "url": "https://www.erase.bg",
+          "description": "Full-resolution background removal.",
+          "free": "HD downloads available",
+          "bestFor": "E-commerce and bulk product shots",
+          "catch": "Inconsistent on fine hair."
+        },
+        {
+          "name": "Adobe Firefly Generative Fill",
+          "url": "https://firefly.adobe.com",
+          "description": "Best free inpaint/outpaint with commercially safe output.",
+          "free": "~25 credits/month",
+          "bestFor": "Object removal and background swaps",
+          "catch": "Low cap."
+        },
+        {
+          "name": "Krea Edit",
+          "url": "https://www.krea.ai/edit",
+          "description": "Inpaint, outpaint and style transfer with Flux Kontext and Nano Banana.",
+          "free": "Daily compute units",
+          "bestFor": "Multi-model comparison",
+          "catch": "Free outputs are non-commercial."
+        },
+        {
+          "name": "Cleanup.pictures",
+          "url": "https://cleanup.pictures",
+          "description": "One-click object and watermark removal.",
+          "free": "720p web version",
+          "bestFor": "Quick fixes",
+          "catch": "HD paywalled."
+        },
+        {
+          "name": "Upscale.media",
+          "url": "https://www.upscale.media",
+          "description": "Quick 4× upscaler with face enhancement.",
+          "free": "Limited daily",
+          "bestFor": "Mobile upscales",
+          "catch": "Watermark on some exports."
+        }
       ]
     },
     {
@@ -246,14 +1282,65 @@
       "name": "Video generation",
       "description": "Text/image-to-video with usable free tiers (and open weights).",
       "tools": [
-        {"name": "Kling AI", "url": "https://klingai.com", "description": "Best physics and human motion (Kling 2.6/3.0).", "free": "~66 daily credits", "bestFor": "Realistic motion, product demos", "catch": "Watermark + 720p cap on free; long queues."},
-        {"name": "Google Veo (via Gemini / AI Studio)", "url": "https://deepmind.google/technologies/veo", "description": "Native 4K with synchronized audio.", "free": "Limited daily via Gemini free tier", "bestFor": "Cinematic clips with native audio", "catch": "Tight quotas; best features paid."},
-        {"name": "Hailuo / MiniMax Video", "url": "https://hailuoai.com/video", "description": "Strong facial expressions.", "free": "Daily credits", "bestFor": "Fast human-centric clips", "catch": "Shorter clips on free."},
-        {"name": "Pika", "url": "https://pika.art", "description": "Stylized effects (Pikaffects, Pikaswaps), lip sync.", "free": "Daily credits", "bestFor": "Social/animated content", "catch": "480p cap on free; watermarks."},
-        {"name": "Luma Dream Machine", "url": "https://lumalabs.ai/dream-machine", "description": "Ray2/Ray3; sub-15-second generations with great environmental motion.", "free": "Limited daily", "bestFor": "Previz, atmospheric shots", "catch": "4K HDR is paid only."},
-        {"name": "Runway Gen-4 / 4.5", "url": "https://runwayml.com", "description": "Best camera controls.", "free": "One-time starter credits (no refresh)", "bestFor": "Professional camera moves", "catch": "Credits don't refresh — essentially a trial."},
-        {"name": "Vidu Q3", "url": "https://www.vidu.studio", "description": "Multi-shot 16-second clips with built-in audio sync.", "free": "Signup credits", "bestFor": "Narrative shorts", "catch": "Limited allocation."},
-        {"name": "Wan 2.2 / LTX-2 (open source)", "url": "https://github.com/Wan-Video", "description": "Open-weight video models.", "free": "Unlimited self-hosted", "bestFor": "Privacy, commercial use", "catch": "GPU + Python required."}
+        {
+          "name": "Kling AI",
+          "url": "https://klingai.com",
+          "description": "Best physics and human motion.",
+          "free": "~66 daily credits",
+          "bestFor": "Realistic motion and product demos",
+          "catch": "Watermark + 720p on free; long queues; no commercial use on free."
+        },
+        {
+          "name": "Hailuo / MiniMax",
+          "url": "https://hailuoai.video",
+          "description": "Fast image-to-video with strong facial expressions.",
+          "free": "Daily bonus credits",
+          "bestFor": "Quick human-centric clips",
+          "catch": "Watermark; shorter clips on free."
+        },
+        {
+          "name": "Pika",
+          "url": "https://pika.art",
+          "description": "Stylized effects, Pikaffects and lip sync.",
+          "free": "Monthly credits; free tier permits commercial use (rare)",
+          "bestFor": "Social and animated content",
+          "catch": "480p ceiling on free."
+        },
+        {
+          "name": "Luma Dream Machine",
+          "url": "https://lumalabs.ai/dream-machine",
+          "description": "Ray2/Ray3 with great environmental motion.",
+          "free": "Limited daily",
+          "bestFor": "Previz and atmospheric shots",
+          "catch": "4K HDR is paid; non-commercial on free."
+        },
+        {
+          "name": "Vidu Q3",
+          "url": "https://www.vidu.com",
+          "description": "Multi-shot clips with reference consistency and audio sync.",
+          "free": "Monthly credits",
+          "bestFor": "Narrative shorts and character consistency",
+          "catch": "Watermark; limited allocation."
+        },
+        {
+          "name": "Wan 2.2 / LTX-2",
+          "url": "https://github.com/Wan-Video",
+          "description": "Open-weight video models you can run locally.",
+          "free": "Open weights, unlimited, commercial use permitted",
+          "bestFor": "No-cap production and privacy",
+          "catch": "Needs ~24 GB VRAM."
+        },
+        {
+          "name": "Runway Gen-4.5",
+          "url": "https://runwayml.com",
+          "description": "Best camera controls in the business.",
+          "free": "One-time starter credits",
+          "bestFor": "Trying professional camera moves",
+          "catch": "Credits never refresh — effectively a trial."
+        }
+      ],
+      "notes": [
+        "Google Veo — no longer on Gemini Free. Video generation now starts at AI Plus ($4.99/mo)."
       ]
     },
     {
@@ -261,14 +1348,70 @@
       "name": "Video editing with AI",
       "description": "Full editors with AI features — captions, cuts, voice, avatars.",
       "tools": [
-        {"name": "CapCut", "url": "https://www.capcut.com", "description": "Full editor with auto-captions, avatars, TTS, BG removal.", "free": "Generous; 1080p export, no watermark on core features", "bestFor": "TikTok/Reels/Shorts", "catch": "Some templates/4K paid; broad ToS license grant."},
-        {"name": "DaVinci Resolve", "url": "https://www.blackmagicdesign.com/products/davinciresolve", "description": "Professional NLE with Magic Mask, voice isolation, scene-cut detection.", "free": "Full professional edition", "bestFor": "Serious editors, color grading", "catch": "Steep learning curve; some neural tools in Studio ($295 one-time)."},
-        {"name": "Clipchamp", "url": "https://clipchamp.com", "description": "Microsoft's browser editor, unlimited 1080p, AI voiceover.", "free": "Unlimited 1080p, no watermark", "bestFor": "Microsoft 365 users, quick web edits", "catch": "Premium stock paid."},
-        {"name": "Descript", "url": "https://www.descript.com", "description": "Text-based editing — edit the transcript to cut video.", "free": "1 hour transcription/month, watermark on some exports", "bestFor": "Podcasts, interviews", "catch": "Overdub voice clone paid."},
-        {"name": "VEED.io", "url": "https://www.veed.io", "description": "Browser editor with AI subtitles, translation, avatars.", "free": "10-min uploads, 720p, watermark", "bestFor": "Quick subtitling", "catch": "Watermark; most AI gated."},
-        {"name": "Kapwing", "url": "https://www.kapwing.com", "description": "Collaborative browser editor with smart cut.", "free": "4-min/video, 720p, watermark", "bestFor": "Team social clips", "catch": "Watermark."},
-        {"name": "OpusClip", "url": "https://www.opus.pro", "description": "Long-to-short AI repurposing.", "free": "60 min processing/month", "bestFor": "YouTubers → Shorts", "catch": "Watermark on free."},
-        {"name": "Canva Video", "url": "https://www.canva.com/video-editor", "description": "Template-driven, Magic Edit, BG remover.", "free": "Core features, standard exports", "bestFor": "Marketers, presentations", "catch": "Best AI needs Canva Pro."}
+        {
+          "name": "DaVinci Resolve",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "description": "Professional NLE with Magic Mask, voice isolation and scene-cut detection.",
+          "free": "The full professional edition",
+          "bestFor": "Serious editors and colorists",
+          "catch": "Steep learning curve; some neural tools need Studio ($295 one-time)."
+        },
+        {
+          "name": "CapCut",
+          "url": "https://www.capcut.com",
+          "description": "Full editor with auto-captions, avatars, TTS and background removal.",
+          "free": "1080p export, no watermark on core features",
+          "bestFor": "TikTok, Reels and Shorts",
+          "catch": "Many AI features moved to Pro; broad ToS licence grant."
+        },
+        {
+          "name": "Clipchamp",
+          "url": "https://clipchamp.com",
+          "description": "Microsoft's browser editor with AI voiceover.",
+          "free": "Unlimited 1080p, no watermark",
+          "bestFor": "Microsoft 365 users and quick web edits",
+          "catch": "Premium stock is paid."
+        },
+        {
+          "name": "Descript",
+          "url": "https://www.descript.com",
+          "description": "Edit video by editing the transcript.",
+          "free": "1 hour transcription/month",
+          "bestFor": "Podcasts and interviews",
+          "catch": "Watermark on some exports; Overdub voice clone is paid."
+        },
+        {
+          "name": "OpusClip",
+          "url": "https://www.opus.pro",
+          "description": "Long video to viral shorts.",
+          "free": "60 min processing/month",
+          "bestFor": "YouTubers repurposing to Shorts",
+          "catch": "Watermark on free."
+        },
+        {
+          "name": "VEED.io",
+          "url": "https://www.veed.io",
+          "description": "Browser editor with AI subtitles, translation and avatars.",
+          "free": "10-min uploads, 720p",
+          "bestFor": "Quick subtitling",
+          "catch": "Watermark; most AI gated."
+        },
+        {
+          "name": "Kapwing",
+          "url": "https://www.kapwing.com",
+          "description": "Collaborative browser editor with smart cut.",
+          "free": "4-min videos, 720p",
+          "bestFor": "Team social clips",
+          "catch": "Watermark."
+        },
+        {
+          "name": "Canva Video",
+          "url": "https://www.canva.com/video-editor",
+          "description": "Template-driven editing with Magic Edit.",
+          "free": "Core features, standard exports",
+          "bestFor": "Marketers",
+          "catch": "Best AI needs Canva Pro."
+        }
       ]
     },
     {
@@ -276,14 +1419,120 @@
       "name": "Audio, music & voice",
       "description": "Song generation, TTS, voice cloning, and music production AI.",
       "tools": [
-        {"name": "Suno", "url": "https://suno.com", "description": "Full songs with vocals and lyrics in ~60s (v5).", "free": "50 credits/day (~10 songs)", "bestFor": "Complete songs with vocals", "catch": "Free outputs are non-commercial — monetization needs Pro."},
-        {"name": "Udio", "url": "https://www.udio.com", "description": "Rival to Suno with granular segment editing.", "free": "10 daily + 100 monthly credits", "bestFor": "Jazz, blues, soul, edit-heavy workflows", "catch": "Downloads temporarily paused during 2025–26 label licensing — verify status."},
-        {"name": "ElevenLabs Free", "url": "https://elevenlabs.io", "description": "Industry-leading TTS and instant voice cloning.", "free": "10,000 chars/month + 3 voice clones", "bestFor": "Narration, audiobooks, YouTube VO", "catch": "Free tier is non-commercial; every clone requires a recorded passphrase."},
-        {"name": "Riffusion", "url": "https://www.riffusion.com", "description": "Full songs with stems and inpainting.", "free": "Daily credits; royalty-free outputs", "bestFor": "Quick licensed tracks", "catch": "Vocal quality trails Suno/Udio."},
-        {"name": "Stable Audio", "url": "https://stableaudio.com", "description": "Best for loops, SFX, ambient — not vocal songs.", "free": "~20 generations/month", "bestFor": "Game devs, sound designers", "catch": "Instrumental only."},
-        {"name": "Meta MusicGen / AudioCraft (open source)", "url": "https://github.com/facebookresearch/audiocraft", "description": "Open-weight instrumental model.", "free": "Unlimited self-hosted", "bestFor": "Developers", "catch": "Needs GPU."},
-        {"name": "Chatterbox (Resemble AI)", "url": "https://github.com/resemble-ai/chatterbox", "description": "Open-source TTS that beat ElevenLabs in 63.8% of blind tests.", "free": "MIT license, self-host", "bestFor": "Commercial-safe offline voice", "catch": "Technical setup."},
-        {"name": "Boomy", "url": "https://boomy.com", "description": "Three-click songs, one-click Spotify distribution.", "free": "Limited daily songs", "bestFor": "Beginners, micro-royalties", "catch": "Boomy takes royalty cut."}
+        {
+          "name": "Suno",
+          "url": "https://suno.com",
+          "description": "Full songs with vocals in about 60 seconds.",
+          "free": "50 credits/day (~10 songs) on v6-mini",
+          "bestFor": "Playing with song ideas",
+          "catch": "Free downloads removed Sept 3, 2026 — free songs are stream/share only (accounts opened before that date keep 7 lifetime personal-use downloads); non-commercial."
+        },
+        {
+          "name": "ElevenLabs Free",
+          "url": "https://elevenlabs.io",
+          "description": "Industry-leading TTS and instant voice cloning.",
+          "free": "10,000 credits/month (~10 min) + 3 voice clones",
+          "bestFor": "Narration and audiobooks",
+          "catch": "Non-commercial, and you must credit \"elevenlabs.io\"; every clone needs a recorded passphrase."
+        },
+        {
+          "name": "Chatterbox",
+          "url": "https://github.com/resemble-ai/chatterbox",
+          "description": "Open-source TTS with emotion control that beat ElevenLabs in 63.8% of blind tests.",
+          "free": "MIT, self-hosted",
+          "bestFor": "Commercial-safe offline voice",
+          "catch": "Technical setup; GPU recommended."
+        },
+        {
+          "name": "Stable Audio",
+          "url": "https://stableaudio.com",
+          "description": "Best for loops, SFX and ambient — not vocal songs.",
+          "free": "~20 generations/month; Stable Audio Open weights available",
+          "bestFor": "Game devs and sound designers",
+          "catch": "Instrumental only; free output non-commercial."
+        },
+        {
+          "name": "Meta MusicGen / AudioCraft",
+          "url": "https://github.com/facebookresearch/audiocraft",
+          "description": "Open-weight instrumental generation.",
+          "free": "Open source, unlimited self-hosted",
+          "bestFor": "Developers",
+          "catch": "Non-commercial weights licence; needs a GPU."
+        },
+        {
+          "name": "Riffusion",
+          "url": "https://www.riffusion.com",
+          "description": "Full songs with stems and inpainting.",
+          "free": "Daily credits, royalty-free outputs",
+          "bestFor": "Quick licensed tracks",
+          "catch": "Vocal quality trails Suno; product is rebranding."
+        },
+        {
+          "name": "Boomy",
+          "url": "https://boomy.com",
+          "description": "Three-click songs with one-click Spotify distribution.",
+          "free": "Limited daily songs",
+          "bestFor": "Beginners chasing micro-royalties",
+          "catch": "Boomy takes a royalty cut."
+        }
+      ],
+      "notes": [
+        "Udio — downloads disabled on every plan since Oct 2025 (UMG settlement) and still off. You can generate and stream but cannot export anything. Fails \"usable for real work\" — use Suno or local models."
+      ]
+    },
+    {
+      "id": "stem-separation",
+      "name": "Audio stem separation",
+      "description": "Splitting a finished track into vocals, drums, bass and instruments. Mature, and mostly free.",
+      "tools": [
+        {
+          "name": "Ultimate Vocal Remover (UVR5)",
+          "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+          "description": "Desktop GUI running MDX-Net, Demucs and ensemble models.",
+          "free": "Unlimited, no account, up to 6 stems",
+          "bestFor": "The highest-quality free option, period",
+          "catch": "Desktop install; GPU strongly recommended."
+        },
+        {
+          "name": "Demucs / HTDemucs",
+          "url": "https://github.com/adefossez/demucs",
+          "description": "Meta's open-source separation model.",
+          "free": "Open source, unlimited local use",
+          "bestFor": "Developers and batch processing",
+          "catch": "The original repo has been read-only since Jan 2025 — install the v4.1.0 fork; weak on guitar and piano."
+        },
+        {
+          "name": "BandLab Splitter",
+          "url": "https://www.bandlab.com",
+          "description": "Free 4-stem separation in the browser.",
+          "free": "Unlimited, same model as paid — only speed differs",
+          "bestFor": "The most generous free cloud option",
+          "catch": "Account required; 4 stems max."
+        },
+        {
+          "name": "Moises",
+          "url": "https://moises.ai",
+          "description": "Separation plus musician tools (tempo, pitch, chord detection).",
+          "free": "~5 tracks/month, MP3 output",
+          "bestFor": "Practising musicians",
+          "catch": "5-track cap fills fast; quality trails UVR ensembles."
+        },
+        {
+          "name": "Audacity + OpenVINO",
+          "url": "https://www.audacityteam.org",
+          "description": "Free audio editor that runs Demucs locally via the OpenVINO AI plugin.",
+          "free": "Fully free, WAV/FLAC output",
+          "bestFor": "Free local processing inside a real editor",
+          "catch": "Plugin setup required."
+        },
+        {
+          "name": "LALAL.AI",
+          "url": "https://www.lalal.ai",
+          "description": "Polished cloud separation with up to 10 stem types.",
+          "free": "~10 minutes in a relaxed queue",
+          "bestFor": "Evaluating quality before paying",
+          "catch": "Preview only — the free tier cannot download."
+        }
       ]
     },
     {
@@ -291,42 +1540,187 @@
       "name": "Avatars & talking heads",
       "description": "AI avatar video generators — from studio-grade HeyGen to open-source SadTalker.",
       "tools": [
-        {"name": "HeyGen", "url": "https://www.heygen.com", "description": "Avatar IV, 1,100+ stock avatars, 175+ languages.", "free": "3 videos/month, ~3-min cap, 720p, watermark", "bestFor": "Marketing, training, localization", "catch": "Watermark on free; custom avatar paid."},
-        {"name": "Synthesia Free", "url": "https://www.synthesia.io", "description": "Enterprise avatars in 140+ languages.", "free": "Demo plan (3 min/month, watermark)", "bestFor": "Corporate training", "catch": "Real use starts $29/mo."},
-        {"name": "Colossyan", "url": "https://www.colossyan.com", "description": "Conversational avatars with branching scenarios.", "free": "200+ avatars, up to 5-min videos", "bestFor": "Interactive training", "catch": "Polish trails HeyGen."},
-        {"name": "Canva Talking Avatars", "url": "https://www.canva.com", "description": "HeyGen integration inside Canva.", "free": "Basic avatar features", "bestFor": "Quick presentations inside Canva", "catch": "Best options require Canva Pro + credits."},
-        {"name": "Ready Player Me", "url": "https://readyplayer.me", "description": "Free cross-platform 3D avatars for games/VR.", "free": "Fully free", "bestFor": "Game/metaverse avatars", "catch": "Not a talking-head video tool."},
-        {"name": "SadTalker (open source)", "url": "https://github.com/OpenTalker/SadTalker", "description": "Photo + audio → talking head.", "free": "Self-hosted, unlimited", "bestFor": "Devs, privacy", "catch": "Quality trails HeyGen."}
+        {
+          "name": "HeyGen",
+          "url": "https://www.heygen.com",
+          "description": "Avatar IV with 1,100+ stock avatars and 175+ languages.",
+          "free": "3 videos/month, ~3-min cap, 720p",
+          "bestFor": "Marketing, training, localization",
+          "catch": "Watermark on free; custom avatars are paid."
+        },
+        {
+          "name": "Colossyan",
+          "url": "https://www.colossyan.com",
+          "description": "Conversational avatars with branching scenarios.",
+          "free": "200+ avatars, up to 5-min videos",
+          "bestFor": "Interactive training",
+          "catch": "Polish trails HeyGen."
+        },
+        {
+          "name": "SadTalker",
+          "url": "https://github.com/OpenTalker/SadTalker",
+          "description": "Open-source photo + audio to talking head.",
+          "free": "Self-hosted, unlimited",
+          "bestFor": "Developers and privacy",
+          "catch": "Quality trails commercial tools."
+        },
+        {
+          "name": "Ready Player Me",
+          "url": "https://readyplayer.me",
+          "description": "Free cross-platform 3D avatars for games and VR.",
+          "free": "Fully free",
+          "bestFor": "Game and metaverse avatars",
+          "catch": "Not a talking-head video tool; re-check SDK terms."
+        },
+        {
+          "name": "Synthesia Free",
+          "url": "https://www.synthesia.io",
+          "description": "Enterprise avatars in 140+ languages.",
+          "free": "Demo plan, 3 min/month",
+          "bestFor": "Evaluating corporate training video",
+          "catch": "Watermark; real use starts $29/mo."
+        }
+      ],
+      "notes": [
+        "D-ID — no ongoing free plan, trial credits only."
       ]
     },
     {
       "id": "3d-generation",
       "name": "3D model generation",
-      "description": "Text/image-to-3D with free credits and open-source Hunyuan/TripoSR.",
+      "description": "Text/image-to-3D with free credits and open-source Hunyuan/TRELLIS.",
       "tools": [
-        {"name": "Meshy", "url": "https://www.meshy.ai", "description": "Text/image-to-3D with textures, animation, and Blender/Unity/Unreal plugins.", "free": "200 credits/month (~20 models)", "bestFor": "Game devs, 3D printing", "catch": "Free outputs non-commercial."},
-        {"name": "Tripo AI", "url": "https://www.tripo3d.ai", "description": "Fast text/image-to-3D with clean quad topology.", "free": "2,000 signup credits + daily refills", "bestFor": "Game characters", "catch": "No Blender plugin yet."},
-        {"name": "Rodin (Hyper3D)", "url": "https://hyper3d.ai", "description": "Highest photorealistic quality, 4K PBR.", "free": "~10 credits", "bestFor": "Hero/marketing assets", "catch": "Tiny free allocation."},
-        {"name": "Hunyuan3D (Tencent, open source)", "url": "https://github.com/Tencent/Hunyuan3D-2", "description": "Sub-60s generation with 8K PBR.", "free": "Unlimited self-hosted", "bestFor": "No-cap production", "catch": "GPU required."},
-        {"name": "TripoSR / TRELLIS (Microsoft)", "url": "https://github.com/VAST-AI-Research/TripoSR", "description": "MIT-licensed single-image-to-3D.", "free": "Self-host or small fal.ai fees", "bestFor": "Rapid prototyping", "catch": "Coarser mesh than Hunyuan."},
-        {"name": "Luma AI Genie", "url": "https://lumalabs.ai", "description": "NeRF-based 3D capture from phone video.", "free": "Generous", "bestFor": "Digitizing real objects/scenes", "catch": "Photogrammetry — needs real video."},
-        {"name": "Sloyd", "url": "https://www.sloyd.ai", "description": "Template-driven game props.", "free": "Limited exports", "bestFor": "Standard game assets", "catch": "Template-based, not open generation."}
+        {
+          "name": "Hunyuan3D",
+          "url": "https://3d.hunyuan.tencent.com",
+          "description": "Tencent's open-weight models with sub-60s generation and 8K PBR.",
+          "free": "Unlimited self-hosted + free web usage",
+          "bestFor": "No-cap production",
+          "catch": "GPU required; licence excludes some regions."
+        },
+        {
+          "name": "Tripo AI",
+          "url": "https://www.tripo3d.ai",
+          "description": "Fast text/image-to-3D with clean quad topology.",
+          "free": "2,000 signup credits + daily refills",
+          "bestFor": "Game characters",
+          "catch": "Models are public on free."
+        },
+        {
+          "name": "Meshy",
+          "url": "https://www.meshy.ai",
+          "description": "Text/image-to-3D with texturing and Blender/Unity/Unreal plugins.",
+          "free": "200 credits/month (~20 models)",
+          "bestFor": "Game devs and 3D printing",
+          "catch": "CC BY licence on free output."
+        },
+        {
+          "name": "TripoSR / TRELLIS",
+          "url": "https://github.com/microsoft/TRELLIS",
+          "description": "MIT-licensed single-image-to-3D.",
+          "free": "Open source",
+          "bestFor": "Rapid prototyping",
+          "catch": "Coarser mesh than Hunyuan; GPU needed."
+        },
+        {
+          "name": "Luma AI Genie",
+          "url": "https://lumalabs.ai/genie",
+          "description": "NeRF-based 3D capture from phone video.",
+          "free": "Generous",
+          "bestFor": "Digitizing real objects and scenes",
+          "catch": "Photogrammetry — needs real video; Luma's focus has shifted to video."
+        },
+        {
+          "name": "Rodin (Hyper3D)",
+          "url": "https://hyper3d.ai",
+          "description": "Highest photorealistic quality with 4K PBR.",
+          "free": "~10 credits",
+          "bestFor": "Hero and marketing assets",
+          "catch": "Tiny free allocation."
+        },
+        {
+          "name": "Sloyd",
+          "url": "https://www.sloyd.ai",
+          "description": "Parametric, game-ready props.",
+          "free": "Limited exports",
+          "bestFor": "Standard low-poly game assets",
+          "catch": "Template-based, not open generation."
+        }
       ]
     },
     {
       "id": "coding-assistants",
       "name": "AI coding assistants",
-      "description": "IDE copilots with real free tiers — from GitHub Copilot to Codeium.",
+      "description": "IDE copilots and coding agents with real free tiers — from Devin Desktop to open-source Cline.",
       "tools": [
-        {"name": "GitHub Copilot Free", "url": "https://github.com/features/copilot/plans", "description": "Chat + completions in VS Code / JetBrains / Neovim with Claude Sonnet 4.6 and GPT-4.1.", "free": "2,000 completions + 50 premium requests/month", "bestFor": "Light daily use; students get Pro for free", "catch": "50 premium requests vanish in one chat session."},
-        {"name": "Cursor Hobby", "url": "https://cursor.com/pricing", "description": "AI-first VS Code fork with Composer/Agent mode.", "free": "Limited Tab + limited Agent requests", "bestFor": "Evaluating before Pro", "catch": "Caps hit fast; students get 1 year Pro free."},
-        {"name": "Windsurf Free", "url": "https://windsurf.com/pricing", "description": "VS Code fork with Cascade agentic editing.", "free": "~5 Cascade flows/month + unlimited base completions", "bestFor": "Trying agentic coding", "catch": "Free tier locked to base models."},
-        {"name": "Codeium", "url": "https://codeium.com", "description": "Windsurf's plugin for JetBrains/Neovim/Vim.", "free": "Unlimited individual autocomplete + chat", "bestFor": "Devs outside VS Code", "catch": "Sends code to cloud."},
-        {"name": "Cline", "url": "https://cline.bot", "description": "Open-source (Apache 2.0) autonomous VS Code agent, 5M+ installs.", "free": "Extension is free, BYOK", "bestFor": "Power users with own API keys", "catch": "You pay the model provider."},
-        {"name": "Continue.dev", "url": "https://continue.dev", "description": "Open-source VS Code/JetBrains extension supporting any model including local.", "free": "Open-source, BYOK", "bestFor": "Fully customizable setups", "catch": "Config effort."},
-        {"name": "Gemini Code Assist for Individuals", "url": "https://codeassist.google", "description": "Google's free IDE assistant.", "free": "~6,000 requests/day, 180K/month on Gemini 2.5", "bestFor": "Highest-volume free steady coding", "catch": "Data used for training; Gemini 3 Pro paid."},
-        {"name": "Supermaven Free", "url": "https://supermaven.com", "description": "300K-token context autocomplete (now powering Cursor Tab).", "free": "Limited usage", "bestFor": "Very fast completions", "catch": "Pro needed for unlimited."},
-        {"name": "Tabnine Starter", "url": "https://tabnine.com", "description": "Privacy-first with zero retention.", "free": "Basic autocomplete, ~50 daily", "bestFor": "Regulated orgs", "catch": "Tight cap."}
+        {
+          "name": "Devin Desktop (ex-Windsurf)",
+          "url": "https://devin.ai",
+          "description": "Cognition's AI editor; Windsurf was renamed June 2, 2026 and Cascade became Devin Local.",
+          "free": "Unlimited Tab completions and inline edits + a light daily agent quota on Cognition's own models",
+          "bestFor": "The best free unlimited autocomplete",
+          "catch": "No frontier models or cloud agents on free; Pro $20/mo."
+        },
+        {
+          "name": "GitHub Copilot Free",
+          "url": "https://github.com/features/copilot",
+          "description": "Copilot in VS Code, JetBrains, Neovim and GitHub.",
+          "free": "2,000 completions/month + a monthly GitHub AI Credits allowance for chat and agent mode",
+          "bestFor": "Occasional coders; students get Pro free",
+          "catch": "Billing moved to AI Credits June 1, 2026 — auto model selection only (Haiku/mini class), no model choice."
+        },
+        {
+          "name": "Cline",
+          "url": "https://cline.bot",
+          "description": "Open-source autonomous VS Code agent, 5M+ installs.",
+          "free": "Apache 2.0 extension, bring your own key",
+          "bestFor": "Power users pairing it with a free API",
+          "catch": "You pay the model provider."
+        },
+        {
+          "name": "Continue.dev",
+          "url": "https://continue.dev",
+          "description": "Open-source extension for VS Code and JetBrains supporting any model including local.",
+          "free": "Open source, BYOK",
+          "bestFor": "Fully customizable and local setups",
+          "catch": "Configuration effort."
+        },
+        {
+          "name": "Kilo Code",
+          "url": "https://kilocode.ai",
+          "description": "Open-source VS Code agent from the Cline/Roo lineage.",
+          "free": "Free extension, BYOK",
+          "bestFor": "Multi-mode agent workflows",
+          "catch": "Model costs are yours."
+        },
+        {
+          "name": "Roo Code",
+          "url": "https://roocode.com",
+          "description": "Open-source agentic coding extension with customizable modes.",
+          "free": "Free, BYOK",
+          "bestFor": "Tailored agent personas",
+          "catch": "Model costs are yours."
+        },
+        {
+          "name": "Cursor Hobby",
+          "url": "https://cursor.com",
+          "description": "AI-first VS Code fork with Composer and Agent mode.",
+          "free": "Limited Tab + limited agent requests",
+          "bestFor": "Evaluating the best AI IDE",
+          "catch": "Hobby limits run out within a week; students get 1 year Pro free."
+        },
+        {
+          "name": "Amazon Q Developer Free",
+          "url": "https://aws.amazon.com/q/developer",
+          "description": "AWS's coding assistant.",
+          "free": "Free tier with monthly agent limits",
+          "bestFor": "AWS developers",
+          "catch": "AWS-centric."
+        }
+      ],
+      "notes": [
+        "Supermaven — sunset after the Cursor acquisition; legacy Neovim/JetBrains users keep free autocomplete, closed to new users.",
+        "Codeium / Tabnine Starter — Codeium folded into Devin Desktop; Tabnine removed its free individual tier."
       ]
     },
     {
@@ -334,15 +1728,73 @@
       "name": "AI app builders (vibe coding)",
       "description": "Prompt-to-app builders that generate and deploy full-stack projects.",
       "tools": [
-        {"name": "v0.dev Free", "url": "https://v0.dev", "description": "Vercel's prompt-to-React/Next.js generator.", "free": "~$5 monthly credits (~200 gens)", "bestFor": "shadcn components, Figma-to-code", "catch": "Frontend-only; credits don't roll over."},
-        {"name": "bolt.new", "url": "https://bolt.new", "description": "Browser full-stack builder using WebContainers + Claude.", "free": "150–300K tokens/day, 1M/month cap", "bestFor": "Full-stack MVPs, no local setup", "catch": "Tokens burn on debug loops."},
-        {"name": "Lovable", "url": "https://lovable.dev", "description": "Prompt-to-full-stack with Supabase backend.", "free": "5 credits/day, 30/month; public projects with branding", "bestFor": "Non-technical founders", "catch": "Daily credits don't roll over."},
-        {"name": "Replit Starter", "url": "https://replit.com", "description": "Cloud IDE + Agent 3/4.", "free": "10 public apps, limited Agent trial", "bestFor": "Learning, collab demos", "catch": "Heavy Agent use gets expensive."},
-        {"name": "Create.xyz", "url": "https://create.xyz", "description": "Natural-language full-stack builder.", "free": "Limited daily builds", "bestFor": "Quick internal tools", "catch": "Often rate-limits."},
-        {"name": "Google AI Studio", "url": "https://aistudio.google.com", "description": "Build + deploy Gemini-powered apps in browser.", "free": "Interface is free; pairs with Gemini API free tier", "bestFor": "Prototyping multimodal apps", "catch": "Backend quotas tightened April 2026."},
-        {"name": "Dyad", "url": "https://dyad.sh", "description": "Local, open-source app builder (BYOK).", "free": "App is free; pair with Gemini free / Ollama for $0", "bestFor": "Private code, no lock-in", "catch": "You manage keys."},
-        {"name": "Neuform AI", "url": "https://neuform.ai", "description": "AI HTML design Templates and Systems.", "free": "App is free; Limited", "bestFor": "HTML templating", "catch": "You manage keys."}
-        
+        {
+          "name": "Google AI Studio Build",
+          "url": "https://aistudio.google.com",
+          "description": "Build and deploy Gemini-powered apps from a prompt.",
+          "free": "Free in AI Studio",
+          "bestFor": "Multimodal prototypes",
+          "catch": "Free-tier prompts may be used for training; backend quotas tightened."
+        },
+        {
+          "name": "bolt.new",
+          "url": "https://bolt.new",
+          "description": "Browser full-stack builder on WebContainers.",
+          "free": "Daily token allowance (~150–300K/day)",
+          "bestFor": "Full-stack MVPs with no local setup",
+          "catch": "Tokens burn fast on debug loops."
+        },
+        {
+          "name": "v0.dev Free",
+          "url": "https://v0.dev",
+          "description": "Vercel's prompt-to-React/Next.js generator.",
+          "free": "~$5 monthly credits",
+          "bestFor": "Shadcn components and Figma-to-code",
+          "catch": "Frontend-only; credits don't roll over."
+        },
+        {
+          "name": "Lovable",
+          "url": "https://lovable.dev",
+          "description": "Prompt-to-full-stack with a Supabase backend.",
+          "free": "5 credits/day, 30/month",
+          "bestFor": "Non-technical founders",
+          "catch": "Projects are public with branding on free."
+        },
+        {
+          "name": "Dyad",
+          "url": "https://www.dyad.sh",
+          "description": "Local, open-source Lovable/Bolt alternative.",
+          "free": "App is free; pair with a free API or Ollama for $0",
+          "bestFor": "Private code with no lock-in",
+          "catch": "You manage keys."
+        },
+        {
+          "name": "Replit Starter",
+          "url": "https://replit.com",
+          "description": "Cloud IDE with Replit Agent.",
+          "free": "10 public apps, limited Agent trial",
+          "bestFor": "Learning and collaborative demos",
+          "catch": "Heavy Agent use gets expensive fast."
+        },
+        {
+          "name": "Anything (ex-Create.xyz)",
+          "url": "https://www.createanything.com",
+          "description": "Natural-language full-stack builder.",
+          "free": "Limited daily builds",
+          "bestFor": "Quick internal tools",
+          "catch": "Often rate-limits."
+        },
+        {
+          "name": "Neuform AI",
+          "url": "https://neuform.ai",
+          "description": "AI HTML design templates and design systems.",
+          "free": "App is free with limited usage",
+          "bestFor": "HTML templating",
+          "catch": "You manage keys."
+        }
+      ],
+      "notes": [
+        "Firebase Studio — free now, but shutting down March 22, 2027. Don't start long-term projects here."
       ]
     },
     {
@@ -350,60 +1802,46 @@
       "name": "Code review AI",
       "description": "Automated PR review and test-gen tools.",
       "tools": [
-        {"name": "CodeRabbit Free", "url": "https://coderabbit.ai", "description": "AI PR reviewer on GitHub/GitLab/Azure DevOps/Bitbucket.", "free": "Unlimited public + private with PR summaries; Pro-for-OSS tier", "bestFor": "Solo devs, OSS maintainers", "catch": "Rate limits (3 back-to-back, 4/hr); no merge gating."},
-        {"name": "Qodo Merge / PR-Agent", "url": "https://qodo.ai", "description": "Open-source reviewer + test generation (formerly CodiumAI).", "free": "OSS self-host is free; hosted 30 PR reviews/mo + 250 IDE credits", "bestFor": "Teams wanting self-host + test gen", "catch": "Hosted cap tighter than CodeRabbit."},
-        {"name": "Qodo Gen (IDE)", "url": "https://qodo.ai", "description": "VS Code/JetBrains extension for test gen + review.", "free": "Unlimited individual with daily credits", "bestFor": "AI-assisted test writing", "catch": "Enterprise features paid."},
-        {"name": "Sourcery", "url": "https://sourcery.ai", "description": "Python-focused review and refactoring.", "free": "OSS projects free", "bestFor": "Python teams", "catch": "Private repos paid."},
-        {"name": "GitHub Copilot Code Review", "url": "https://github.com/features/copilot", "description": "Agentic PR reviewer (GA March 2026).", "free": "Within Copilot Free's 50 premium requests", "bestFor": "GitHub-native teams", "catch": "Eats premium request budget."}
-      ]
-    },
-    {
-      "id": "developer-apis",
-      "name": "Developer APIs with free tiers",
-      "description": "The most generous free LLM APIs for hobbyists, prototypes, and zero-cost production experiments.",
-      "tools": [
-        {"name": "Groq", "url": "https://groq.com", "description": "30 RPM, 14.4K req/day, no card; Llama 3.3 70B, Llama 4 Scout (512K), Qwen3 32B, GPT-OSS 20B.", "free": "30 RPM, 14.4K req/day", "bestFor": "Real-time low-latency apps (300–1000 tok/s)", "catch": "Rate-limited — generous for prototyping, not production scale."},
-        {"name": "Google AI Studio / Gemini API", "url": "https://ai.google.dev", "description": "Flash: 15 RPM / 1,500 RPD; Pro: 5 RPM / 100 RPD; 250K TPM shared.", "free": "Flash: 1,500 RPD; Pro: 100 RPD; 250K TPM", "bestFor": "1M-token context, multimodal", "catch": "Free-tier data used for training; tightened ~50–80% since Dec 2025."},
-        {"name": "OpenRouter :free models", "url": "https://openrouter.ai/models?q=free", "description": "~20 RPM / 200 RPD; DeepSeek R1/V3.2, Llama 3.3, Qwen3-Coder-480B, Nemotron 3 Super, GPT-OSS 120B.", "free": "~20 RPM / 200 RPD", "bestFor": "One key for everything", "catch": "Free models rotate; quality varies."},
-        {"name": "Mistral La Plateforme", "url": "https://mistral.ai", "description": "~1B tokens/month on open-weight models, phone verification only.", "free": "~1B tokens/month on open-weight models", "bestFor": "EU data residency, Codestral FIM", "catch": "Phone verification required."},
-        {"name": "Cerebras Cloud", "url": "https://cerebras.ai", "description": "30 RPM, 60K TPM, 14.4K RPD, 1M tokens/day.", "free": "30 RPM, 60K TPM, 1M tokens/day", "bestFor": "Speed-critical inference (>1000 tok/s)", "catch": "Limited model menu vs Groq."},
-        {"name": "Cloudflare Workers AI", "url": "https://developers.cloudflare.com/workers-ai/", "description": "10,000 neurons/day on Workers free plan; 47+ models incl. Llama 3.3 70B.", "free": "10,000 neurons/day", "bestFor": "Edge deployment", "catch": "Neurons opaque; some models charge more per call."},
-        {"name": "Hugging Face Inference", "url": "https://huggingface.co/docs/inference-providers", "description": "Rate-limited inference, variable monthly credits.", "free": "Rate-limited + variable monthly credits", "bestFor": "Specialty / domain models", "catch": "Variability makes it unreliable for production."},
-        {"name": "GitHub Models", "url": "https://github.com/marketplace/models", "description": "Small daily quota for GPT, Claude, Llama, DeepSeek-R1 via GitHub auth.", "free": "Small daily quota across models", "bestFor": "Evaluation only", "catch": "Not intended for production use."},
-        {"name": "NVIDIA NIM", "url": "https://build.nvidia.com", "description": "1,000 signup credits.", "free": "1,000 signup credits (one-time)", "bestFor": "Frontier model demos", "catch": "Credits don't refresh."},
-        {"name": "Cohere Trial", "url": "https://cohere.com", "description": "Rate-limited trial across gen + embed + rerank.", "free": "Rate-limited trial across the stack", "bestFor": "Full RAG stack in one provider", "catch": "Trial-style — not a permanent free tier."}
-      ]
-    },
-    {
-      "id": "local-llm-runners",
-      "name": "Local & open-source LLM runners",
-      "description": "Run models entirely on your own hardware with real free software.",
-      "tools": [
-        {"name": "Ollama", "url": "https://ollama.com", "description": "CLI/API-first local runner with auto GPU detection.", "free": "Open-source, unlimited", "bestFor": "Developers, servers, Docker", "catch": "CLI-heavy; GUI is third-party."},
-        {"name": "LM Studio", "url": "https://lmstudio.ai", "description": "Polished GUI + best HuggingFace browser; MLX on Apple Silicon.", "free": "Free for personal use", "bestFor": "macOS/Windows users", "catch": "Closed-source; commercial licensing paid."},
-        {"name": "Jan", "url": "https://jan.ai", "description": "Clean open-source desktop app with cloud fallback.", "free": "Fully open-source", "bestFor": "Privacy-first chat UI", "catch": "Inference slightly slower."},
-        {"name": "GPT4All", "url": "https://gpt4all.io", "description": "Simplest install + LocalDocs RAG.", "free": "Open-source", "bestFor": "Beginners, zero-config PDF Q&A", "catch": "Curated/smaller model library."},
-        {"name": "Open WebUI", "url": "https://openwebui.com", "description": "Self-hosted ChatGPT-style UI over Ollama or any OpenAI-compatible endpoint.", "free": "Open-source (Docker)", "bestFor": "Teams sharing local models", "catch": "Setup effort."},
-        {"name": "AnythingLLM", "url": "https://anythingllm.com", "description": "Turnkey RAG + agents over local docs.", "free": "Open-source", "bestFor": "Private company-doc Q&A", "catch": "Embedding setup needed."},
-        {"name": "Msty", "url": "https://msty.app", "description": "Single-binary app with split-chat model comparison.", "free": "Free personal tier", "bestFor": "Side-by-side testing, offline", "catch": "Proprietary; advanced features paid."},
-        {"name": "llama.cpp", "url": "https://github.com/ggml-org/llama.cpp", "description": "The C++ engine powering most of the above.", "free": "MIT", "bestFor": "Custom builds, CUDA/Metal/Vulkan", "catch": "No GUI."}
-      ]
-    },
-    {
-      "id": "open-weight-models",
-      "name": "Notable open-weight models (2026)",
-      "description": "The open-source frontier is no longer just Llama. Chinese labs lead most open benchmarks.",
-      "tools": [
-        {"name": "DeepSeek V3.2", "url": "https://huggingface.co/deepseek-ai", "description": "685B MoE (37B active), Sparse Attention. ~90% of GPT-5.4 quality at 1/50th the cost. MIT-ish license.", "free": "Open weights, MIT-ish", "bestFor": "Self-hosted frontier reasoning", "catch": "Serious hardware needed for full model."},
-        {"name": "Qwen 3.5 / Qwen3-Coder-480B", "url": "https://huggingface.co/Qwen", "description": "Apache 2.0. Qwen3.5 397B scores 81 overall; Qwen3-Coder is the best permissive-license coding model.", "free": "Apache 2.0", "bestFor": "Permissive-license coding, multilingual", "catch": "Full sizes need multi-GPU."},
-        {"name": "Llama 4 Scout / Maverick", "url": "https://llama.com", "description": "Meta. Scout has the largest open context (10M tokens).", "free": "Custom Meta license", "bestFor": "Long-context tasks", "catch": "License has 700M MAU cap + EU restrictions."},
-        {"name": "GLM-5 / GLM-5.1 (Zhipu)", "url": "https://huggingface.co/THUDM", "description": "MIT. Tops open-source SWE-bench Verified at 77.8%. Chatbot Arena Elo 1451.", "free": "MIT", "bestFor": "Open-source coding agents", "catch": "Smaller ecosystem than Llama/Qwen."},
-        {"name": "Gemma 3 (4B / 12B / 27B)", "url": "https://ai.google.dev/gemma", "description": "Google's open family. Multimodal from 4B, 256K context. 4B runs in 4.2 GB RAM.", "free": "Gemma license (open)", "bestFor": "On-device and small-GPU deployment", "catch": "License not Apache/MIT."},
-        {"name": "Mistral Small 4 / Large 3", "url": "https://mistral.ai", "description": "Small 4 is 24B Apache 2.0 with 256K context; Large 3 is Apache 2.0. Devstral 2 is their 123B coding model.", "free": "Apache 2.0", "bestFor": "Apache-licensed production use", "catch": "Behind top Chinese open models on some benchmarks."},
-        {"name": "Phi-4 / Phi-4-mini", "url": "https://huggingface.co/microsoft", "description": "Microsoft, MIT, 14B and 3.8B small but smart models.", "free": "MIT", "bestFor": "Edge devices, laptops", "catch": "Knowledge narrower than frontier models."},
-        {"name": "GPT-OSS 20B / 120B", "url": "https://openai.com/gpt-oss", "description": "OpenAI's first open-weight release since GPT-2. Apache 2.0. 120B fits on one H100.", "free": "Apache 2.0", "bestFor": "Single-H100 self-hosting", "catch": "Not frontier quality."},
-        {"name": "Kimi K2 / K2.5 (Moonshot)", "url": "https://moonshot.ai", "description": "MIT. Leads open-source SWE-rebench. 1T params (serious hardware).", "free": "MIT", "bestFor": "Reasoning-heavy workloads", "catch": "1T params — requires serious hardware."},
-        {"name": "Olmo 3 (AI2)", "url": "https://allenai.org/olmo", "description": "The only fully open-source (not just open-weight) frontier-class model — training data, code, weights all released.", "free": "Fully open-source", "bestFor": "Reproducible research", "catch": "Not quite frontier-class on raw benchmarks."}
+        {
+          "name": "CodeRabbit Free",
+          "url": "https://www.coderabbit.ai",
+          "description": "AI PR reviewer for GitHub, GitLab, Azure DevOps and Bitbucket.",
+          "free": "Unlimited public repos + PR summaries on private; Pro-for-OSS tier",
+          "bestFor": "Solo devs and OSS maintainers",
+          "catch": "Rate limits (3 back-to-back, 4/hr); no merge gating."
+        },
+        {
+          "name": "Qodo Merge / PR-Agent",
+          "url": "https://github.com/qodo-ai/pr-agent",
+          "description": "Open-source PR reviewer with test generation.",
+          "free": "Self-hosted free (you pay the LLM API); hosted free tier = 30 PR reviews/mo",
+          "bestFor": "Teams wanting self-host + test gen",
+          "catch": "Hosted cap is tighter than CodeRabbit."
+        },
+        {
+          "name": "Qodo Gen",
+          "url": "https://www.qodo.ai",
+          "description": "VS Code/JetBrains extension for test generation and review.",
+          "free": "Unlimited individual use with daily credits",
+          "bestFor": "AI-assisted test writing",
+          "catch": "Enterprise features are paid."
+        },
+        {
+          "name": "Sourcery",
+          "url": "https://sourcery.ai",
+          "description": "Python-focused review and refactoring.",
+          "free": "Free for open-source projects",
+          "bestFor": "Python teams",
+          "catch": "Private repos are paid."
+        },
+        {
+          "name": "GitHub Copilot Code Review",
+          "url": "https://github.com/features/copilot",
+          "description": "Agentic PR reviewer.",
+          "free": "Draws on Copilot Free's AI Credit allowance",
+          "bestFor": "GitHub-native teams",
+          "catch": "Eats your credit budget; full review is a paid feature."
+        }
       ]
     },
     {
@@ -411,14 +1849,535 @@
       "name": "AI-powered dev tools",
       "description": "Terminals, launchers, editors, and agent frameworks with AI built in.",
       "tools": [
-        {"name": "Warp Free", "url": "https://warp.dev", "description": "AI-powered terminal with agent mode and command suggestions.", "free": "Warp AI included, rate-limited; OpenAI/Anthropic don't retain data", "bestFor": "Replacing iTerm/Terminal", "catch": "Closed-source; team features paid."},
-        {"name": "Raycast + Raycast AI", "url": "https://raycast.com", "description": "Mac launcher with 1,500+ extensions.", "free": "Launcher + limited AI messages", "bestFor": "macOS keyboard-driven productivity", "catch": "Unlimited AI requires Pro ($8/mo)."},
-        {"name": "Zed", "url": "https://zed.dev", "description": "Rust-native GPU-rendered collaborative editor, ACP agent protocol.", "free": "Personal tier is $0; editor is GPL v3", "bestFor": "Performance (120fps), real-time multiplayer, BYOK", "catch": "~700 extensions vs VS Code's 50K."},
-        {"name": "Aider", "url": "https://aider.chat", "description": "Open-source git-aware terminal pair-programmer.", "free": "Tool is free; BYOK any LLM", "bestFor": "Transparent multi-file edits via diffs", "catch": "You pay API costs."},
-        {"name": "Claude Code (free routes)", "url": "https://claude.com", "description": "Anthropic's terminal agent. Free paths: ~$5 API signup credits; OSS maintainers get 6 months of Max 20x free (Feb 2026 program); community claude-code-router routes to free OpenRouter/Gemini models.", "free": "~$5 API credits; OSS 6-mo Max 20x program; claude-code-router workaround", "bestFor": "Highest SWE-bench (80.8%)", "catch": "No official free tier — needs $20/mo minimum."},
-        {"name": "OpenCode", "url": "https://opencode.ai", "description": "Open-source provider-agnostic terminal coding assistant.", "free": "Tool is free; pair with Gemini/Groq/Cerebras free", "bestFor": "Fully free Claude-Code-style workflow", "catch": "Younger community."},
-        {"name": "Goose (Block)", "url": "https://block.github.io/goose/", "description": "Open-source local AI agent framework.", "free": "BYOK, works with Ollama", "bestFor": "Extensible agent workflows", "catch": "More framework than polished product."},
-        {"name": "Google Antigravity", "url": "https://antigravity.google", "description": "Google's agentic dev platform.", "free": "Via Google account", "bestFor": "Gemini-native workflows", "catch": "New, immature ecosystem."}
+        {
+          "name": "Google Antigravity",
+          "url": "https://antigravity.google",
+          "description": "Google's agentic dev platform; the agy CLI replaced Gemini CLI for individuals in June 2026.",
+          "free": "Free public beta with a Google account",
+          "bestFor": "Gemini-native agentic workflows",
+          "catch": "Preview-stage; limits can change without notice."
+        },
+        {
+          "name": "Zed",
+          "url": "https://zed.dev",
+          "description": "Rust-native GPU-rendered collaborative editor with an agent panel.",
+          "free": "Personal tier $0; editor is GPL v3; BYOK is unlimited",
+          "bestFor": "Performance (120fps) and real-time multiplayer",
+          "catch": "~700 extensions vs VS Code's 50K; hosted AI is capped."
+        },
+        {
+          "name": "Aider",
+          "url": "https://aider.chat",
+          "description": "Open-source git-aware terminal pair programmer.",
+          "free": "Tool is free, BYOK any LLM",
+          "bestFor": "Transparent multi-file edits via diffs",
+          "catch": "You pay API costs."
+        },
+        {
+          "name": "OpenCode",
+          "url": "https://opencode.ai",
+          "description": "Open-source provider-agnostic terminal coding agent.",
+          "free": "Free; pair with Groq/Gemini free tiers",
+          "bestFor": "A Claude-Code-style workflow at $0",
+          "catch": "Quality depends on the model you point it at."
+        },
+        {
+          "name": "Goose",
+          "url": "https://block.github.io/goose",
+          "description": "Block's open-source local agent framework with MCP.",
+          "free": "Apache 2.0, works with Ollama",
+          "bestFor": "Extensible local automation",
+          "catch": "More framework than polished product."
+        },
+        {
+          "name": "Warp Free",
+          "url": "https://www.warp.dev",
+          "description": "AI terminal with agent mode and command suggestions.",
+          "free": "Warp AI included, rate-limited",
+          "bestFor": "Replacing iTerm/Terminal",
+          "catch": "Closed-source; small AI allowance."
+        },
+        {
+          "name": "Raycast + Raycast AI",
+          "url": "https://www.raycast.com",
+          "description": "Mac launcher with 1,500+ extensions.",
+          "free": "Launcher free + limited AI messages",
+          "bestFor": "MacOS keyboard-driven productivity",
+          "catch": "Unlimited AI needs Pro ($8/mo)."
+        }
+      ],
+      "notes": [
+        "Claude Code — needs Pro or API billing; not on Claude Free. Occasional guest passes and OSS programmes exist, but there's no permanent free route."
+      ]
+    },
+    {
+      "id": "developer-apis",
+      "name": "Developer APIs with free tiers",
+      "description": "The most generous free LLM APIs for hobbyists and prototypes. Verify against your own dashboard — these change monthly.",
+      "tools": [
+        {
+          "name": "Groq",
+          "url": "https://console.groq.com",
+          "description": "30 RPM / 6,000 TPM. RPD varies by model: 14,400 on Llama 3.1 8B, but only ~1,000 on Llama 3.3 70B and GPT-OSS 120B",
+          "free": "No card required",
+          "catch": "Trains on your data: No"
+        },
+        {
+          "name": "Google AI Studio / Gemini API",
+          "url": "https://aistudio.google.com",
+          "description": "Flash and Flash-Lite only (3.8 Flash, 3.6 Flash, 3.5/3.1 Flash-Lite). No Pro model is free. ~20 RPD on 3.8 Flash, ~500 RPD on Flash-Lite reported",
+          "free": "No card required",
+          "catch": "Trains on your data: Yes"
+        },
+        {
+          "name": "OpenRouter :free",
+          "url": "https://openrouter.ai/models?q=free",
+          "description": "~20 RPM; 50 req/day unfunded, 1,000/day after any $10 lifetime top-up. DeepSeek, Qwen, Llama, GPT-OSS",
+          "free": "No card required",
+          "catch": "Trains on your data: Varies by model"
+        },
+        {
+          "name": "Mistral La Plateforme",
+          "url": "https://console.mistral.ai",
+          "description": "Free \"Experiment\" tier, ~1B tokens/month on open-weight models",
+          "free": "No card required (phone verification)",
+          "catch": "Trains on your data: Evaluation only"
+        },
+        {
+          "name": "Cloudflare Workers AI",
+          "url": "https://developers.cloudflare.com/workers-ai",
+          "description": "10,000 neurons/day on the Workers free plan; 47+ models",
+          "free": "No card required",
+          "catch": "Trains on your data: No"
+        },
+        {
+          "name": "Hugging Face Inference",
+          "url": "https://huggingface.co/docs/inference-providers",
+          "description": "$0.10/month in credits for free accounts ($2.00 for PRO)",
+          "free": "No card required",
+          "catch": "Trains on your data: No"
+        },
+        {
+          "name": "NVIDIA NIM",
+          "url": "https://build.nvidia.com",
+          "description": "Free rate-limited endpoints for many open models (~40 RPM)",
+          "free": "No card required",
+          "catch": "Trains on your data: No"
+        },
+        {
+          "name": "Cohere Trial",
+          "url": "https://dashboard.cohere.com",
+          "description": "1,000 API calls/month across endpoints, 20 RPM on chat",
+          "free": "No card required",
+          "catch": "Trains on your data: Non-commercial only"
+        }
+      ],
+      "notes": [
+        "Removed from this table: GitHub Models (fully retired July 30, 2026) and Cerebras (free tier replaced July 21, 2026 by a one-time $5 trial requiring a card). Also gone: Qwen Code's free OAuth tier, MiniMax's free API, and Together AI's trial credits."
+      ]
+    },
+    {
+      "id": "local-llm-runners",
+      "name": "Local & open-source LLM runners",
+      "description": "Run models entirely on your own hardware with real free software.",
+      "tools": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com",
+          "description": "One-command local model runner with an API and auto GPU detection.",
+          "free": "Open source, unlimited",
+          "bestFor": "Developers, servers, Docker",
+          "catch": "CLI-first; GUI is third-party."
+        },
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai",
+          "description": "Polished GUI with the best HuggingFace browser and MLX on Apple Silicon.",
+          "free": "Free including for work use",
+          "bestFor": "MacOS and Windows users",
+          "catch": "Closed-source."
+        },
+        {
+          "name": "Jan",
+          "url": "https://jan.ai",
+          "description": "Clean open-source desktop app with cloud fallback.",
+          "free": "Fully open source",
+          "bestFor": "Privacy-first chat UI",
+          "catch": "Inference slightly slower."
+        },
+        {
+          "name": "Open WebUI",
+          "url": "https://openwebui.com",
+          "description": "Self-hosted ChatGPT-style UI over Ollama or any OpenAI-compatible endpoint.",
+          "free": "Open source (Docker)",
+          "bestFor": "Teams and homelabs sharing local models",
+          "catch": "Licence has branding conditions."
+        },
+        {
+          "name": "AnythingLLM",
+          "url": "https://anythingllm.com",
+          "description": "Turnkey local RAG and agents over your own documents.",
+          "free": "Open source desktop",
+          "bestFor": "Private company-doc Q&A",
+          "catch": "Resource-heavy; embedding setup needed."
+        },
+        {
+          "name": "GPT4All",
+          "url": "https://www.nomic.ai/gpt4all",
+          "description": "Simplest install with LocalDocs RAG.",
+          "free": "Open source",
+          "bestFor": "Beginners and low-end hardware",
+          "catch": "Smaller curated model library."
+        },
+        {
+          "name": "LocalAI",
+          "url": "https://localai.io",
+          "description": "Self-hosted, OpenAI-compatible API for local models.",
+          "free": "MIT",
+          "bestFor": "Drop-in API replacement",
+          "catch": "Setup required."
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "description": "The C/C++ engine powering most of the above.",
+          "free": "MIT",
+          "bestFor": "Custom builds on CUDA/Metal/Vulkan",
+          "catch": "No GUI."
+        },
+        {
+          "name": "Msty",
+          "url": "https://msty.app",
+          "description": "Single-binary app with split-chat model comparison.",
+          "free": "Free personal tier",
+          "bestFor": "Side-by-side testing offline",
+          "catch": "Proprietary; advanced features paid."
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "name": "Notable open-weight models",
+      "description": "The open frontier is now led by Chinese labs. Check the licence on the specific checkpoint, not the family page.",
+      "tools": [
+        {
+          "name": "Kimi K3",
+          "url": "https://huggingface.co/moonshotai",
+          "description": "2.8T total / 104B active — largest open-weight model ever released (July 27, 2026), 1M context",
+          "free": "Free weights — Custom licence",
+          "bestFor": "Self-hosting Moonshot models"
+        },
+        {
+          "name": "DeepSeek V4 Pro / Flash",
+          "url": "https://huggingface.co/deepseek-ai",
+          "description": "1.6T / 49B active, 1M context — frontier-class under the most permissive licence",
+          "free": "Free weights — MIT licence",
+          "bestFor": "Self-hosting DeepSeek models"
+        },
+        {
+          "name": "DeepSeek V4.1 Flash",
+          "url": "https://huggingface.co/deepseek-ai",
+          "description": "552B MoE; top vendor-reported Terminal-Bench 2.1 (90.6)",
+          "free": "Free weights — MIT licence",
+          "bestFor": "Self-hosting DeepSeek models"
+        },
+        {
+          "name": "GLM-5.2 / 5.3",
+          "url": "https://huggingface.co/zai-org",
+          "description": "NIST's CAISI called GLM-5.2 likely the most capable open-weight model at release",
+          "free": "Free weights — Open weight licence",
+          "bestFor": "Self-hosting Zhipu models"
+        },
+        {
+          "name": "Qwen3.8-27B / Flash-Next",
+          "url": "https://huggingface.co/Qwen",
+          "description": "Most practical for local deployment; revenue sharing above $50M/yr",
+          "free": "Free weights — Qwen Community licence",
+          "bestFor": "Self-hosting Alibaba models"
+        },
+        {
+          "name": "Kimi K2.7-Code",
+          "url": "https://huggingface.co/moonshotai",
+          "description": "1T / 32B coding-tuned fork for agentic coding",
+          "free": "Free weights — Modified MIT licence",
+          "bestFor": "Self-hosting Moonshot models"
+        },
+        {
+          "name": "MiniMax M3",
+          "url": "https://huggingface.co/MiniMaxAI",
+          "description": "High-throughput MoE built for fast serving",
+          "free": "Free weights — Open weight licence",
+          "bestFor": "Self-hosting MiniMax models"
+        },
+        {
+          "name": "gpt-oss-120b / 20b",
+          "url": "https://huggingface.co/openai",
+          "description": "OpenAI's open-weight reasoning models; 120B fits one H100",
+          "free": "Free weights — Apache 2.0 licence",
+          "bestFor": "Self-hosting OpenAI models"
+        },
+        {
+          "name": "Gemma 4",
+          "url": "https://ai.google.dev/gemma",
+          "description": "Best small-model tier; runs on a single GPU, strong on-device",
+          "free": "Free weights — Gemma licence licence",
+          "bestFor": "Self-hosting Google models"
+        },
+        {
+          "name": "Mistral Small 4 / Large 3",
+          "url": "https://huggingface.co/mistralai",
+          "description": "The strongest EU open option, enterprise-friendly",
+          "free": "Free weights — Apache 2.0 licence",
+          "bestFor": "Self-hosting Mistral models"
+        },
+        {
+          "name": "Llama 4 Scout / Maverick",
+          "url": "https://www.llama.com",
+          "description": "Deepest Western ecosystem; Scout's 10M context still unmatched on paper",
+          "free": "Free weights — Llama Community licence",
+          "bestFor": "Self-hosting Meta models"
+        },
+        {
+          "name": "Olmo 3",
+          "url": "https://allenai.org/olmo",
+          "description": "The only fully open-source model — data, code and weights all released",
+          "free": "Free weights — Apache 2.0 licence",
+          "bestFor": "Self-hosting Ai2 models"
+        },
+        {
+          "name": "Phi-4 / Phi-4-mini",
+          "url": "https://huggingface.co/microsoft",
+          "description": "Best tiny reasoning models; run on a laptop",
+          "free": "Free weights — MIT licence",
+          "bestFor": "Self-hosting Microsoft models"
+        }
+      ]
+    },
+    {
+      "id": "rag-frameworks",
+      "name": "RAG frameworks",
+      "description": "Open-source frameworks for retrieval-augmented generation over your own data.",
+      "tools": [
+        {
+          "name": "LangChain / LangGraph",
+          "url": "https://www.langchain.com",
+          "description": "The most widely used framework for LLM apps and agents.",
+          "free": "MIT",
+          "bestFor": "Flexible pipelines and agent graphs",
+          "catch": "Abstraction overhead; fast-moving API."
+        },
+        {
+          "name": "LlamaIndex",
+          "url": "https://www.llamaindex.ai",
+          "description": "Data framework for RAG over documents.",
+          "free": "MIT (cloud parsing is paid)",
+          "bestFor": "Document-heavy RAG",
+          "catch": "LlamaParse free credits are limited."
+        },
+        {
+          "name": "Haystack",
+          "url": "https://haystack.deepset.ai",
+          "description": "deepset's production-grade RAG framework.",
+          "free": "Apache 2.0",
+          "bestFor": "Production pipelines",
+          "catch": "Steeper learning curve."
+        },
+        {
+          "name": "RAGFlow",
+          "url": "https://ragflow.io",
+          "description": "Open-source RAG engine with deep document parsing.",
+          "free": "Apache 2.0",
+          "bestFor": "Complex PDFs and tables",
+          "catch": "Heavy Docker stack."
+        },
+        {
+          "name": "Dify",
+          "url": "https://dify.ai",
+          "description": "Open-source LLM app platform with RAG, agents and workflows.",
+          "free": "Self-hosted free",
+          "bestFor": "Low-code AI apps",
+          "catch": "Licence restricts multi-tenant SaaS resale."
+        }
+      ]
+    },
+    {
+      "id": "vector-databases",
+      "name": "Vector databases & embeddings",
+      "description": "Vector stores for embeddings — from a Postgres extension to billion-scale databases.",
+      "tools": [
+        {
+          "name": "pgvector",
+          "url": "https://github.com/pgvector/pgvector",
+          "description": "Adds vector columns and HNSW indexes to PostgreSQL.",
+          "free": "Open source",
+          "bestFor": "Teams already on Postgres — no new infrastructure",
+          "catch": "Struggles past ~10M vectors without pgvectorscale."
+        },
+        {
+          "name": "Qdrant",
+          "url": "https://qdrant.tech",
+          "description": "Rust vector database, self-hosted or managed.",
+          "free": "Apache 2.0 self-host + a permanent free managed cluster",
+          "bestFor": "The self-host default",
+          "catch": "Namespaces, hybrid search and on-prem push you to Enterprise."
+        },
+        {
+          "name": "Chroma",
+          "url": "https://www.trychroma.com",
+          "description": "The lightest vector DB — pip install chromadb and you're running.",
+          "free": "Open source, no signup, no API key",
+          "bestFor": "Local-first prototyping",
+          "catch": "OSS and Cloud are different engines — migrating means re-ingesting."
+        },
+        {
+          "name": "Milvus / Zilliz",
+          "url": "https://milvus.io",
+          "description": "CNCF-graduated billion-scale vector database.",
+          "free": "Milvus OSS fully free; Zilliz serverless free tier = 5 GB",
+          "bestFor": "Very large workloads",
+          "catch": "Real operational overhead self-hosted."
+        },
+        {
+          "name": "LanceDB",
+          "url": "https://lancedb.com",
+          "description": "Embedded multimodal vector DB on the Lance columnar format.",
+          "free": "Open source; cloud gives one-time credits",
+          "bestFor": "Larger-than-memory data on object storage",
+          "catch": "Smaller ecosystem."
+        },
+        {
+          "name": "Weaviate",
+          "url": "https://weaviate.io",
+          "description": "Open-source vector DB with native hybrid BM25 + dense search.",
+          "free": "Open source + free managed sandbox",
+          "bestFor": "Hybrid keyword and vector search",
+          "catch": "Sandbox clusters expire."
+        }
+      ]
+    },
+    {
+      "id": "mcp-tooling",
+      "name": "MCP servers & tooling",
+      "description": "Model Context Protocol is how assistants connect to tools — new in 2025, now standard.",
+      "tools": [
+        {
+          "name": "MCP reference servers",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "description": "Official open-source servers (filesystem, git, fetch, and more).",
+          "free": "MIT",
+          "bestFor": "Connecting assistants to real tools",
+          "catch": "Review security before granting any access."
+        },
+        {
+          "name": "FastMCP",
+          "url": "https://gofastmcp.com",
+          "description": "Python framework for building MCP servers fast.",
+          "free": "Open source",
+          "bestFor": "Building custom servers",
+          "catch": "Python-only."
+        },
+        {
+          "name": "MCP Inspector",
+          "url": "https://github.com/modelcontextprotocol/inspector",
+          "description": "Official debugging UI for MCP servers.",
+          "free": "Open source",
+          "bestFor": "MCP developers",
+          "catch": "Dev-only tool."
+        },
+        {
+          "name": "Smithery",
+          "url": "https://smithery.ai",
+          "description": "Registry and hosting for MCP servers.",
+          "free": "Free browsing and installs",
+          "bestFor": "Discovering servers",
+          "catch": "Third-party server quality and safety vary widely."
+        }
+      ]
+    },
+    {
+      "id": "observability-evals",
+      "name": "AI observability & evals",
+      "description": "Trace, evaluate and red-team LLM apps — all open source.",
+      "tools": [
+        {
+          "name": "promptfoo",
+          "url": "https://www.promptfoo.dev",
+          "description": "Open-source prompt evaluation and LLM red-teaming.",
+          "free": "MIT CLI",
+          "bestFor": "Testing prompts in CI",
+          "catch": "Config-heavy."
+        },
+        {
+          "name": "Arize Phoenix",
+          "url": "https://phoenix.arize.com",
+          "description": "Open-source tracing and evaluation.",
+          "free": "Self-hosted free",
+          "bestFor": "Debugging RAG and agent pipelines",
+          "catch": "Self-host to avoid cloud limits."
+        },
+        {
+          "name": "DeepEval",
+          "url": "https://github.com/confident-ai/deepeval",
+          "description": "Pytest-style LLM evaluation.",
+          "free": "Open source",
+          "bestFor": "Python teams with existing test suites",
+          "catch": "The hosted dashboard is paid."
+        },
+        {
+          "name": "Opik",
+          "url": "https://www.comet.com/site/products/opik",
+          "description": "Comet's open-source LLM observability.",
+          "free": "Open source + free cloud tier",
+          "bestFor": "Tracing and evals together",
+          "catch": "Cloud tier has limits."
+        }
+      ]
+    },
+    {
+      "id": "workflow-automation",
+      "name": "Workflow automation & no-code AI",
+      "description": "Connecting AI to the rest of your stack. All five here are genuinely free self-hosted.",
+      "tools": [
+        {
+          "name": "n8n",
+          "url": "https://n8n.io",
+          "description": "Open-source workflow automation with the deepest AI and RAG node library.",
+          "free": "Self-hosted unlimited; cloud free tier = 1,000 executions/month, 2 active workflows, AI agents on all tiers",
+          "bestFor": "Technical teams wanting mature self-hostable automation",
+          "catch": "Fair-code licence restricts reselling; cloud tier is tight."
+        },
+        {
+          "name": "Activepieces",
+          "url": "https://www.activepieces.com",
+          "description": "MIT-licensed Zapier alternative with AI agents and 400+ MCP servers.",
+          "free": "Self-hosted Community Edition free; cloud free tier includes AI agents",
+          "bestFor": "Teams wanting a permissive licence plus MCP",
+          "catch": "Younger and less mature than n8n."
+        },
+        {
+          "name": "Langflow",
+          "url": "https://www.langflow.org",
+          "description": "Visual drag-and-drop builder for LangChain pipelines and agents.",
+          "free": "Open source",
+          "bestFor": "Python devs building RAG visually",
+          "catch": "Custom components still need Python."
+        },
+        {
+          "name": "Flowise",
+          "url": "https://flowiseai.com",
+          "description": "Visual LLM app and chatbot builder.",
+          "free": "Open source, self-hosted",
+          "bestFor": "No-code agent prototypes",
+          "catch": "Self-hosting required; cloud is paid."
+        },
+        {
+          "name": "Windmill",
+          "url": "https://www.windmill.dev",
+          "description": "Open-source developer platform for scripts, flows and internal apps.",
+          "free": "Open source self-hosted",
+          "bestFor": "Code-first automation",
+          "catch": "More developer-oriented than no-code."
+        }
       ]
     },
     {
@@ -426,22 +2385,198 @@
       "name": "AI agents & autonomous workflows",
       "description": "Autonomous agent platforms — most open-source with BYOK.",
       "tools": [
-        {"name": "Manus", "url": "https://manus.im", "description": "Autonomous general agent with browser, files, and desktop My Computer.", "free": "Limited daily credits (acquired by Meta Dec 2025)", "bestFor": "Research, multi-step tasks", "catch": "Primarily paid; free tier is constrained."},
-        {"name": "OpenHands", "url": "https://github.com/OpenHands/OpenHands", "description": "Open-source autonomous coding agent (formerly OpenDevin).", "free": "MIT, self-host; free cloud trial via GitHub login", "bestFor": "Devin-style dev agent", "catch": "Self-host needs an LLM API key."},
-        {"name": "OpenManus", "url": "https://github.com/FoundationAgents/OpenManus", "description": "Open-source Manus clone from MetaGPT team.", "free": "Fully open-source, no invite", "bestFor": "Agent workflow experimentation", "catch": "BYOK."},
-        {"name": "browser-use", "url": "https://github.com/browser-use/browser-use", "description": "Python library letting an LLM control a browser.", "free": "Open-source", "bestFor": "Web automation scripts", "catch": "Requires LLM key + coding."},
-        {"name": "AutoGPT / AgentGPT", "url": "https://github.com/Significant-Gravitas/AutoGPT", "description": "The OG autonomous agents.", "free": "Open-source", "bestFor": "Learning how agent loops work", "catch": "Still fragile on long tasks."}
+        {
+          "name": "Manus",
+          "url": "https://manus.im",
+          "description": "Autonomous general agent with browser, files and a desktop sandbox.",
+          "free": "Free plan still exists — 1,000 signup credits then 300 daily refresh credits capped at 1,500/month, Manus 2.0 Lite, 1 concurrent task",
+          "bestFor": "Testing agent workflows",
+          "catch": "Roughly one real task per day; Pro starts $20. Meta's acquisition was blocked by Chinese regulators April 27, 2026 — Manus is independent."
+        },
+        {
+          "name": "OpenHands",
+          "url": "https://github.com/OpenHands/OpenHands",
+          "description": "Open-source autonomous software-engineering agent (formerly OpenDevin).",
+          "free": "MIT, self-hosted; free cloud trial via GitHub login",
+          "bestFor": "Devin-style dev agent",
+          "catch": "Self-host needs an LLM key."
+        },
+        {
+          "name": "Genspark",
+          "url": "https://www.genspark.ai",
+          "description": "Super-agent for research, slides and calls.",
+          "free": "Basic access with daily credits",
+          "bestFor": "Multi-step research",
+          "catch": "Credits deplete quickly."
+        },
+        {
+          "name": "OpenManus",
+          "url": "https://github.com/FoundationAgents/OpenManus",
+          "description": "Open-source Manus clone from the MetaGPT team.",
+          "free": "Fully open source, no invite",
+          "bestFor": "Agent workflow experimentation",
+          "catch": "Rough edges; BYOK."
+        },
+        {
+          "name": "browser-use",
+          "url": "https://browser-use.com",
+          "description": "Python library letting an LLM drive a Playwright browser.",
+          "free": "MIT (cloud starts with $10 credits)",
+          "bestFor": "Web automation scripts",
+          "catch": "Requires an LLM key and coding."
+        },
+        {
+          "name": "AutoGPT / AgentGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "description": "The original autonomous agent platforms.",
+          "free": "Open source",
+          "bestFor": "Learning how agent loops work",
+          "catch": "Largely superseded; fragile on long tasks."
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "name": "Computer-use agents",
+      "description": "Agents that see your screen and control the mouse and keyboard — distinct from browser-only agents.",
+      "tools": [
+        {
+          "name": "UI-TARS",
+          "url": "https://github.com/bytedance/UI-TARS",
+          "description": "ByteDance's vision-language model built specifically for GUI control.",
+          "free": "Apache 2.0 weights, self-hostable",
+          "bestFor": "Self-hosted desktop automation that beats commercial CUAs on benchmarks",
+          "catch": "Needs a GPU; bring your own scaffold."
+        },
+        {
+          "name": "Agent S",
+          "url": "https://github.com/simular-ai/Agent-S",
+          "description": "Open-source computer-use framework for Windows, macOS and Linux.",
+          "free": "Open source",
+          "bestFor": "Multi-step desktop automation",
+          "catch": "BYO model API key."
+        },
+        {
+          "name": "Skyvern",
+          "url": "https://www.skyvern.com",
+          "description": "Vision-LLM browser automation with parameterized workflows.",
+          "free": "Open source",
+          "bestFor": "Repeatable form and web workflows",
+          "catch": "AGPL-3.0 — source disclosure if offered over a network."
+        },
+        {
+          "name": "Open Interpreter",
+          "url": "https://www.openinterpreter.com",
+          "description": "Runs code locally and controls the GUI from natural language.",
+          "free": "Open source",
+          "bestFor": "Hybrid code + GUI automation",
+          "catch": "Give it sandboxed access only."
+        },
+        {
+          "name": "OpenAdapt",
+          "url": "https://github.com/OpenAdaptAI/OpenAdapt",
+          "description": "Records your desktop workflows and replays them with AI.",
+          "free": "MIT",
+          "bestFor": "Demo-based automation",
+          "catch": "Early-stage."
+        },
+        {
+          "name": "ByteBot",
+          "url": "https://github.com/bytebot-ai/bytebot",
+          "description": "Full desktop automation in isolated, persistent Docker containers.",
+          "free": "Open source",
+          "bestFor": "Sandboxed agent runs",
+          "catch": "Docker setup required."
+        }
+      ]
+    },
+    {
+      "id": "voice-on-device",
+      "name": "Voice agents & on-device AI",
+      "description": "Real-time voice agent frameworks and fully on-device models.",
+      "tools": [
+        {
+          "name": "Pipecat",
+          "url": "https://www.pipecat.ai",
+          "description": "Open-source framework for real-time voice agents.",
+          "free": "BSD",
+          "bestFor": "Building voice bots",
+          "catch": "You pay for the STT/LLM/TTS providers."
+        },
+        {
+          "name": "LiveKit Agents",
+          "url": "https://docs.livekit.io/agents",
+          "description": "Open-source realtime voice and video agent framework.",
+          "free": "Apache 2.0; cloud has a free tier",
+          "bestFor": "Production voice apps",
+          "catch": "Infrastructure knowledge needed."
+        },
+        {
+          "name": "Google AI Edge Gallery",
+          "url": "https://github.com/google-ai-edge/gallery",
+          "description": "Run Gemma models fully on-device on Android and iOS.",
+          "free": "Free, open source",
+          "bestFor": "Offline phone AI",
+          "catch": "Small models only."
+        },
+        {
+          "name": "MLC LLM",
+          "url": "https://llm.mlc.ai",
+          "description": "Compile and run LLMs on phones, browsers and GPUs.",
+          "free": "Apache 2.0",
+          "bestFor": "Edge deployment",
+          "catch": "Technical."
+        }
       ]
     },
     {
       "id": "detection",
       "name": "AI detection & humanizers",
-      "description": "AI-text detectors — useful signal but not proof.",
+      "description": "AI-text detectors and humanizers — useful signal but not proof.",
       "tools": [
-        {"name": "GPTZero", "url": "https://gptzero.me", "description": "Flagship AI-text detector (ChatGPT, Claude, Gemini).", "free": "~5,000–10,000 words/month; paraphrase detection included", "bestFor": "Educators, editors", "catch": "~10% false positive rate in real-world use."},
-        {"name": "ZeroGPT", "url": "https://www.zerogpt.com", "description": "Unlimited scans with DeepAnalyse.", "free": "Unlimited, ~15K chars/scan", "bestFor": "Quick bulk checks", "catch": "Independent 2026 testing: 73.8% accuracy, 20.5% false-positive rate."},
-        {"name": "QuillBot AI Detector", "url": "https://quillbot.com/ai-content-detector", "description": "Detector integrated with the QuillBot suite.", "free": "Unlimited scans, 80-word minimum", "bestFor": "Writers already on QuillBot", "catch": "Upsells to Premium."},
-        {"name": "Copyleaks", "url": "https://copyleaks.com", "description": "Enterprise-grade detection.", "free": "Limited trial scans", "bestFor": "Institutions evaluating", "catch": "Real free tier is thin."}
+        {
+          "name": "GPTZero",
+          "url": "https://gptzero.me",
+          "description": "Flagship AI-text detector.",
+          "free": "~5,000–10,000 words/month with paraphrase detection",
+          "bestFor": "Educators and editors",
+          "catch": "~10% false-positive rate in real-world use."
+        },
+        {
+          "name": "QuillBot AI Detector",
+          "url": "https://quillbot.com/ai-content-detector",
+          "description": "Detector integrated with the QuillBot suite.",
+          "free": "Unlimited scans, 80-word minimum",
+          "bestFor": "Writers self-checking",
+          "catch": "Upsells to Premium."
+        },
+        {
+          "name": "ZeroGPT",
+          "url": "https://www.zerogpt.com",
+          "description": "Unlimited scans with DeepAnalyse.",
+          "free": "Unlimited, ~15K chars/scan",
+          "bestFor": "Quick bulk checks",
+          "catch": "Independent 2026 testing found 73.8% accuracy and a 20.5% false-positive rate."
+        },
+        {
+          "name": "Grammarly AI Humanizer",
+          "url": "https://www.grammarly.com/ai-humanizer",
+          "description": "Rewrites AI-heavy text to read naturally.",
+          "free": "Basic web humanizer free (~3 rewrites/day)",
+          "bestFor": "Smoothing stiff drafts",
+          "catch": "Grammarly says it isn't for bypassing detectors; text may be used for training."
+        },
+        {
+          "name": "Copyleaks",
+          "url": "https://copyleaks.com/ai-content-detector",
+          "description": "Enterprise-grade AI and plagiarism detection.",
+          "free": "Limited trial scans",
+          "bestFor": "Institutions evaluating",
+          "catch": "The real free tier is thin."
+        }
+      ],
+      "notes": [
+        "No AI detector is reliable enough to accuse anyone. Treat results as signal, never proof."
       ]
     },
     {
@@ -449,11 +2584,46 @@
       "name": "Resume & career AI",
       "description": "Resume builders and job-tracking tools with free tiers.",
       "tools": [
-        {"name": "Teal", "url": "https://www.tealhq.com", "description": "AI resume builder + job tracker with Chrome extension.", "free": "Unlimited resumes, 11 templates, full job tracking", "bestFor": "Active job seekers applying at scale", "catch": "AI tailoring + Match Score gated to Teal+ ($29/mo)."},
-        {"name": "Rezi", "url": "https://www.rezi.ai", "description": "ATS-optimized with a 23-metric Rezi Score.", "free": "1 resume, 3 PDF downloads, unlimited DOCX, AI keyword targeting", "bestFor": "ATS-focused applicants", "catch": "1-resume cap."},
-        {"name": "Kickresume", "url": "https://www.kickresume.com", "description": "GPT-powered with 1,500+ examples.", "free": "Basic builder + limited AI", "bestFor": "Early-career, design-conscious", "catch": "Premium templates/downloads paywalled."},
-        {"name": "Enhancv", "url": "https://enhancv.com", "description": "Visually rich templates with AI content.", "free": "Build but limited downloads", "bestFor": "Creative roles", "catch": "Free export is restrictive."},
-        {"name": "FlowCV", "url": "https://flowcv.com", "description": "Genuinely free ATS-friendly builder.", "free": "Unlimited resumes + PDFs, no watermark", "bestFor": "Budget-conscious users", "catch": "Lighter AI than Teal/Rezi."}
+        {
+          "name": "Teal",
+          "url": "https://www.tealhq.com",
+          "description": "AI resume builder plus job tracker with a Chrome extension.",
+          "free": "Unlimited resumes, 11 templates, full job tracking",
+          "bestFor": "Active job seekers applying at scale",
+          "catch": "AI tailoring and Match Score need Teal+ ($29/mo)."
+        },
+        {
+          "name": "FlowCV",
+          "url": "https://flowcv.com",
+          "description": "Genuinely free ATS-friendly builder.",
+          "free": "Unlimited resumes and PDFs, no watermark",
+          "bestFor": "Budget-conscious job seekers",
+          "catch": "Lighter AI than Teal or Rezi."
+        },
+        {
+          "name": "Rezi",
+          "url": "https://www.rezi.ai",
+          "description": "ATS-optimized with a 23-metric Rezi Score.",
+          "free": "1 resume, 3 PDF downloads, unlimited DOCX",
+          "bestFor": "ATS-focused applicants",
+          "catch": "One-resume cap."
+        },
+        {
+          "name": "Kickresume",
+          "url": "https://www.kickresume.com",
+          "description": "GPT-powered builder with 1,500+ examples.",
+          "free": "Basic builder + limited AI",
+          "bestFor": "Early-career and design-conscious users",
+          "catch": "Premium templates paywalled."
+        },
+        {
+          "name": "Enhancv",
+          "url": "https://enhancv.com",
+          "description": "Visually rich templates with AI content checks.",
+          "free": "Build with limited downloads",
+          "bestFor": "Creative roles",
+          "catch": "Free export is restrictive."
+        }
       ]
     },
     {
@@ -461,12 +2631,54 @@
       "name": "Study & education AI",
       "description": "Tutors, flashcards, and homework helpers — free for students.",
       "tools": [
-        {"name": "Khanmigo for Teachers", "url": "https://www.khanmigo.ai/teachers", "description": "Khan Academy's Socratic AI tutor.", "free": "100% free for US teachers (Microsoft partnership)", "bestFor": "K–12 educators (lesson plans, rubrics)", "catch": "Learner version is $4/mo; student classroom use requires district."},
-        {"name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Effectively the best free study-from-your-materials tool.", "free": "100 notebooks, 50 sources each", "bestFor": "Synthesizing lecture notes, slides, textbooks", "catch": "Monthly caps on Audio Overviews / Deep Research."},
-        {"name": "Google Socratic", "url": "https://socratic.org", "description": "Homework helper by photo (mobile).", "free": "Fully free", "bestFor": "High-schoolers", "catch": "Google barely updates it."},
-        {"name": "Quizlet", "url": "https://quizlet.com", "description": "Flashcards + Q-Chat AI tutor.", "free": "Flashcards + millions of community sets", "bestFor": "Memorization", "catch": "Magic Notes / full AI tutor in Plus ($35.99/yr)."},
-        {"name": "StudyFetch", "url": "https://www.studyfetch.com", "description": "Converts lectures/PDFs to flashcards, quizzes, and a Spark.E AI tutor.", "free": "Limited uploads", "bestFor": "College students", "catch": "Meaningful use needs Pro."},
-        {"name": "Anki", "url": "https://apps.ankiweb.net", "description": "Gold-standard spaced repetition (AI-adjacent scheduling).", "free": "Desktop + Android, open-source", "bestFor": "Med/law students", "catch": "iOS app $24.99 one-time."}
+        {
+          "name": "Gemini Notebook",
+          "url": "https://notebook.google",
+          "description": "The best free \"study from your own materials\" tool.",
+          "free": "100 notebooks × 50 sources, Audio Overviews, quizzes, flashcards",
+          "bestFor": "Exam prep",
+          "catch": "Compute-based caps."
+        },
+        {
+          "name": "Anki",
+          "url": "https://apps.ankiweb.net",
+          "description": "Gold-standard spaced repetition with AI add-ons.",
+          "free": "Desktop, web and Android, open source",
+          "bestFor": "Med and law students",
+          "catch": "iOS app is $24.99 one-time; steep learning curve."
+        },
+        {
+          "name": "Khanmigo for Teachers",
+          "url": "https://www.khanmigo.ai/teachers",
+          "description": "Khan Academy's Socratic AI tutor.",
+          "free": "100% free for teachers (US and selected countries)",
+          "bestFor": "K-12 lesson plans and rubrics",
+          "catch": "The learner version is paid outside districts."
+        },
+        {
+          "name": "Quizlet",
+          "url": "https://quizlet.com",
+          "description": "Flashcards plus Q-Chat AI tutor.",
+          "free": "Flashcards and millions of community sets",
+          "bestFor": "Memorization",
+          "catch": "Magic Notes and the full AI tutor are in Plus."
+        },
+        {
+          "name": "StudyFetch",
+          "url": "https://www.studyfetch.com",
+          "description": "Converts lectures and PDFs into flashcards, quizzes and an AI tutor.",
+          "free": "Limited uploads",
+          "bestFor": "College students",
+          "catch": "Meaningful use needs Pro."
+        },
+        {
+          "name": "Google Socratic",
+          "url": "https://socratic.org",
+          "description": "Photo-based homework helper.",
+          "free": "Fully free",
+          "bestFor": "High-schoolers",
+          "catch": "Google has folded much of it into Lens/Gemini — possibly winding down."
+        }
       ]
     },
     {
@@ -474,11 +2686,46 @@
       "name": "Math & STEM solvers",
       "description": "Step-by-step math solvers and computational engines.",
       "tools": [
-        {"name": "Microsoft Math Solver", "url": "https://mathsolver.microsoft.com", "description": "Full solver with graphs and practice.", "free": "100% free, every feature unlocked", "bestFor": "Budget-conscious students", "catch": "Less polished UI than Photomath."},
-        {"name": "Photomath", "url": "https://photomath.com", "description": "Snap-a-photo solver with steps.", "free": "Solve + basic steps", "bestFor": "K–12 homework", "catch": "Animated tutorials behind Plus."},
-        {"name": "Symbolab", "url": "https://www.symbolab.com", "description": "Step-by-step algebra, calculus, stats.", "free": "Solutions + basic steps", "bestFor": "College calculus", "catch": "Detailed steps need Pro."},
-        {"name": "Wolfram Alpha", "url": "https://www.wolframalpha.com", "description": "Computational engine.", "free": "Answers + basic plots", "bestFor": "Advanced math, physics, engineering", "catch": "Step-by-step requires Pro ($7/mo)."},
-        {"name": "Mathway", "url": "https://www.mathway.com", "description": "Wide subject coverage.", "free": "Final answers", "bestFor": "Quick answer checks", "catch": "Steps paywalled."}
+        {
+          "name": "Microsoft Math Solver",
+          "url": "https://math.microsoft.com",
+          "description": "Full solver with graphs and practice problems.",
+          "free": "100% free, every feature unlocked",
+          "bestFor": "Budget-conscious students",
+          "catch": "Less polished UI than Photomath; Microsoft has scaled it back."
+        },
+        {
+          "name": "Wolfram Alpha",
+          "url": "https://www.wolframalpha.com",
+          "description": "Computational knowledge engine.",
+          "free": "Answers and basic plots",
+          "bestFor": "Advanced math, physics and engineering",
+          "catch": "Step-by-step requires Pro ($7/mo)."
+        },
+        {
+          "name": "Photomath",
+          "url": "https://photomath.com",
+          "description": "Snap-a-photo solver with steps.",
+          "free": "Solutions + basic steps",
+          "bestFor": "K-12 homework",
+          "catch": "Animated tutorials behind Plus."
+        },
+        {
+          "name": "Symbolab",
+          "url": "https://www.symbolab.com",
+          "description": "Step-by-step algebra, calculus and statistics.",
+          "free": "Solutions + basic steps",
+          "bestFor": "College calculus",
+          "catch": "Detailed steps need Pro."
+        },
+        {
+          "name": "Mathway",
+          "url": "https://www.mathway.com",
+          "description": "Wide subject coverage.",
+          "free": "Final answers",
+          "bestFor": "Quick answer checks",
+          "catch": "Steps paywalled."
+        }
       ]
     },
     {
@@ -486,11 +2733,49 @@
       "name": "Marketing & SEO AI",
       "description": "GEO / SEO tools and marketing copy with real free tiers.",
       "tools": [
-        {"name": "AlsoAsked", "url": "https://alsoasked.com", "description": "PAA query-fan-out tree visualizer.", "free": "3 searches/day, no card", "bestFor": "GEO / AI-search content planning", "catch": "Daily cap."},
-        {"name": "AnswerThePublic", "url": "https://answerthepublic.com", "description": "Question-cluster visualizer.", "free": "3 daily credits", "bestFor": "Brainstorming topical clusters", "catch": "Paid for volume."},
-        {"name": "Copy.ai", "url": "https://www.copy.ai", "description": "GTM content generator.", "free": "2,000 chat words/month + 200 workflow credits", "bestFor": "Marketers drafting short-form copy", "catch": "Long-form needs paid."},
-        {"name": "Ahrefs Webmaster Tools", "url": "https://ahrefs.com/webmaster-tools", "description": "Free site audit + backlink data.", "free": "Permanent for your verified domains", "bestFor": "SMB owners", "catch": "Limited to sites you own."},
-        {"name": "Writesonic Free", "url": "https://writesonic.com", "description": "~10,000 words/month with SEO templates.", "free": "~10,000 words/month", "bestFor": "Light blogging", "catch": "Quality trails top models."}
+        {
+          "name": "Ahrefs Webmaster Tools",
+          "url": "https://ahrefs.com/webmaster-tools",
+          "description": "Free site audit and backlink data for verified sites.",
+          "free": "Permanent for domains you own",
+          "bestFor": "SMB site owners",
+          "catch": "Limited to your own sites."
+        },
+        {
+          "name": "AlsoAsked",
+          "url": "https://alsoasked.com",
+          "description": "People-Also-Ask query-fan-out tree visualizer.",
+          "free": "3 searches/day, no card",
+          "bestFor": "GEO and AI-search content planning",
+          "catch": "Daily cap."
+        },
+        {
+          "name": "AnswerThePublic",
+          "url": "https://answerthepublic.com",
+          "description": "Question-cluster visualizer.",
+          "free": "3 daily credits",
+          "bestFor": "Brainstorming topical clusters",
+          "catch": "Paid for volume."
+        },
+        {
+          "name": "Copy.ai",
+          "url": "https://www.copy.ai",
+          "description": "GTM content generator.",
+          "free": "2,000 chat words/month + 200 workflow credits",
+          "bestFor": "Short marketing copy",
+          "catch": "Enterprise pivot."
+        },
+        {
+          "name": "Writesonic Free",
+          "url": "https://writesonic.com",
+          "description": "SEO and GEO content platform.",
+          "free": "~10,000 words/month",
+          "bestFor": "Light blogging",
+          "catch": "The free tier has shrunk."
+        }
+      ],
+      "notes": [
+        "Frase, Surfer SEO and Keyword Insights have no real free tier — trials only."
       ]
     },
     {
@@ -498,21 +2783,77 @@
       "name": "Website builders with AI",
       "description": "AI site generators with real free publishing options.",
       "tools": [
-        {"name": "Framer", "url": "https://www.framer.com", "description": "Designer-grade AI layouts + animations.", "free": "Up to 1,000 pages, 10 CMS collections, framer.website subdomain", "bestFor": "Portfolios, landing pages", "catch": "Custom domain requires paid."},
-        {"name": "Wix AI (ADI)", "url": "https://www.wix.com", "description": "Conversational site generator.", "free": "Full builder with Wix ads + subdomain", "bestFor": "General SMBs", "catch": "Heavy JS can hurt Core Web Vitals; ads on free."},
-        {"name": "Durable", "url": "https://durable.co", "description": "30-second site for local services.", "free": "3 pages on free tier", "bestFor": "Plumbers, consultants, quick presence", "catch": "Real use is $15/mo."},
-        {"name": "10Web", "url": "https://10web.io/ai-website-builder/", "description": "AI-generated full WordPress site.", "free": "7-day trial", "bestFor": "WordPress loyalists", "catch": "Long-term paid only."}
+        {
+          "name": "Framer",
+          "url": "https://www.framer.com",
+          "description": "Designer-grade AI layouts and animations.",
+          "free": "Up to 1,000 pages, 10 CMS collections, framer.website subdomain",
+          "bestFor": "Portfolios and landing pages",
+          "catch": "Custom domain requires paid."
+        },
+        {
+          "name": "Wix AI (ADI)",
+          "url": "https://www.wix.com",
+          "description": "Conversational site generator.",
+          "free": "Full builder with Wix ads and subdomain",
+          "bestFor": "General small businesses",
+          "catch": "Heavy JS can hurt Core Web Vitals."
+        },
+        {
+          "name": "Durable",
+          "url": "https://durable.co",
+          "description": "30-second AI sites for local services.",
+          "free": "3 pages",
+          "bestFor": "Plumbers, consultants, quick presence",
+          "catch": "Real use is $15/mo."
+        },
+        {
+          "name": "10Web",
+          "url": "https://10web.io",
+          "description": "AI-generated full WordPress sites.",
+          "free": "7-day trial only",
+          "bestFor": "WordPress loyalists",
+          "catch": "Effectively paid — hosting is required."
+        }
       ]
     },
     {
       "id": "companions",
       "name": "AI companions & roleplay",
-      "description": "Character chat and roleplay platforms. Listed neutrally — real categories with real user bases.",
+      "description": "Listed neutrally — real categories with real user bases.",
       "tools": [
-        {"name": "Character.AI", "url": "https://character.ai", "description": "Largest character chat library (10M+ characters).", "free": "Unlimited chat (with in-convo ads)", "bestFor": "Creative roleplay, language practice", "catch": "Content filters tightened in 2026; c.ai+ ($9.99/mo) loosens some limits."},
-        {"name": "Replika", "url": "https://replika.com", "description": "Single persistent AI companion.", "free": "Basic chat + avatar", "bestFor": "Reflective/emotional-support use cases", "catch": "Voice calls and romantic modes gated to Pro (~$19.99/mo)."},
-        {"name": "Janitor AI", "url": "https://janitorai.com", "description": "User-made characters with BYO-LLM option.", "free": "Built-in model included; fewer filters than Character.AI", "bestFor": "Creative freedom", "catch": "Best quality needs external API; stability varies."},
-        {"name": "SillyTavern", "url": "https://github.com/SillyTavern/SillyTavern", "description": "Self-hosted open-source frontend.", "free": "Open-source", "bestFor": "Power users wanting full control + privacy", "catch": "Needs technical setup + your own LLM backend."}
+        {
+          "name": "Character.AI",
+          "url": "https://character.ai",
+          "description": "Largest character chat library (10M+ characters).",
+          "free": "Unlimited chat with in-conversation ads",
+          "bestFor": "Creative roleplay and language practice",
+          "catch": "Filters tightened in 2026; under-18 open-ended chat restricted."
+        },
+        {
+          "name": "SillyTavern",
+          "url": "https://sillytavern.app",
+          "description": "Self-hosted open-source roleplay frontend.",
+          "free": "Open source",
+          "bestFor": "Power users wanting full control and privacy",
+          "catch": "Needs technical setup plus your own LLM backend."
+        },
+        {
+          "name": "Janitor AI",
+          "url": "https://janitorai.com",
+          "description": "User-made characters with a built-in model or BYO-LLM.",
+          "free": "Free with the JanitorLLM model",
+          "bestFor": "Creative freedom",
+          "catch": "Quality varies; stability issues."
+        },
+        {
+          "name": "Replika",
+          "url": "https://replika.com",
+          "description": "Single persistent AI companion.",
+          "free": "Basic chat and avatar",
+          "bestFor": "Reflective and emotional-support use",
+          "catch": "Voice and romantic modes gated to Pro; privacy concerns."
+        }
       ]
     },
     {
@@ -520,19 +2861,64 @@
       "name": "Prompt libraries",
       "description": "Browse and remix community prompts.",
       "tools": [
-        {"name": "PromptHero", "url": "https://prompthero.com", "description": "Image and text prompt search (Midjourney, SD, ChatGPT).", "free": "Browse and search", "bestFor": "Image-gen inspiration", "catch": "Academy courses paid."},
-        {"name": "FlowGPT", "url": "https://flowgpt.com", "description": "Community prompt marketplace with in-site chatbot runner.", "free": "Browse + run", "bestFor": "Discovering ChatGPT prompt patterns", "catch": "Quality varies."},
-        {"name": "Snack Prompt", "url": "https://snackprompt.com", "description": "Curated prompt community.", "free": "Browse, upvote, save", "bestFor": "Vetted prompts", "catch": "Smaller library."}
+        {
+          "name": "PromptHero",
+          "url": "https://prompthero.com",
+          "description": "Image and text prompt search across Midjourney, SD and ChatGPT.",
+          "free": "Browse and search",
+          "bestFor": "Image-generation inspiration",
+          "catch": "Academy courses are paid."
+        },
+        {
+          "name": "FlowGPT",
+          "url": "https://flowgpt.com",
+          "description": "Community prompt marketplace with an in-site runner.",
+          "free": "Browse and run",
+          "bestFor": "Discovering prompt patterns",
+          "catch": "Quality varies wildly."
+        },
+        {
+          "name": "Snack Prompt",
+          "url": "https://snackprompt.com",
+          "description": "Curated prompt community.",
+          "free": "Browse, upvote, save",
+          "bestFor": "Vetted business prompts",
+          "catch": "Smaller library; activity has slowed."
+        }
       ]
     },
     {
       "id": "finance",
       "name": "Finance AI",
-      "description": "Investing and market-research assistants — thin free tier space.",
+      "description": "Investing and market-research assistants — a thin free-tier space.",
       "tools": [
-        {"name": "Stock Analysis / Finchat", "url": "https://stockanalysis.com", "description": "AI-powered stock research + Q&A.", "free": "Basic company data + limited AI queries", "bestFor": "Retail investors", "catch": "Deep AI chat in Pro."},
-        {"name": "Magnifi", "url": "https://magnifi.com", "description": "Conversational investing assistant.", "free": "Limited queries", "bestFor": "Natural-language portfolio discovery", "catch": "US-only; advisory features paid."},
-        {"name": "Perplexity Finance", "url": "https://www.perplexity.ai/finance", "description": "Stock/market Q&A with citations, bundled in free Perplexity.", "free": "Bundled with Perplexity free", "bestFor": "Quick market research", "catch": "Rate-limited on free."}
+        {
+          "name": "Perplexity Finance",
+          "url": "https://www.perplexity.ai/finance",
+          "description": "Free market data, earnings and cited AI answers.",
+          "free": "Free",
+          "bestFor": "Quick company research",
+          "catch": "Rate-limited; not financial advice."
+        },
+        {
+          "name": "Stock Analysis / Fiscal.ai",
+          "url": "https://stockanalysis.com",
+          "description": "Free financial data plus an AI research copilot.",
+          "free": "Free data, limited AI prompts",
+          "bestFor": "Retail investors",
+          "catch": "Deep AI chat is in Pro."
+        },
+        {
+          "name": "Magnifi",
+          "url": "https://magnifi.com",
+          "description": "Conversational investing assistant.",
+          "free": "Limited queries",
+          "bestFor": "Natural-language portfolio discovery",
+          "catch": "US-only; brokerage upsell."
+        }
+      ],
+      "notes": [
+        "The free AI-finance space is thin — most quality tools are trials in disguise."
       ]
     },
     {
@@ -540,11 +2926,46 @@
       "name": "Medical & clinical AI",
       "description": "Clinical AI tools — most require verified credentials.",
       "tools": [
-        {"name": "OpenEvidence", "url": "https://www.openevidence.com", "description": "Evidence engine citing NEJM, JAMA, Lancet, Cochrane.", "free": "100% free for verified US clinicians (NPI)", "bestFor": "Point-of-care clinical Q&A", "catch": "Requires credential verification; not for patients."},
-        {"name": "Glass AI", "url": "https://glass.health/ai", "description": "Clinical reasoning / DDx generator.", "free": "Limited clinician tier", "bestFor": "Differential diagnosis practice", "catch": "For clinicians/trainees."},
-        {"name": "Ada Health", "url": "https://ada.com", "description": "Consumer symptom assessment.", "free": "Full symptom triage", "bestFor": "Patients triaging symptoms", "catch": "Informational, not diagnostic."},
-        {"name": "Heidi Health", "url": "https://www.heidihealth.com", "description": "AI medical scribe.", "free": "Free Forever tier with usage limits", "bestFor": "Junior doctors, clinical students", "catch": "Monthly transcript cap."},
-        {"name": "iatroX", "url": "https://www.iatrox.com", "description": "UK guideline-focused clinical AI.", "free": "100% free, no verification", "bestFor": "NHS clinicians", "catch": "UK-centric."}
+        {
+          "name": "OpenEvidence",
+          "url": "https://www.openevidence.com",
+          "description": "Evidence engine citing NEJM, JAMA, Lancet and Cochrane.",
+          "free": "100% free for verified US clinicians (NPI)",
+          "bestFor": "Point-of-care clinical Q&A",
+          "catch": "Credential verification required; not for patients."
+        },
+        {
+          "name": "Ada Health",
+          "url": "https://ada.com",
+          "description": "Consumer symptom assessment.",
+          "free": "Full symptom triage",
+          "bestFor": "Patients triaging symptoms",
+          "catch": "Informational, not diagnostic."
+        },
+        {
+          "name": "Heidi Health",
+          "url": "https://www.heidihealth.com",
+          "description": "AI medical scribe.",
+          "free": "\"Free Forever\" tier with usage limits",
+          "bestFor": "Junior doctors and clinical students",
+          "catch": "Monthly transcript cap."
+        },
+        {
+          "name": "Glass AI",
+          "url": "https://glass.health",
+          "description": "Clinical reasoning and differential diagnosis.",
+          "free": "Limited clinician tier",
+          "bestFor": "DDx practice",
+          "catch": "Clinicians and trainees only."
+        },
+        {
+          "name": "iatroX",
+          "url": "https://www.iatrox.com",
+          "description": "UK guideline-focused clinical AI.",
+          "free": "100% free, no verification",
+          "bestFor": "NHS clinicians",
+          "catch": "UK-centric."
+        }
       ]
     },
     {
@@ -552,8 +2973,33 @@
       "name": "Email AI",
       "description": "Gmail / Outlook-layered AI with usable free features.",
       "tools": [
-        {"name": "Shortwave", "url": "https://www.shortwave.com", "description": "AI email client layered over Gmail with summaries, semantic search, and AI writing.", "free": "Core AI features usable on free", "bestFor": "Gmail power users, inbox triage", "catch": "Advanced agents in paid tiers."},
-        {"name": "Gemini in Gmail / Copilot in Outlook", "url": "https://workspace.google.com", "description": "Native AI drafting in consumer Gmail.", "free": "Limited Help me write in personal Gmail", "bestFor": "Existing Google/MS users", "catch": "Full Workspace AI requires a paid Workspace or Copilot plan."}
+        {
+          "name": "Shortwave",
+          "url": "https://www.shortwave.com",
+          "description": "AI email client over Gmail with summaries, semantic search and AI writing.",
+          "free": "Core AI features usable on free",
+          "bestFor": "Gmail power users doing inbox triage",
+          "catch": "Advanced agents in paid tiers."
+        },
+        {
+          "name": "Gemini in Gmail",
+          "url": "https://mail.google.com",
+          "description": "Summaries and \"Help me write\" natively in Gmail.",
+          "free": "Limited on personal accounts",
+          "bestFor": "Existing Google users",
+          "catch": "Full features need AI Plus/Pro or Workspace."
+        },
+        {
+          "name": "Copilot in Outlook",
+          "url": "https://outlook.com",
+          "description": "Microsoft's AI drafting in Outlook.",
+          "free": "Limited consumer features",
+          "bestFor": "Outlook users",
+          "catch": "Most features need Microsoft 365."
+        }
+      ],
+      "notes": [
+        "Superhuman Mail — the Superhuman suite free plan covers Grammarly, Docs and Go, but not Mail. No free tier, no trial."
       ]
     }
   ]
