@@ -484,6 +484,7 @@ Splitting a finished track into vocals, drums, bass and instruments. Mature, and
 - **[Goose](https://block.github.io/goose)** — Block's open-source local agent framework with MCP. | Free: Apache 2.0, works with Ollama | Best for: extensible local automation | Catch: more framework than polished product.
 - **[Warp Free](https://www.warp.dev)** — AI terminal with agent mode and command suggestions. | Free: Warp AI included, rate-limited | Best for: replacing iTerm/Terminal | Catch: closed-source; small AI allowance.
 - **[Raycast + Raycast AI](https://www.raycast.com)** — Mac launcher with 1,500+ extensions. | Free: launcher free + limited AI messages | Best for: macOS keyboard-driven productivity | Catch: unlimited AI needs Pro ($8/mo).
+- **[agent-qa](https://github.com/vostride/agent-qa)** — Source-available application QA harness for natural-language web and mobile tests with execution memory and self-healing flows. | Free: package is free to install; provider usage is separate | Best for: teams maintaining browser or mobile QA flows as applications change | Catch: model, browser, or device providers may charge; the current FSL release is not OSI open source.
 - ⚠️ **Claude Code** — needs Pro or API billing; **not on Claude Free**. Occasional guest passes and OSS programmes exist, but there's no permanent free route.
 
 ---

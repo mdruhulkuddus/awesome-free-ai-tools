@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -1904,6 +1904,14 @@
           "free": "Launcher free + limited AI messages",
           "bestFor": "MacOS keyboard-driven productivity",
           "catch": "Unlimited AI needs Pro ($8/mo)."
+        },
+        {
+          "name": "agent-qa",
+          "url": "https://github.com/vostride/agent-qa",
+          "description": "Source-available application QA harness for natural-language web and mobile tests with execution memory and self-healing flows.",
+          "free": "Package is free to install; provider usage is separate",
+          "bestFor": "Teams maintaining browser or mobile QA flows as applications change",
+          "catch": "Model, browser, or device providers may charge; the current FSL release is not OSI open source."
         }
       ],
       "notes": [
