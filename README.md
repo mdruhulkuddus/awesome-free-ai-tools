@@ -320,7 +320,6 @@ Every one of these has a meaningful free experience — several are frontier-cla
 - **[HeyGen](https://www.heygen.com)** — Avatar IV, 1,100+ stock avatars, 175+ languages. | Free: 3 videos/month, ~3-min cap, 720p, watermark | Best for: marketing, training, localization | Catch: watermark on free; custom avatar paid.
 - **[Synthesia Free](https://www.synthesia.io)** — Enterprise avatars in 140+ languages. | Free: demo plan (3 min/month, watermark) | Best for: corporate training | Catch: real use starts $29/mo.
 - **[Colossyan](https://www.colossyan.com)** — Conversational avatars with branching scenarios. | Free: 200+ avatars, up to 5-min videos | Best for: interactive training | Catch: polish trails HeyGen.
-- **[Hedra](https://www.hedra.com)** — Character-3 model — photo + audio → expressive lip-synced video. | Free: daily short clips | Best for: character videos, music videos | Catch: queue delays.
 - **[Canva Talking Avatars](https://www.canva.com)** — HeyGen integration inside Canva. | Free: basic avatar features | Best for: quick presentations inside Canva | Catch: best options require Canva Pro + credits.
 - **[Ready Player Me](https://readyplayer.me)** — Free cross-platform 3D avatars for games/VR. | Free: fully free | Best for: game/metaverse avatars | Catch: not a talking-head video tool.
 - **[SadTalker (open source)](https://github.com/OpenTalker/SadTalker)** — Photo + audio → talking head. | Free: self-hosted, unlimited | Best for: devs, privacy | Catch: quality trails HeyGen.
