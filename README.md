@@ -536,6 +536,7 @@ Listed neutrally — real categories with real user bases.
 - **[Stock Analysis / Finchat](https://stockanalysis.com)** — AI-powered stock research + Q&A. | Free: basic company data + limited AI queries | Best for: retail investors | Catch: deep AI chat in Pro.
 - **[Magnifi](https://magnifi.com)** — Conversational investing assistant. | Free: limited queries | Best for: natural-language portfolio discovery | Catch: US-only; advisory features paid.
 - **[Perplexity Finance](https://www.perplexity.ai/finance)** — Stock/market Q&A with citations, bundled in free Perplexity. | Best for: quick market research | Catch: rate-limited on free.
+- **[DisconfirmAI](https://disconfirmai.com/en)** — Investment research platform that looks for disconfirming evidence before conviction; Reading, Research, Radar, Investment framework, AI 100. | Free: public Reading and core research flows without a card | Best for: investors who want counter-evidence before taking a view | Catch: deeper Radar scans and some Research depth need signup or paid plans.
 
 The free AI-finance space is thin — most quality tools are freemium trials.
 
