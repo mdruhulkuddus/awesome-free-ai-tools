@@ -9,7 +9,7 @@
   };
 
   const REPO = 'mdruhulkuddus/awesome-free-ai-tools';
-  const STAR_CACHE_KEY = 'aft.starCount.v1';
+  const STAR_CACHE_KEY = 'aft.repoStats.v2';
   const STAR_CACHE_TTL = 60 * 60 * 1000;
   const THEME_KEY = 'aft.theme';
 
@@ -44,29 +44,32 @@
     }
   }
 
-  /* ---- GitHub star count -------------------------------------- */
+  /* ---- GitHub star & fork counts ------------------------------ */
   async function loadStarCount() {
-    const el = $('#star-count');
-    if (!el) return;
+    if (!$('#star-count') && !$('#fork-count')) return;
     const cached = readStarCache();
     if (cached !== null) {
-      renderStars(cached);
+      renderRepoStats(cached);
       return;
     }
     try {
       const res = await fetch(`https://api.github.com/repos/${REPO}`);
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const json = await res.json();
-      const stars = json.stargazers_count || 0;
-      writeStarCache(stars);
-      renderStars(stars);
+      const stats = { stars: json.stargazers_count || 0, forks: json.forks_count || 0 };
+      writeStarCache(stats);
+      renderRepoStats(stats);
     } catch (err) {
       // Silent fail — hide badge
     }
   }
-  function renderStars(n) {
-    const el = $('#star-count');
-    if (!el) return;
+  function renderRepoStats({ stars, forks }) {
+    renderCount('#star-count', stars);
+    renderCount('#fork-count', forks);
+  }
+  function renderCount(sel, n) {
+    const el = $(sel);
+    if (!el || typeof n !== 'number') return;
     el.textContent = formatStars(n);
     el.classList.add('visible');
   }
