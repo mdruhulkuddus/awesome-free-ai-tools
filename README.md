@@ -1,6 +1,6 @@
 # Awesome Free AI Tools
 
-![Awesome Free AI Tools — 290+ genuinely free AI tools](/assets/awesome-ai-banner-nov-1.png)
+![Awesome Free AI Tools — 290+ genuinely free AI tools](/assets/social-preview-new-1.png)
 
 
 <p align="center">
