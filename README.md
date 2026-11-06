@@ -520,6 +520,7 @@ Listed neutrally — real categories with real user bases.
 - **[Replika](https://replika.com)** — Single persistent AI companion. | Free: basic chat + avatar | Best for: reflective/emotional-support use cases | Catch: voice calls and romantic modes gated to Pro (~$19.99/mo).
 - **[Janitor AI](https://janitorai.com)** — User-made characters with BYO-LLM option. | Free: built-in model included; fewer filters than Character.AI | Best for: creative freedom | Catch: best quality needs external API; stability varies.
 - **[SillyTavern](https://github.com/SillyTavern/SillyTavern)** — Self-hosted open-source frontend. | Free: open-source | Best for: power users wanting full control + privacy | Catch: needs technical setup + your own LLM backend.
+- **[EroLove](https://erolove.ai)** — Adult (18+) roleplay chat with hand-written characters who remember you between chats. | Free: a few messages a day, no card needed | Best for: ongoing adult roleplay with the same characters, walk-in scenes, group chats with up to four characters | Catch: the free tier is small; photos and voice cost credits.
 
 ---
 
