@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 232,
+    "totalTools": 233,
     "totalCategories": 36,
     "lastUpdated": "2026-04-24",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -182,6 +182,7 @@
         {"name": "Google Translate", "url": "https://translate.google.com", "description": "Widest language coverage with offline packs.", "free": "Essentially unlimited", "bestFor": "Mobile, less-common languages", "catch": "Quality trails DeepL for European languages."},
         {"name": "Whisper (OpenAI, open source)", "url": "https://github.com/openai/whisper", "description": "Best free STT model ever released; Large-v3/Turbo are near production-grade.", "free": "Self-host unlimited", "bestFor": "Developers, batch transcription", "catch": "Needs a GPU for fast processing."},
         {"name": "MacWhisper", "url": "https://goodsnooze.gumroad.com/l/macwhisper", "description": "Mac app wrapping Whisper.", "free": "Unlimited with Tiny/Base/Small models", "bestFor": "Mac users wanting instant drag-and-drop transcription", "catch": "Large models are paid (~$29–79 one-time, no sub)."},
+        {"name": "Transcribe Video: To The Text", "url": "https://video2text.ttt.so", "description": "iOS app that turns videos, YouTube/Vimeo links, and live voice into searchable text with speaker split view, Summarize, and TXT/DOCX export.", "free": "~5 min total transcription + 5 MB file cap (no credit card)", "bestFor": "iPhone users converting lectures, interviews, or shared videos to notes", "catch": "Pro IAP for more usage; server-side transcription; App Store listing includes advertising."},
         {"name": "TurboScribe", "url": "https://turboscribe.ai", "description": "Whisper Large v3 in a web app.", "free": "3 files/day, 30-min cap each", "bestFor": "Occasional transcription, no install", "catch": "Paid plan for longer files."}
       ]
     },
