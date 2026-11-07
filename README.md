@@ -572,6 +572,7 @@ Model Context Protocol is how assistants connect to tools — new in 2025, now s
 - **[FastMCP](https://gofastmcp.com)** — Python framework for building MCP servers fast. | Free: open source | Best for: building custom servers | Catch: Python-only.
 - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** — Official debugging UI for MCP servers. | Free: open source | Best for: MCP developers | Catch: dev-only tool.
 - **[Smithery](https://smithery.ai)** — Registry and hosting for MCP servers. | Free: free browsing and installs | Best for: discovering servers | Catch: third-party server quality and safety vary widely.
+- **[Datacircle](https://datacircle.dev)** — Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. Find the best GTM APIs. | Free: no key | Best for: picking a GTM API | Catch: GTM APIs only.
 
 ---
 
