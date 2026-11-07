@@ -815,3 +815,5 @@ This list is maintained by the community and changes as free tiers do. Free tier
 [GitHub](https://github.com/mdruhulkuddus) · [LinkedIn](https://www.linkedin.com/in/mdruhulkuddus/)
 
 Licensed under [MIT](LICENSE). Tool assessments are opinions based on public free tiers as of the last update date.
+- **[Cyanvid](https://cyanvid.com/?utm_source=mdruhulkuddus-awesome-free-ai-tools&utm_medium=directory&utm_campaign=backlinks)** - AI video generator: create from text or images with clear credit quotes up front.
+- **[Barz Studio](https://barzvideo.com/?utm_source=mdruhulkuddus-awesome-free-ai-tools&utm_medium=directory&utm_campaign=backlinks)** - Free browser editor for beat-reactive rap lyric videos (bring your own track).
