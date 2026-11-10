@@ -709,6 +709,7 @@ Listed neutrally — real categories with real user bases.
 - **[PromptHero](https://prompthero.com)** — Image and text prompt search across Midjourney, SD and ChatGPT. | Free: browse and search | Best for: image-generation inspiration | Catch: Academy courses are paid.
 - **[FlowGPT](https://flowgpt.com)** — Community prompt marketplace with an in-site runner. | Free: browse and run | Best for: discovering prompt patterns | Catch: quality varies wildly.
 - **[Snack Prompt](https://snackprompt.com)** — Curated prompt community. | Free: browse, upvote, save | Best for: vetted business prompts | Catch: smaller library; activity has slowed.
+- **[Prompt Generator](https://trypromptgenerator.com)** — Writes prompts in the syntax of the AI tool you pick (ChatGPT, Claude, Gemini, Midjourney, Nano Banana, Veo, Sora and more), plus a free copy-paste prompt library. | Free: **10 prompts/day without an account**, 20/day with a free account | Best for: model-specific prompts without learning each tool's syntax | Catch: after the daily allowance each prompt costs 1 credit; unlimited use needs a paid plan (from $9/mo).
 
 ---
 
