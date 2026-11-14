@@ -629,6 +629,10 @@ Agents that see your screen and control the mouse and keyboard — distinct from
 
 ---
 
+### Free-tier trackers & deal feeds
+
+- **[TokenMost](https://tokenmost.com)** — daily-verified tracker of 260+ free AI token & credit offers from official channels (LLM vendors, agent platforms, MaaS, free cloud tiers), with DeepSeek-equivalent price comparison | Free: fully public, no account needed; open data via [deals.json](https://tokenmost.com/deals.json) / [llms.txt](https://tokenmost.com/llms.txt) / [RSS](https://tokenmost.com/rss.xml) | Best for: catching recurring drops (e.g. 300M/day GLM-Flash) before paying | Verified: 2026-11-14
+
 ## AI detection & humanizers
 
 - **[GPTZero](https://gptzero.me)** — Flagship AI-text detector. | Free: ~5,000–10,000 words/month with paraphrase detection | Best for: educators and editors | Catch: ~10% false-positive rate in real-world use.
