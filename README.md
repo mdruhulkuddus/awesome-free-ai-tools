@@ -229,6 +229,7 @@ Browsers with AI built into the chrome itself — a genuinely new 2026 category.
 - **[Elicit](https://elicit.com)** — Systematic literature-review assistant with data extraction. | Free: basic plan, limited extractions | Best for: grad students, meta-analyses | Catch: high-volume extraction is paid.
 - **[Semantic Scholar](https://www.semanticscholar.org)** — 200M+ papers with AI TLDRs and citation graphs. | Free: fully free | Best for: academic discovery | Catch: no conversational interface.
 - **[Research Rabbit](https://www.researchrabbit.ai)** — Visual citation-network explorer. | Free: free core | Best for: finding adjacent and seminal work | Catch: some features moved to paid in a 2025 relaunch.
+- **[AIHOT Token Guide](https://aihot.news/free-tokens)** — Look up free model and API offers with eligibility and verification dates. | Free: directory access without an account | Best for: readers looking for Chinese-language guidance on model and API offers | Catch: providers set their own limits, eligibility, and expiration dates.
 - **[SciSpace](https://scispace.com)** — Chat-with-PDF optimized for research papers. | Free: limited daily queries | Best for: reading dense papers | Catch: aggressive upsells.
 - **[Exa](https://exa.ai)** — Neural/embedding web search with an API. | Free: free web UI + small API credits | Best for: developers building semantic search | Catch: API credits are one-time.
 

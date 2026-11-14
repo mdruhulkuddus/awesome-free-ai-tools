@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -593,6 +593,14 @@
           "free": "Free core",
           "bestFor": "Finding adjacent and seminal work",
           "catch": "Some features moved to paid in a 2025 relaunch."
+        },
+        {
+          "name": "AIHOT Token Guide",
+          "url": "https://aihot.news/free-tokens",
+          "description": "Look up free model and API offers with eligibility and verification dates.",
+          "free": "Directory access without an account",
+          "bestFor": "Readers looking for Chinese-language guidance on model and API offers",
+          "catch": "Providers set their own limits, eligibility, and expiration dates."
         },
         {
           "name": "SciSpace",
