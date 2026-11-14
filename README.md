@@ -204,6 +204,7 @@ Three all-round leaders, plus two specialists worth a second tab.
 - **[Duck.ai](https://duck.ai)** — DuckDuckGo's anonymized chat across several third-party models. | Free: free, no account | Best for: privacy-first quick questions | Catch: smaller models, daily caps.
 - **[Pi by Inflection](https://pi.ai)** — Conversational, emotionally supportive assistant with excellent voice. | Free: free | Best for: reflective conversation, language practice | Catch: weak at technical tasks; little development since 2024.
 - **[Poe](https://poe.com)** — Multi-model hub (Claude, GPT, Gemini, open models) on a points system. | Free: daily compute points | Best for: sampling many models in one app | Catch: premium models drain points fast.
+- **[Sitey AI](https://app.sitey.pk/)** — Urdu-first assistant (Android app and web) that answers in Urdu, Roman Urdu or English and reads answers aloud in a natural Urdu voice. | Free: 30 AI messages and 40 AI voices a day in the Android app, no card | Best for: Urdu and Roman Urdu speakers in Pakistan | Catch: Android only (no iOS); chat needs a Google sign-in; the website's voice tool gives fewer voices a day.
 
 ---
 
