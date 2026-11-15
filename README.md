@@ -572,6 +572,7 @@ Model Context Protocol is how assistants connect to tools — new in 2025, now s
 - **[FastMCP](https://gofastmcp.com)** — Python framework for building MCP servers fast. | Free: open source | Best for: building custom servers | Catch: Python-only.
 - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** — Official debugging UI for MCP servers. | Free: open source | Best for: MCP developers | Catch: dev-only tool.
 - **[Smithery](https://smithery.ai)** — Registry and hosting for MCP servers. | Free: free browsing and installs | Best for: discovering servers | Catch: third-party server quality and safety vary widely.
+- **[No Stairs Please MCP](https://nostairsplease.com/mcp)** — Remote MCP server for searching 10,000+ live music venues and tour routes across North America. | Free: public read-only MCP endpoint | Best for: musicians, tour planners, and music-discovery agents | Catch: North America (US, DC, BC) venue coverage only.
 
 ---
 
