@@ -282,6 +282,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Capacities](https://capacities.io)** — Object-based notes where people, projects and ideas are first-class types. | Free: generous free plan | Best for: relational knowledge work | Catch: the AI assistant needs Pro.
 - **[Notion Free](https://www.notion.com)** — All-in-one docs, wikis and databases. | Free: unlimited blocks for one member, 5 MB uploads, 7-day history, 10 guests, **Notion AI trial only** | Best for: solo planning | Catch: ongoing Notion AI now requires Business ($20/member/mo); a 1,000-block cap applies once a second member joins.
 - **[Gemini Notebook](https://notebook.google)** — Doubles as a second brain for source documents. | Free: see Research | Best for: synthesizing reading | Catch: not a general note app.
+- **[Screenpipe](https://screenpipe.com/)** - Captures screen text and audio locally for searchable computer history on macOS, Windows, and Linux. | Free: limited searchable history and scheduled workflows, 10 AI credits refreshed monthly | Best for: recalling recent work across apps and meetings | Catch: full history requires paid; optional cloud features send selected data off-device; source-available under a commercial license, not open source.
 
 ---
 

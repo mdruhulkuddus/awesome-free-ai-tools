@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -869,6 +869,14 @@
           "free": "See Research",
           "bestFor": "Synthesizing reading",
           "catch": "Not a general note app."
+        },
+        {
+          "name": "Screenpipe",
+          "url": "https://screenpipe.com/",
+          "description": "Captures screen text and audio locally for searchable computer history on macOS, Windows, and Linux.",
+          "free": "Limited searchable history and scheduled workflows, 10 AI credits refreshed monthly",
+          "bestFor": "Recalling recent work across apps and meetings",
+          "catch": "Full history requires paid; optional cloud features send selected data off-device; source-available under a commercial license, not open source."
         }
       ]
     },
