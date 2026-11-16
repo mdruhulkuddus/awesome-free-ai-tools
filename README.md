@@ -5,11 +5,11 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mdruhulkuddus&repo=awesome-free-ai-tools&label=VISITS&color=007bff" alt="Visits">
-  
+
   <img src="https://img.shields.io/badge/VERSION-1.4-orange" alt="Version">
-  
+
   <img src="https://img.shields.io/badge/LICENSE-MIT-brightgreen" alt="License">
-  
+
   <img src="https://img.shields.io/github/stars/mdruhulkuddus/awesome-free-ai-tools?color=yellow&label=STARS&logo=github" alt="Stars">
 
   <img src="https://img.shields.io/github/contributors/mdruhulkuddus/awesome-free-ai-tools?color=brightgreen" alt="Contributors">
@@ -354,6 +354,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in the browser with AI plugins and PSD support. | Free: ad-supported | Best for: layered editing without Adobe | Catch: AI plugins are slower than Firefly.
 - **[remove.bg](https://www.remove.bg)** — Industry-standard background remover with excellent hair edges. | Free: unlimited low-res previews + ~1 HD/month | Best for: quick one-off cutouts | Catch: HD downloads are credit-gated.
 - **[Erase.bg](https://www.erase.bg)** — Full-resolution background removal. | Free: HD downloads available | Best for: e-commerce and bulk product shots | Catch: inconsistent on fine hair.
+- **[RemoveFree](https://removefree.app)** — Browser-local AI background remover preserving original pixel dimensions with zero server uploads. | Free: unlimited HD PNG/WebP cutouts, no signup or watermark | Best for: privacy-sensitive cutouts, e-commerce white backgrounds & batch ZIP | Catch: no server REST API; opt-in ~94 MB Studio HD mode takes ~10-15s on CPU.
 - **[Adobe Firefly Generative Fill](https://firefly.adobe.com)** — Best free inpaint/outpaint with commercially safe output. | Free: ~25 credits/month | Best for: object removal and background swaps | Catch: low cap.
 - **[Krea Edit](https://www.krea.ai/edit)** — Inpaint, outpaint and style transfer with Flux Kontext and Nano Banana. | Free: daily compute units | Best for: multi-model comparison | Catch: free outputs are non-commercial.
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object and watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
