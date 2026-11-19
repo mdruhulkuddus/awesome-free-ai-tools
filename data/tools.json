@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -1195,6 +1195,14 @@
           "free": "Unlimited",
           "bestFor": "Casual use and fast drafts",
           "catch": "Older model quality; ad-supported."
+        },
+        {
+          "name": "Raphael AI",
+          "url": "https://raphael.app",
+          "description": "Free, unlimited browser-based AI image generator and editing suite with no account required.",
+          "free": "Unlimited standard text-to-image generations without login",
+          "bestFor": "Creators and designers wanting fast unlimited image generation without credit walls",
+          "catch": "Free tier uses shared queue and standard speed; paid plans unlock priority speed, higher resolutions, commercial rights and premium models."
         },
         {
           "name": "NightCafe",
