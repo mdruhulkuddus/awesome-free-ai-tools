@@ -344,6 +344,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Flux.1 / Flux.2](https://bfl.ai)** — Black Forest Labs' open-weight rivals to Midjourney. | Free: open weights, unlimited self-hosted | Best for: local generation with no caps | Catch: needs a 12 GB+ GPU; some variants are non-commercial.
 - **[Adobe Firefly](https://firefly.adobe.com)** — Trained on licensed content with Content Credentials. | Free: ~25 generative credits/month | Best for: commercial and client work | Catch: stingy free limits.
 - **[Perchance AI](https://perchance.org/ai-text-to-image-generator)** — Truly unlimited, no account, no watermark. | Free: unlimited | Best for: casual use and fast drafts | Catch: older model quality; ad-supported.
+- **[Raphael AI](https://raphael.app)** — Free, unlimited browser-based AI image generator and editing suite with no account required. | Free: unlimited standard text-to-image generations without login | Best for: creators and designers wanting fast unlimited image generation without credit walls | Catch: free tier uses shared queue and standard speed; paid plans unlock priority speed, higher resolutions, commercial rights and premium models.
 - **[NightCafe](https://creator.nightcafe.studio)** — Community platform with SD, Flux and earnable credits. | Free: daily + earnable credits | Best for: hobbyists | Catch: best models paywalled.
 
 ---
