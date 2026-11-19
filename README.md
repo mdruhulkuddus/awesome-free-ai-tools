@@ -67,6 +67,7 @@ A curated, opinionated list of the best **genuinely free** AI tools available ri
 - [Code review AI](#code-review-ai)
 - [AI-powered dev tools](#ai-powered-dev-tools)
 - [Developer APIs with free tiers](#developer-apis-with-free-tiers)
+- [Free-tier trackers & deal feeds](#free-tier-trackers--deal-feeds) 🆕
 - [Local & open-source LLM runners](#local--open-source-llm-runners)
 - [Notable open-weight models](#notable-open-weight-models)
 - [RAG frameworks](#rag-frameworks) 🆕
@@ -504,6 +505,14 @@ The most generous free LLM APIs for hobbyists and prototypes. **Verify against y
 | **[Cohere Trial](https://dashboard.cohere.com)** | 1,000 API calls/month across endpoints, 20 RPM on chat | No | Non-commercial only |
 
 > ⚠️ **Removed from this table:** **GitHub Models** (fully retired July 30, 2026) and **Cerebras** (free tier replaced July 21, 2026 by a one-time $5 trial requiring a card). Also gone: Qwen Code's free OAuth tier, MiniMax's free API, and Together AI's trial credits.
+
+---
+
+## Free-tier trackers & deal feeds 🆕
+
+Providers quietly add, shrink and end free tiers every week. These track what is live right now, so you don't have to re-check each vendor page before starting.
+
+- **[Deal Hunter](https://vvotzs.github.io/en/)** — Tracker of verified free tiers, credits and sign-up bonuses, re-checked every two hours. | Free: no signup, no paywall | Best for: seeing which AI, cloud and eSIM free offers are live this week, with the eligibility and deadline for each | Catch: AI and cloud offers are one section of a broader deal list (banks, crypto, eSIM), and many entries are limited to US, UK or Hong Kong.
 
 ---
 
