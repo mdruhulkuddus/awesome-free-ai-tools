@@ -420,7 +420,7 @@
         {"name": "OpenCode", "url": "https://opencode.ai", "description": "Open-source provider-agnostic terminal coding assistant.", "free": "Tool is free; pair with Gemini/Groq/Cerebras free", "bestFor": "Fully free Claude-Code-style workflow", "catch": "Younger community."},
         {"name": "Goose (Block)", "url": "https://block.github.io/goose/", "description": "Open-source local AI agent framework.", "free": "BYOK, works with Ollama", "bestFor": "Extensible agent workflows", "catch": "More framework than polished product."},
         {"name": "Google Antigravity", "url": "https://antigravity.google", "description": "Google's agentic dev platform.", "free": "Via Google account", "bestFor": "Gemini-native workflows", "catch": "New, immature ecosystem."},
-        {"name": "DevProjex", "url": "https://github.com/Avazbek22/DevProjex", "description": "Cross-platform GUI and CLI for selecting project files and exporting structured, token-counted context with Smart Ignore, preview, and multi-format output.", "free": "Fully open source", "bestFor": "Preparing project context for AI chats, reviews, and docs", "catch": "It does not run AI models itself."}
+        {"name": "DevProjex", "url": "https://github.com/Avazbek22/DevProjex", "description": "Turns a codebase into token-efficient context for LLMs and coding agents, with secrets masked: desktop app, CLI, TUI, and MCP server.", "free": "Fully open source", "bestFor": "Giving AI chats and coding agents exactly the code they need", "catch": "It does not run AI models itself."}
       ]
     },
     {
