@@ -9,9 +9,10 @@
   };
 
   const REPO = 'mdruhulkuddus/awesome-free-ai-tools';
-  const STAR_CACHE_KEY = 'aft.starCount.v1';
+  const STAR_CACHE_KEY = 'aft.repoStats.v2';
   const STAR_CACHE_TTL = 60 * 60 * 1000;
   const THEME_KEY = 'aft.theme';
+  const PILLS_KEY = 'aft.pillsExpanded';
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -44,29 +45,32 @@
     }
   }
 
-  /* ---- GitHub star count -------------------------------------- */
+  /* ---- GitHub star & fork counts ------------------------------ */
   async function loadStarCount() {
-    const el = $('#star-count');
-    if (!el) return;
+    if (!$('#star-count') && !$('#fork-count')) return;
     const cached = readStarCache();
     if (cached !== null) {
-      renderStars(cached);
+      renderRepoStats(cached);
       return;
     }
     try {
       const res = await fetch(`https://api.github.com/repos/${REPO}`);
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const json = await res.json();
-      const stars = json.stargazers_count || 0;
-      writeStarCache(stars);
-      renderStars(stars);
+      const stats = { stars: json.stargazers_count || 0, forks: json.forks_count || 0 };
+      writeStarCache(stats);
+      renderRepoStats(stats);
     } catch (err) {
       // Silent fail — hide badge
     }
   }
-  function renderStars(n) {
-    const el = $('#star-count');
-    if (!el) return;
+  function renderRepoStats({ stars, forks }) {
+    renderCount('#star-count', stars);
+    renderCount('#fork-count', forks);
+  }
+  function renderCount(sel, n) {
+    const el = $(sel);
+    if (!el || typeof n !== 'number') return;
     el.textContent = formatStars(n);
     el.classList.add('visible');
   }
@@ -150,7 +154,7 @@
           <p class="best-at">${escapeHtml(t.bestAt)}</p>
           <p class="field"><strong>Free</strong>${escapeHtml(t.free)}</p>
           <p class="field"><strong>Catch</strong>${escapeHtml(t.catch)}</p>
-          <p class="field" style="margin-top:14px"><strong>Edge</strong>${escapeHtml(t.uniqueFeature)}</p>
+          ${t.uniqueFeature ? `<p class="field" style="margin-top:14px"><strong>Edge</strong>${escapeHtml(t.uniqueFeature)}</p>` : ''}
           <p style="margin:16px 0 0"><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">Visit ${escapeHtml(t.name)} →</a></p>
         </article>
       `).join('');
@@ -164,72 +168,76 @@
         `<tr>${row.map(c => `<td>${escapeHtml(c)}</td>`).join('')}</tr>`
       ).join('')}</tbody>`;
       tableEl.innerHTML = head + body;
-      initTableScrollHint();
     }
   }
 
-  /* ---- Synthesize "Top AI chatbots" category ------------------ */
-  function buildTopChatbotsCategory() {
-    return {
-      id: 'top-ai-chatbots',
-      name: 'Top AI chatbots',
-      description: 'The five chatbots that dominate the 2026 landscape — three frontier-tier daily drivers plus two specialist alternatives.',
-      tools: [
-        {
-          name: 'Claude',
-          url: 'https://claude.ai',
-          description: "Anthropic's strongest-prose chatbot — careful reasoning, long-form writing, coding, and nuanced analysis.",
-          free: 'Sonnet 4.6, ~15–40 messages / 5-hour window, ~200K context, file uploads, Artifacts, Memory.',
-          bestFor: 'Reasoning, prose writing, code analysis',
-          catch: 'No image generation; usage caps tighten during peak load.'
-        },
-        {
-          name: 'ChatGPT',
-          url: 'https://chatgpt.com',
-          description: "OpenAI's all-around generalist with the widest third-party ecosystem and most mature voice UX.",
-          free: 'GPT-5.3 Instant (~10 msgs / 5-hour) + GPT-5.4 mini, voice, image analysis, web browsing, basic memory.',
-          bestFor: 'General use, voice UX, Custom GPTs',
-          catch: 'Contextual ads under responses (US, since Feb 9, 2026).'
-        },
-        {
-          name: 'Gemini',
-          url: 'https://gemini.google.com',
-          description: "Google's multimodal chatbot — images, video, music, and Deep Research with native Workspace integration.",
-          free: 'Gemini 2.5 Pro, ~30 prompts/day, 20 image gens/day, 5 Deep Research/month, Gemini Live voice.',
-          bestFor: 'Multimodal work, Google Workspace integration',
-          catch: '32K free context — sharpest free-vs-paid divide; Gemini 3.1 Pro is paid-only.'
-        },
-        {
-          name: 'DeepSeek',
-          url: 'https://chat.deepseek.com',
-          description: 'Frontier reasoning at zero cost — DeepSeek R1/V3.2 hits ~90% of GPT-5.4-class quality on math and code.',
-          free: 'Essentially unlimited web chat, web search, DeepThink extended reasoning, file uploads.',
-          bestFor: 'Unlimited math, code, logic at zero cost',
-          catch: 'China-origin compliance note; UI less polished than Top 3.'
-        },
-        {
-          name: 'Grok',
-          url: 'https://grok.com',
-          description: "xAI's chatbot with native real-time X (Twitter) integration — the only one that queries live social data.",
-          free: 'Grok 4 + Grok 4.1 Fast (2M-token context). ~10 prompts / 2-hour rolling window.',
-          bestFor: 'Real-time news, trends, X data',
-          catch: 'Tight 2-hour window; free tier shrinking through 2026.'
-        }
-      ]
-    };
+  /* ---- Trending now ------------------------------------------- */
+  function renderTrending() {
+    const t = STATE.data.trending;
+    const section = $('#trending');
+    if (!section || !t || !t.items.length) return;
+    $('#trending-title').textContent = t.title;
+    $('#trending-desc').textContent = t.description;
+    $('#trending-grid').innerHTML = t.items.map(item => `
+      <a class="trend-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">
+        <h3>${escapeHtml(item.name)}</h3>
+        <p>${escapeHtml(item.why)}</p>
+        <span class="trend-free">${escapeHtml(item.free)}</span>
+      </a>
+    `).join('');
+    const note = $('#trending-note');
+    if (t.note) {
+      note.textContent = t.note;
+      note.hidden = false;
+    }
+    section.hidden = false;
+  }
+
+  /* ---- Removed tools ------------------------------------------ */
+  function renderRemoved() {
+    const r = STATE.data.removed;
+    const section = $('#removed');
+    if (!section || !r || !r.items.length) return;
+    $('#removed-title').textContent = `${r.title} (${r.items.length})`;
+    $('#removed-desc').textContent = r.description;
+    $('#removed-table').innerHTML = `
+      <thead><tr><th>Tool</th><th>What happened</th><th>Date</th></tr></thead>
+      <tbody>${r.items.map(i =>
+        `<tr><td>${escapeHtml(i.name)}</td><td>${escapeHtml(i.what)}</td><td>${escapeHtml(i.date)}</td></tr>`
+      ).join('')}</tbody>`;
+    section.hidden = false;
+  }
+
+  /* ---- Hero stats from data ----------------------------------- */
+  function renderStats() {
+    const m = STATE.data.meta || {};
+    const tools = STATE.totalToolCount;
+    const toolsLabel = Math.floor(tools / 10) * 10 + '+';
+    const updated = m.lastUpdated
+      ? new Date(m.lastUpdated + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })
+      : '';
+    const updatedFull = m.lastUpdated
+      ? new Date(m.lastUpdated + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+      : '';
+    $$('[data-stat="tools"]').forEach(el => { el.textContent = toolsLabel; });
+    $$('[data-stat="categories"]').forEach(el => { el.textContent = STATE.data.categories.length; });
+    if (updated) $$('[data-stat="updated"]').forEach(el => { el.textContent = updated; });
+    if (updatedFull) $$('[data-stat="updated-full"]').forEach(el => { el.textContent = updatedFull; });
+    const headerSearch = $('#header-search');
+    if (headerSearch) headerSearch.placeholder = `Search ${toolsLabel} tools…`;
   }
 
   function initTableScrollHint() {
-    const wrap = $('.table-scroll');
-    if (!wrap) return;
-    const update = () => {
-      const canScroll = wrap.scrollWidth > wrap.clientWidth;
-      const atEnd = wrap.scrollLeft + wrap.clientWidth >= wrap.scrollWidth - 4;
-      wrap.classList.toggle('scrollable', canScroll && !atEnd);
-    };
-    wrap.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
+    $$('.table-scroll').forEach(wrap => {
+      const update = () => {
+        const canScroll = wrap.scrollWidth > wrap.clientWidth;
+        const atEnd = wrap.scrollLeft + wrap.clientWidth >= wrap.scrollWidth - 4;
+        wrap.classList.toggle('scrollable', canScroll && !atEnd);
+      };
+      wrap.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    });
   }
 
   /* ---- Category pills ----------------------------------------- */
@@ -258,6 +266,38 @@
       p.classList.toggle('active', STATE.activeCategories.has(p.dataset.cat));
       p.setAttribute('aria-pressed', STATE.activeCategories.has(p.dataset.cat) ? 'true' : 'false');
     });
+    const count = $('#pills-toggle-count');
+    if (count) {
+      const selected = STATE.activeCategories.size;
+      count.textContent = selected ? `${selected} selected` : STATE.data.categories.length;
+      count.classList.toggle('has-active', selected > 0);
+    }
+  }
+
+  /* ---- Pills expand / collapse -------------------------------- */
+  function setPillsExpanded(expanded) {
+    const bar = $('#filter-bar');
+    bar.classList.toggle('expanded', expanded);
+    bar.classList.toggle('collapsed', !expanded);
+    $('#pills-toggle').setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    try { localStorage.setItem(PILLS_KEY, expanded ? '1' : '0'); } catch {}
+    if (!expanded) {
+      // Bring the first selected category back into view in the single row.
+      const active = $('.pill.active');
+      const pills = $('#category-pills');
+      pills.scrollLeft = active ? active.offsetLeft - pills.offsetLeft - 8 : 0;
+    }
+  }
+
+  function bindPillsToggle() {
+    const btn = $('#pills-toggle');
+    if (!btn) return;
+    let saved = null;
+    try { saved = localStorage.getItem(PILLS_KEY); } catch {}
+    setPillsExpanded(saved === '1');
+    btn.addEventListener('click', () => {
+      setPillsExpanded(!$('#filter-bar').classList.contains('expanded'));
+    });
   }
 
   /* ---- Categories + tools ------------------------------------- */
@@ -268,6 +308,7 @@
         <header class="category-header" id="cat-${escapeHtml(cat.id)}">
           <h2>${escapeHtml(cat.name)}</h2>
           <p>${escapeHtml(cat.description)}</p>
+          ${(cat.notes || []).map(n => `<p class="category-note">${escapeHtml(n)}</p>`).join('')}
         </header>
         <div class="tool-grid">
           ${cat.tools.map(tool => renderToolCard(tool)).join('')}
@@ -428,20 +469,18 @@
     await loadData();
     if (!STATE.data) return;
 
-    // Prepend synthetic "Top AI chatbots" category so it appears first
-    // in pills and category list.
-    const cats = STATE.data.categories;
-    if (!cats.some(c => c.id === 'top-ai-chatbots')) {
-      cats.unshift(buildTopChatbotsCategory());
-    }
-
     STATE.totalToolCount = totalCount();
 
+    renderStats();
     renderFeatured();
+    renderTrending();
+    renderRemoved();
+    initTableScrollHint();
     renderCategoryPills();
     renderCategories();
     readUrlHash();
     syncPillStates();
+    bindPillsToggle();
     bindSearch();
     bindMobileMenu();
     applyFilters();
