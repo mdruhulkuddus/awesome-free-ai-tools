@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -1904,6 +1904,14 @@
           "free": "Launcher free + limited AI messages",
           "bestFor": "MacOS keyboard-driven productivity",
           "catch": "Unlimited AI needs Pro ($8/mo)."
+        },
+        {
+          "name": "DevProjex",
+          "url": "https://github.com/Avazbek22/DevProjex",
+          "description": "Turns a codebase into token-efficient context for LLMs and coding agents, with secrets masked: desktop app, CLI, TUI, and MCP server.",
+          "free": "Fully open source",
+          "bestFor": "Giving AI chats and coding agents exactly the code they need",
+          "catch": "It does not run AI models itself."
         }
       ],
       "notes": [
