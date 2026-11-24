@@ -295,6 +295,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Fireflies](https://fireflies.ai)** — CRM-heavy notetaker with 100+ languages and cross-meeting search. | Free: unlimited transcription, ~800 min storage/seat, limited AI summaries | Best for: sales teams | Catch: auto-overwrite and summary caps push upgrades.
 - **[Jamie](https://www.meetjamie.ai)** — Bot-free, captures device audio so it works for in-person too. | Free: 10 summaries/month | Best for: founders and consultants in mixed meetings | Catch: low free cap.
 - **[Tactiq](https://tactiq.io)** — Browser-based live captioning plus summaries. | Free: limited monthly transcripts via Chrome extension | Best for: Google Meet power users | Catch: AI summaries capped on free.
+**[EarScribe](https://earscribe.app)** — Audio to text with Whisper running locally in the browser | Free: unlimited, no signup | Best for: private interviews and long recordings | Catch: needs a modern browser and a one-time model download.
 
 ---
 
