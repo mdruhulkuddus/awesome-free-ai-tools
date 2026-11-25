@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -995,6 +995,14 @@
           "free": "3 files/day, 30-min cap each",
           "bestFor": "Occasional transcription without installing anything",
           "catch": "Daily cap."
+        },
+        {
+          "name": "Linguin",
+          "url": "https://linguin.app",
+          "description": "AI translator for selected text and whole pages on web, macOS, iOS and a browser extension.",
+          "free": "500 characters per translation with a daily translation cap, sign-in required above the guest limit",
+          "bestFor": "Quick translations without leaving the page",
+          "catch": "Longer texts need the paid plan."
         }
       ]
     },

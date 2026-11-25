@@ -306,6 +306,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper)** — Native Mac app wrapping Whisper. | Free: unlimited with Tiny/Base/Small models | Best for: drag-and-drop Mac transcription | Catch: larger models are a one-time paid upgrade (~$29–79).
 - **[Buzz](https://github.com/chidiwilliams/buzz)** — Open-source desktop Whisper for Windows, macOS and Linux. | Free: free, fully offline | Best for: cross-platform local transcription | Catch: basic UI.
 - **[TurboScribe](https://turboscribe.ai)** — Whisper Large v3 in a web app. | Free: 3 files/day, 30-min cap each | Best for: occasional transcription without installing anything | Catch: daily cap.
+- **[Linguin](https://linguin.app)** — AI translator for selected text and whole pages on web, macOS, iOS and a browser extension. | Free: 500 characters per translation with a daily translation cap, sign-in required above the guest limit | Best for: quick translations without leaving the page | Catch: longer texts need the paid plan.
 
 ---
 
