@@ -461,6 +461,7 @@ Splitting a finished track into vocals, drums, bass and instruments. Mature, and
 - **[Replit Starter](https://replit.com)** — Cloud IDE with Replit Agent. | Free: 10 public apps, limited Agent trial | Best for: learning and collaborative demos | Catch: heavy Agent use gets expensive fast.
 - **[Anything (ex-Create.xyz)](https://www.createanything.com)** — Natural-language full-stack builder. | Free: limited daily builds | Best for: quick internal tools | Catch: often rate-limits.
 - **[Neuform AI](https://neuform.ai)** — AI HTML design templates and design systems. | Free: app is free with limited usage | Best for: HTML templating | Catch: you manage keys.
+- **[Kliv](https://kliv.dev)** — Describe a web app in plain words and Kliv builds and hosts it, with sign-in, a database, email and payments through your own Stripe account. | Free: up to 25 apps with hosting, database and sign-in included; works in 23 languages | Best for: non-technical founders and small businesses | Catch: building allowance is limited on free; custom domains and removing Kliv branding need a paid plan.
 - ⚠️ **Firebase Studio** — free now, but **shutting down March 22, 2027**. Don't start long-term projects here.
 
 ---

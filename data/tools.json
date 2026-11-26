@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalTools": 290,
+    "totalTools": 291,
     "totalCategories": 46,
     "lastUpdated": "2026-11-06",
     "repoUrl": "https://github.com/mdruhulkuddus/awesome-free-ai-tools"
@@ -1791,6 +1791,14 @@
           "free": "App is free with limited usage",
           "bestFor": "HTML templating",
           "catch": "You manage keys."
+        },
+        {
+          "name": "Kliv",
+          "url": "https://kliv.dev",
+          "description": "Describe a web app in plain words and Kliv builds and hosts it, with sign-in, a database, email and payments through your own Stripe account.",
+          "free": "Up to 25 apps with hosting, database and sign-in included; works in 23 languages",
+          "bestFor": "Non-technical founders and small businesses",
+          "catch": "Building allowance is limited on free; custom domains and removing Kliv branding need a paid plan."
         }
       ],
       "notes": [
