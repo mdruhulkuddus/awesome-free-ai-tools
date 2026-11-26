@@ -648,6 +648,7 @@ Agents that see your screen and control the mouse and keyboard — distinct from
 - **[Rezi](https://www.rezi.ai)** — ATS-optimized with a 23-metric Rezi Score. | Free: 1 resume, 3 PDF downloads, unlimited DOCX | Best for: ATS-focused applicants | Catch: one-resume cap.
 - **[Kickresume](https://www.kickresume.com)** — GPT-powered builder with 1,500+ examples. | Free: basic builder + limited AI | Best for: early-career and design-conscious users | Catch: premium templates paywalled.
 - **[Enhancv](https://enhancv.com)** — Visually rich templates with AI content checks. | Free: build with limited downloads | Best for: creative roles | Catch: free export is restrictive.
+- **[ResumeMetric](https://resumemetric.com/)** — Client-side ATS resume scanner and job-description keyword matcher that parses PDF/DOCX files locally in the browser with zero server uploads, alongside 25 ATS-friendly templates and 16 career calculators. | Free: unlimited scans, 25 templates, 16 career tools, no account required | Best for: privacy-first ATS checks without paywalls | Catch: browser-based only, no cloud account sync.
 
 ---
 
