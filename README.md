@@ -410,6 +410,7 @@ Splitting a finished track into vocals, drums, bass and instruments. Mature, and
 - **[Moises](https://moises.ai)** — Separation plus musician tools (tempo, pitch, chord detection). | Free: ~5 tracks/month, MP3 output | Best for: practising musicians | Catch: 5-track cap fills fast; quality trails UVR ensembles.
 - **[Audacity + OpenVINO](https://www.audacityteam.org)** — Free audio editor that runs Demucs locally via the OpenVINO AI plugin. | Free: fully free, WAV/FLAC output | Best for: free local processing inside a real editor | Catch: plugin setup required.
 - **[LALAL.AI](https://www.lalal.ai)** — Polished cloud separation with up to 10 stem types. | Free: ~10 minutes in a relaxed queue | Best for: evaluating quality before paying | Catch: **preview only — the free tier cannot download**.
+- **[dojotool Vocal Remover](https://dojotool.com/audio/vocal-remover)** — Splits a song into vocals and instrumental in the browser with UVR-MDX-NET Voc_FT; the song is not uploaded. | Free: unlimited, no account, MP3 at 192 kbps (WAV on a computer) | Best for: a quick karaoke track or acapella without installing anything | Catch: two stems only (backing vocals stay with the vocals); a 67 MB model downloads on first use; much slower without a usable GPU.
 
 ---
 
