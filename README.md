@@ -358,6 +358,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Krea Edit](https://www.krea.ai/edit)** — Inpaint, outpaint and style transfer with Flux Kontext and Nano Banana. | Free: daily compute units | Best for: multi-model comparison | Catch: free outputs are non-commercial.
 - **[Cleanup.pictures](https://cleanup.pictures)** — One-click object and watermark removal. | Free: 720p web version | Best for: quick fixes | Catch: HD paywalled.
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhancement. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
+- **[TinyMast](https://tinymast.com/image-compress/)** — Compresses JPG, PNG, WebP and GIF images to a per-file KB target (20/50/100 KB or a quality value), up to 100 per batch, with ZIP download; the same site offers 2×/4× AI upscaling. | Free: no account, no watermark, 100 images per batch | Best for: fitting photos under upload and email size limits | Catch: files are uploaded to a server for processing and deleted within 24 hours.
 
 ---
 
