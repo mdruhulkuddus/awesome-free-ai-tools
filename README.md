@@ -351,6 +351,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 ## Image editing & enhancement
 
 - **[Upscayl](https://upscayl.org)** — Open-source desktop upscaler (Real-ESRGAN) up to 16×. | Free: unlimited, AGPL-3.0 | Best for: privacy-conscious batch upscaling | Catch: needs a Vulkan-compatible GPU.
+- **[PalaPili](https://palapili.com)** — AI image & video generator: photo enhancement, 4K upscaling, background/object removal, inpainting, and multi-model generation. | Free: 10 credits on signup; Pro from $9.99/mo | Best for: all-in-one image & video generation | Catch: heavy use needs a paid plan.
 - **[Photopea](https://www.photopea.com)** — Free Photoshop clone in the browser with AI plugins and PSD support. | Free: ad-supported | Best for: layered editing without Adobe | Catch: AI plugins are slower than Firefly.
 - **[remove.bg](https://www.remove.bg)** — Industry-standard background remover with excellent hair edges. | Free: unlimited low-res previews + ~1 HD/month | Best for: quick one-off cutouts | Catch: HD downloads are credit-gated.
 - **[Erase.bg](https://www.erase.bg)** — Full-resolution background removal. | Free: HD downloads available | Best for: e-commerce and bulk product shots | Catch: inconsistent on fine hair.
