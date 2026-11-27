@@ -678,6 +678,7 @@ Agents that see your screen and control the mouse and keyboard — distinct from
 - **[AlsoAsked](https://alsoasked.com)** — People-Also-Ask query-fan-out tree visualizer. | Free: 3 searches/day, no card | Best for: GEO and AI-search content planning | Catch: daily cap.
 - **[AnswerThePublic](https://answerthepublic.com)** — Question-cluster visualizer. | Free: 3 daily credits | Best for: brainstorming topical clusters | Catch: paid for volume.
 - **[Copy.ai](https://www.copy.ai)** — GTM content generator. | Free: 2,000 chat words/month + 200 workflow credits | Best for: short marketing copy | Catch: enterprise pivot.
+- **[Sitewalk for ChatGPT](https://sitewalkseo.com/)**: technical SEO audits and monitoring inside ChatGPT. | Free: 5 audits a month, up to 500 pages each, plus a monthly home page check for 1 site | Best for: site owners and SEO freelancers | Catch: needs ChatGPT and an email code sign in; free monitoring covers the home page only.
 - **[Writesonic Free](https://writesonic.com)** — SEO and GEO content platform. | Free: ~10,000 words/month | Best for: light blogging | Catch: the free tier has shrunk.
 
 > ⚠️ **Frase, Surfer SEO and Keyword Insights** have **no real free tier** — trials only.
