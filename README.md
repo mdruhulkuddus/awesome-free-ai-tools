@@ -360,6 +360,7 @@ Turning scanned pages, PDFs and images into structured text. Almost entirely ope
 - **[Upscale.media](https://www.upscale.media)** — Quick 4× upscaler with face enhancement. | Free: limited daily | Best for: mobile upscales | Catch: watermark on some exports.
 
 ---
+- **[AI Renovation](https://airenovation.io/)** - Photorealistic AI interior remodeling, kitchen/cabinet swaps, exterior redesign, and MLS-safe virtual staging from a single photo. | Free: 3 free watermarked previews (no credit card required) | Best for: homeowners visualizing remodels and real estate agents staging vacant listings | Catch: clean HD exports use $9/$24 one-time passes or $39/mo Pro.
 
 ## Video generation
 
